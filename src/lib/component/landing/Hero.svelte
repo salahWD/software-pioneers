@@ -1,5 +1,5 @@
 <!--Hero-->
-<div class="pt-24">
+<div class="pt-[9rem]">
   <div
     class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
   >
@@ -21,7 +21,7 @@
       </button>
     </div>
     <!--Right Col-->
-    <div class="w-full md:w-3/5 py-6 text-center">
+    <div class="w-full md:w-3/5 py-6 lg:py-12 text-center">
       <img class="w-full md:w-4/5 md:ms-auto z-50" src="hero.png" alt="hero" />
     </div>
   </div>

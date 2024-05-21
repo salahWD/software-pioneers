@@ -43,6 +43,6 @@
 
 <style>
   .gradient {
-    @apply bg-gradient-to-r from-pink to-yellow;
+    @apply bg-gradient-to-r /* from-pink */ to-yellow;
   }
 </style>

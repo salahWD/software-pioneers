@@ -5,6 +5,7 @@ export default {
     gradientColorStops: (theme) => ({
       ...theme("colors"),
       danger: "#e3342f",
+      pink: "#0286b7",
     }),
     extend: {
       colors: {
