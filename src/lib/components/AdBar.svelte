@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Button from "./components/Button.svelte";
+  import Button from "./common/Button.svelte";
 
   export let height = 0;
 </script>

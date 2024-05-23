@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --main-color: #0286b7;
+	--main-color: #0286b7;
+}
+
+.gradient {
+	@apply bg-gradient-to-r from-pink to-yellow;
+	--tw-gradient-to: #0095411c var(--tw-gradient-to-position);
 }

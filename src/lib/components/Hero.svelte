@@ -1,5 +1,5 @@
 <!--Hero-->
-<div class="pt-[9rem]">
+<div class="pt-2">
   <div
     class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center"
   >

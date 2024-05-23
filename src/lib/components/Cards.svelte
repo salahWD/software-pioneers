@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Card from './components/Card.svelte';
+	import Card from './common/Card.svelte';
 </script>
 
 <section class="bg-white border-b py-8">
