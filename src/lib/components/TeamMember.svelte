@@ -1,4 +1,12 @@
 <script>
+	export let name = 'khalid';
+	export let job = 'Co-Founder & CEO';
+	export let image = 'https://pagedone.io/asset/uploads/1696238786.png';
+	export let desc =
+		'I am the co founder of pagedone and we’ve pushed our limit so far to make it successful.';
+	export let x = '/';
+	export let instagram = '/';
+	export let linkedin = '/';
 </script>
 
 <div
@@ -6,22 +14,23 @@
 >
 	<div class="w-full lg:w-48 h-64">
 		<img
-			src="https://pagedone.io/asset/uploads/1696238786.png"
-			alt="image"
+			src={image}
+			alt="member_image"
 			class="rounded-2xl h-full object-cover mx-auto lg:mx-0 lg:w-full"
 		/>
 	</div>
 	<div class="text-center lg:text-left lg:max-w-xs flex-1">
 		<div class="mb-5 pb-5 border-b border-solid border-gray-300">
-			<h6 class="text-lg text-gray-900 font-semibold mb-1">Harsh Patel</h6>
-			<span class="text-sm text-gray-500 group-hover:text-indigo-600">Co-Founder & CEO</span>
+			<h6 class="text-lg text-gray-900 font-semibold mb-1">{name}</h6>
+			<span class="text-sm text-gray-500 group-hover:text-indigo-600">{job}</span>
 		</div>
 		<p class="text-gray-500 leading-6 mb-7">
-			I am the co founder of pagedone and we’ve pushed our limit so far to make it successful.
+			{desc}
 		</p>
 		<div class="flex items-center gap-4 justify-center lg:justify-start">
-			<p
+			<a
 				class="cursor-pointer text-gray-900 hover:text-gray-600 group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-sky-200"
+				href={x}
 			>
 				<svg
 					class="w-5 h-5"
@@ -36,9 +45,10 @@
 						fill="currentColor"
 					></path>
 				</svg>
-			</p>
-			<p
+			</a>
+			<a
 				class="cursor-pointer text-gray-900 hover:text-gray-600 group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-sky-200"
+				href={instagram}
 			>
 				<svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path
@@ -46,9 +56,10 @@
 						fill="currentColor"
 					></path>
 				</svg>
-			</p>
-			<p
+			</a>
+			<a
 				class="cursor-pointer text-gray-900 hover:text-gray-600 group w-12 h-12 rounded-full flex justify-center items-center bg-gray-100 transition-all duration-500 hover:bg-sky-200"
+				href={linkedin}
 			>
 				<svg class="w-5 h-5" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path
@@ -56,7 +67,7 @@
 						fill="currentColor"
 					></path>
 				</svg>
-			</p>
+			</a>
 		</div>
 	</div>
 </div>

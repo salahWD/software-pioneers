@@ -4,15 +4,15 @@
 			class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 py-10 max-md:max-w-sm max-md:mx-auto"
 		>
 			<div class="col-span-full mb-10 lg:col-span-2 lg:mb-0">
-				<a href="#" class="cursor-pointer flex justify-center lg:justify-start">
+				<a href="/" class="cursor-pointer flex justify-center lg:justify-start">
 					<img class="w-4/5 pe-8 mb-3" src="logo-2.png" alt="logo" />
 				</a>
 				<p class="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
 					Trusted in more than 8 countries & 500 customers. Have any query ?
 				</p>
 				<a
-					href="#"
-					class="py-2.5 cursor-pointer px-5 h-9 block w-fit bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all duration-500 hover:bg-indigo-700 lg:mx-0"
+					href="/"
+					class="py-2.5 cursor-pointer px-5 h-9 block w-fit bg-pink-500 rounded-full shadow-sm text-xs text-white mx-auto transition-all duration-500 hover:bg-pink-700 lg:mx-0"
 				>
 					Contact us
 				</a>
@@ -21,13 +21,13 @@
 				<h4 class="text-lg text-gray-900 font-medium mb-7">Software Pioneers</h4>
 				<ul class="text-sm transition-all duration-500">
 					<li class="mb-6">
-						<a href="#" class="cursor-pointer text-gray-600 hover:text-gray-900">Home</a>
+						<a href="/" class="cursor-pointer text-gray-600 hover:text-gray-900">Home</a>
 					</li>
 					<li class="mb-6">
-						<a href="#" class="cursor-pointer text-gray-600 hover:text-gray-900">About</a>
+						<a href="/" class="cursor-pointer text-gray-600 hover:text-gray-900">About</a>
 					</li>
 					<li>
-						<a href="#" class="cursor-pointer text-gray-600 hover:text-gray-900">Pricing</a>
+						<a href="/" class="cursor-pointer text-gray-600 hover:text-gray-900">Pricing</a>
 					</li>
 				</ul>
 			</div>
@@ -35,13 +35,13 @@
 				<h4 class="text-lg text-gray-900 font-medium mb-7">Products</h4>
 				<ul class="text-sm transition-all duration-500">
 					<li class="mb-6">
-						<a href="#" class="cursor-pointer text-gray-600 hover:text-gray-900">Figma UI System</a>
+						<a href="/" class="cursor-pointer text-gray-600 hover:text-gray-900">Figma UI System</a>
 					</li>
 					<li class="mb-6">
-						<a href="#" class="cursor-pointer text-gray-600 hover:text-gray-900">Icons Assets</a>
+						<a href="/" class="cursor-pointer text-gray-600 hover:text-gray-900">Icons Assets</a>
 					</li>
 					<li>
-						<a href="#" class="cursor-pointer text-gray-600 hover:text-gray-900"
+						<a href="/" class="cursor-pointer text-gray-600 hover:text-gray-900"
 							>Responsive Blocks</a
 						>
 					</li>
@@ -51,16 +51,16 @@
 				<h4 class="text-lg text-gray-900 font-medium mb-7">Support</h4>
 				<ul class="text-sm transition-all duration-500">
 					<li class="mb-6">
-						<a href="#" class="cursor-pointer text-gray-600 hover:text-gray-900">Customer Support</a
+						<a href="/" class="cursor-pointer text-gray-600 hover:text-gray-900">Customer Support</a
 						>
 					</li>
 					<li class="mb-6">
-						<a href="#" class="cursor-pointer text-gray-600 hover:text-gray-900"
+						<a href="/" class="cursor-pointer text-gray-600 hover:text-gray-900"
 							>Terms & Conditions</a
 						>
 					</li>
 					<li>
-						<a href="#" class="cursor-pointer text-gray-600 hover:text-gray-900">Privacy Policy</a>
+						<a href="/" class="cursor-pointer text-gray-600 hover:text-gray-900">Privacy Policy</a>
 					</li>
 				</ul>
 			</div>
@@ -68,8 +68,8 @@
 				<h4 class="text-lg text-gray-900 font-medium mb-7">Subscribe</h4>
 				<p class="text-sm text-gray-500 leading-6 mb-7">Subscribe to get the latest news from us</p>
 				<a
-					href="#"
-					class="flex cursor-pointer items-center justify-center gap-2 border border-indigo-600 rounded-full py-3 px-6 w-fit text-sm text-indigo-600 font-semibold transition-all duration-500 hover:bg-indigo-50"
+					href="/"
+					class="flex cursor-pointer items-center justify-center gap-2 border border-pink-600 rounded-full py-3 px-6 w-fit text-sm text-pink-600 font-semibold transition-all duration-500 hover:bg-sky-50"
 				>
 					Subscribe
 					<svg
@@ -81,7 +81,7 @@
 					>
 						<path
 							d="M1.25 6L13.25 6M9.5 10.5L13.4697 6.53033C13.7197 6.28033 13.8447 6.15533 13.8447 6C13.8447 5.84467 13.7197 5.71967 13.4697 5.46967L9.5 1.5"
-							stroke="#4F46E5"
+							stroke="#0286b7"
 							stroke-width="1.8"
 							stroke-linecap="round"
 							stroke-linejoin="round"
@@ -95,7 +95,7 @@
 				<span class="text-sm text-gray-500">©software pioneers 2024, All rights reserved.</span>
 				<div class="flex mt-4 space-x-4 sm:justify-center sm:mt-0">
 					<a
-						href="#"
+						href="/"
 						class="w-8 cursor-pointer h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-black/80 hover:bg-black"
 					>
 						<svg
@@ -113,7 +113,7 @@
 						</svg>
 					</a>
 					<a
-						href="#"
+						href="/"
 						class="group cursor-pointer relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center hover:bg-gray-900"
 					>
 						<svg
@@ -161,7 +161,7 @@
 						</svg>
 					</a>
 					<a
-						href="#"
+						href="/"
 						class="relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#337FFF] hover:bg-gray-900"
 					>
 						<svg
@@ -177,7 +177,7 @@
 						</svg>
 					</a>
 					<a
-						href="#"
+						href="/"
 						class="relative w-8 h-8 rounded-full transition-all duration-500 flex justify-center items-center bg-[#FF0000] hover:bg-gray-900"
 					>
 						<svg

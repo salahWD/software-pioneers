@@ -9,7 +9,7 @@
 				class="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100"
 			>
 				<div class="flex gap-5">
-					<div class="font-manrope text-2xl font-bold text-indigo-600">240%</div>
+					<div class="font-manrope text-2xl font-bold text-pink-600">240%</div>
 					<div class="flex-1">
 						<h4 class="text-xl text-gray-900 font-semibold mb-2">Company growth</h4>
 						<p class="text-xs text-gray-500 leading-5">
@@ -23,7 +23,7 @@
 				class="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100"
 			>
 				<div class="flex gap-5">
-					<div class="font-manrope text-2xl font-bold text-indigo-600">175+</div>
+					<div class="font-manrope text-2xl font-bold text-pink-600">175+</div>
 					<div class="flex-1">
 						<h4 class="text-xl text-gray-900 font-semibold mb-2">Company growth</h4>
 						<p class="text-xs text-gray-500 leading-5">
@@ -37,7 +37,7 @@
 				class="w-full max-lg:max-w-2xl mx-auto lg:mx-0 lg:w-1/3 bg-white p-6 rounded-2xl shadow-md shadow-gray-100"
 			>
 				<div class="flex gap-5">
-					<div class="font-manrope text-2xl font-bold text-indigo-600">625+</div>
+					<div class="font-manrope text-2xl font-bold text-pink-600">625+</div>
 					<div class="flex-1">
 						<h4 class="text-xl text-gray-900 font-semibold mb-2">Projects Completed</h4>
 						<p class="text-xs text-gray-500 leading-5">

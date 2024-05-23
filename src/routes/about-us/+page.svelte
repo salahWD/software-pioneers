@@ -7,6 +7,25 @@
 	import SoldierOfFinance from '$lib/pages/about/SoldierOfFinance.svelte';
 	import SubscribeForm from '$lib/pages/about/SubscribeForm.svelte';
 
+	let members = [
+		{
+			name: 'khalid',
+			job: 'CEO',
+			desc: 'i am the best ceo',
+			x: 'https://x.com/username',
+			instagram: 'https://www.instagram.com/salah_backhach/',
+			linkedin: 'https://www.linkedin.com/in/kerempekarli/'
+		},
+		{
+			name: 'mohammed',
+			job: 'CTO'
+		},
+		{
+			name: 'abdalrhman',
+			job: 'Developer'
+		}
+	];
+
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -40,6 +59,6 @@
 
 <StatsSection />
 
-<SoldierOfFinance />
+<SoldierOfFinance {members} />
 
 <SubscribeForm />
