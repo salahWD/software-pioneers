@@ -20,15 +20,16 @@
 			class="flex flex-col w-full md:w-2/5 justify-center text-center md:text-left pb-4 md:pb-0 order-2 md:order-1"
 		>
 			<h1 class="my-2 md:my-4 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-				Welcome to software world !
+				Transform Your Vision into Reality with Our Innovative Solutions
 			</h1>
 			<p class="leading-normal text-1xl md:text-2xl mb-2 md:mb-8 w-full">
-				Sub-hero message, not too long and not too short. Make it just right!
+				At Software Pioneers, we specialize in turning your ideas into cutting-edge software
+				products.
 			</p>
 			<button
 				class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-2 md:my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
 			>
-				Subscribe
+				Get Started
 			</button>
 		</div>
 		<!--Image Col-->

@@ -2,22 +2,25 @@
 	import Card from './common/Card.svelte';
 	const cards = [
 		{
-			title: 'Custom Website Design',
+			title: 'Custom Software Development',
 			description:
-				'Our Custom Website Design and Development service ensures your startup stands out with a unique, user-friendly, and responsive website.',
-			url: '/services'
+				'Tailored software solutions designed to meet your unique business needs. From concept to deployment, we ensure your vision is realized.',
+			url: '/services',
+			cta: 'Learn More'
 		},
 		{
-			title: 'SEO and Content Marketing',
+			title: 'UI/UX Design',
 			description:
-				'Boost your online visibility and attract more organic traffic with our SEO and Content Marketing service.',
-			url: '/services'
+				'Creating intuitive and engaging user experiences. Our design team crafts interfaces that are both beautiful and functional.',
+			url: '/our-work',
+			cta: 'See Our Work'
 		},
 		{
-			title: 'Social Media Management and Advertising',
+			title: 'Technical Support & Maintenance',
 			description:
-				'Engage with your audience and grow your brand presence with our Social Media Management and Advertising service.',
-			url: '/services'
+				'Ensuring your software runs smoothly and efficiently with our comprehensive support and maintenance services.',
+			url: '/contact',
+			cta: 'Get Support'
 		}
 	];
 </script>

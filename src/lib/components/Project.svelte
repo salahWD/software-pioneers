@@ -2,7 +2,6 @@
 	export let title =
 		'Client-Server Architecture: Advantages and Disadvantages of the Network Computing Model';
 	export let date = '1 year ago';
-	export let readTime = '6 min read';
 	export let image = '/project-3.jpg';
 	export let link = '/projects/1';
 </script>

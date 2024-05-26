@@ -40,11 +40,13 @@
 </svg>
 <section class="container mx-auto text-center py-6 lg:mb-12">
 	<h1 class="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-white">
-		Call to Action
+		Ready to Elevate Your Business?
 	</h1>
 	<div class="w-full mb-4">
 		<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t" />
 	</div>
-	<h3 class="my-4 text-1xl md:text-3xl leading-tight">Main Hero Message to sell yourself!</h3>
-	<Button>Action!!!</Button>
+	<h3 class="my-4 text-1xl md:text-3xl leading-tight">
+		Join the many successful companies that trust our expertise
+	</h3>
+	<Button>Contact Us Now</Button>
 </section>

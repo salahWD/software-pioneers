@@ -3,11 +3,7 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-9">
 			<div class="img-box">
-				<img
-					src="https://pagedone.io/asset/uploads/1702034769.png"
-					alt="About Us tailwind page"
-					class="max-lg:mx-auto"
-				/>
+				<img src="team-1.webp" alt="About Us tailwind page" class="max-lg:mx-auto rounded-lg" />
 			</div>
 			<div class="lg:pl-[100px] flex items-center">
 				<div class="data w-full">
@@ -19,10 +15,12 @@
 					<p
 						class="font-normal md:text-xl leading-6 md:leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto"
 					>
-						Driven by a passion for seamless user experiences, we've meticulously curated pagedone
-						to empower creators, designers, and developers alike. Our mission is to provide a
-						comprehensive toolkit, enabling you to build intuitive, beautiful interfaces that
-						resonate with users on every interaction.
+						Driven by a passion for seamless user experiences, we've meticulously curated <span
+							class="capitalize text-sky-600">software pioneers</span
+						>
+						to empower creators, designers, and developers alike. Our mission is to provide a comprehensive
+						toolkit, enabling you to build intuitive, beautiful interfaces that resonate with users on
+						every interaction.
 					</p>
 				</div>
 			</div>

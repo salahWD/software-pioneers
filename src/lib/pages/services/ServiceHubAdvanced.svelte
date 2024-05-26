@@ -36,10 +36,11 @@
 	<div class="container mx-auto">
 		<div class="flex flex-col items-center p-8 md:flex-row md:space-x-6">
 			<div class="order-2 md:order-1 md:w-1/2 text-center md:text-start">
-				<h2 class="text-2xl font-bold text-black mb-4">ServiceHub and advanced</h2>
+				<h2 class="text-2xl font-bold text-black mb-4">Agile Project Management</h2>
 				<p class="mb-6 text-gray-600">
-					ServiceHub introduces cutting-edge technology for seamless service delivery. Our platform
-					ensures secure, efficient, and global service accessibility for all users.
+					Leverage Agile Project Management for efficient, on-time, and on-budget software delivery.
+					Our iterative approach and collaborative planning ensure flexibility and alignment with
+					your business goals, fostering transparency and productivity.
 				</p>
 				<button class="bg-blue-600 text-white py-2 px-4 rounded">Start now</button>
 			</div>

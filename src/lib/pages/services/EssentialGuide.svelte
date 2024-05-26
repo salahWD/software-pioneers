@@ -44,10 +44,11 @@
 			style="scale: {imageSize}"
 		/>
 		<div class="md:w-1/2 text-center md:text-start">
-			<h2 class="text-2xl text-black font-bold mb-4">Essential guide for users</h2>
+			<h2 class="text-2xl text-black font-bold mb-4">Custom Software Development</h2>
 			<p class="mb-6 text-gray-600">
-				ServiceHub offers a user-friendly experience, making it easy to access services without
-				technical knowledge. Your personalized dashboard simplifies service management.
+				Our Custom Software Development service tailors solutions to your unique business needs. We
+				use the latest technologies and agile methodologies to create scalable, secure, and
+				high-performance software, ensuring it meets and exceeds your expectations.
 			</p>
 			<button class="bg-blue-600 text-white py-2 px-4 rounded">Explore</button>
 		</div>

@@ -28,7 +28,7 @@
 
 <HeroSection>
 	<h1
-		class="max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl md:leading-normal"
+		class="capitalize max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl md:leading-normal"
 	>
 		about our <span class="text-white">company</span>
 	</h1>

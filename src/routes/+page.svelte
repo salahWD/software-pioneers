@@ -9,32 +9,67 @@
 
 	let members = [
 		{
-			name: 'khalid',
-			job: 'CEO',
-			desc: 'i am the best ceo',
-			x: 'https://x.com/username',
-			instagram: 'https://www.instagram.com/salah_backhach/',
-			linkedin: 'https://www.linkedin.com/in/kerempekarli/'
+			name: 'Ahmed',
+			job: 'CTO',
+			desc: 'Leading the tech vision',
+			image: '/member-1.webp',
+			x: 'https://x.com/ahmed_tech',
+			instagram: 'https://www.instagram.com/ahmed_tech/',
+			linkedin: 'https://www.linkedin.com/in/ahmed-tech/'
 		},
 		{
-			name: 'khalid',
-			job: 'CEO',
-			desc: 'i am the best ceo',
-			x: 'https://x.com/username',
-			instagram: 'https://www.instagram.com/salah_backhach/',
-			linkedin: 'https://www.linkedin.com/in/kerempekarli/'
+			name: 'Ihsan',
+			job: 'COO',
+			desc: 'Ensuring operational excellence',
+			image: '/member-2.webp',
+			x: 'https://x.com/fatima_ops',
+			instagram: 'https://www.instagram.com/fatima_ops/',
+			linkedin: 'https://www.linkedin.com/in/fatima-ops/'
 		},
 		{
-			name: 'khalid',
-			job: 'CEO',
-			desc: 'i am the best ceo',
-			x: 'https://x.com/username',
-			instagram: 'https://www.instagram.com/salah_backhach/',
-			linkedin: 'https://www.linkedin.com/in/kerempekarli/'
+			name: 'Hassan',
+			job: 'Lead Developer',
+			desc: 'Building cutting-edge solutions',
+			image: '/member-3.webp',
+			x: 'https://x.com/hassan_dev',
+			instagram: 'https://www.instagram.com/hassan_dev/',
+			linkedin: 'https://www.linkedin.com/in/hassan-dev/'
 		},
 		{
-			name: 'abdalrhman',
-			job: 'Developer'
+			name: 'Jamal',
+			job: 'UX Designer',
+			desc: 'Crafting user-centered designs',
+			image: '/member-4.webp',
+			x: 'https://x.com/layla_design',
+			instagram: 'https://www.instagram.com/layla_design/',
+			linkedin: 'https://www.linkedin.com/in/layla-design/'
+		},
+		{
+			name: 'Omar',
+			job: 'Project Manager',
+			desc: 'Driving project success',
+			image: '/member-5.webp',
+			x: 'https://x.com/omar_pm',
+			instagram: 'https://www.instagram.com/omar_pm/',
+			linkedin: 'https://www.linkedin.com/in/omar-pm/'
+		},
+		{
+			name: 'Khalid',
+			job: 'Marketing Specialist',
+			desc: 'Elevating our brand presence',
+			image: '/member-6.webp',
+			x: 'https://x.com/noura_marketing',
+			instagram: 'https://www.instagram.com/noura_marketing/',
+			linkedin: 'https://www.linkedin.com/in/noura-marketing/'
+		},
+		{
+			name: 'Abdalrhman',
+			job: 'Marketing Specialist',
+			desc: 'Elevating our brand presence',
+			image: '/member-7.webp',
+			x: 'https://x.com/noura_marketing',
+			instagram: 'https://www.instagram.com/noura_marketing/',
+			linkedin: 'https://www.linkedin.com/in/noura-marketing/'
 		}
 	];
 
