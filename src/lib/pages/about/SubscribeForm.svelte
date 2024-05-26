@@ -10,14 +10,14 @@
 	}
 </script>
 
-<section class="py-20 pt-0">
+<section class="py-20 pt-0 mt-16">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<form on:submit={handleSubmit}>
 			<div class="bg-pink-500 rounded-2xl p-8 xl:p-11">
 				<h2 class="font-manrope text-4xl text-white text-center font-bold mb-4">
 					Subscribe to the latest offer
 				</h2>
-				<p class="text-pink-100 text-center mb-11 max-lg:max-w-2xl mx-auto">
+				<p class="text-pink-100 text-center mb-4 md:mb-11 max-lg:max-w-2xl mx-auto">
 					Join our community of subscribers and receive regular updates delivered straight to your
 					inbox. It's quick, easy, and free
 				</p>

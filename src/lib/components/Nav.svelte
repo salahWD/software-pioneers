@@ -1,7 +1,9 @@
 <script>
 	import { page } from '$app/stores';
+	import { afterNavigate, beforeNavigate } from '$app/navigation';
 
-	export let noAd = false;
+	// you can just turn this flag of (dynamicly or staticly) to remove the ad bar
+	export let noAd = true;
 	export let links = [];
 
 	import AdBar from './AdBar.svelte';
@@ -17,9 +19,9 @@
 	const toggleMenu = () => (showMenu = !showMenu);
 	let hambugerEl;
 
-	const onClickOutsideAction = ({ target }) => {
-		if (!hambugerEl.contains(target)) showMenu = false;
-	};
+	// const onClickOutsideAction = ({ target }) => {
+	// 	if (!hambugerEl.contains(target)) showMenu = false;
+	// };
 	const onClickOutside = ({
 		detail: {
 			event: { target }
@@ -27,6 +29,11 @@
 	}) => {
 		if (!hambugerEl.contains(target)) showMenu = false;
 	};
+
+	afterNavigate(() => {
+		navFloat = false;
+		showMenu = false;
+	});
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -49,7 +56,7 @@
 			<a
 				class:text-gray-800={navFloat}
 				class:text-white={!navFloat}
-				class="no-underline hover:no-underline font-bold text-2xl lg:text-3xl capitalize"
+				class="no-underline hover:no-underline font-bold text-1xl sm:text-2xl lg:text-3xl capitalize"
 				href="#"
 			>
 				<img class="max-w-[80px] inline-block" src="logo-2.png" alt="logo" />
@@ -74,7 +81,7 @@
 			use:clickOutside
 			on:clickOutside={onClickOutside}
 			class:hidden={!showMenu}
-			class="hidden w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+			class="hidden rounded-lg w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
 			id="nav-content"
 		>
 			<ul class="list-reset lg:flex justify-end flex-1 items-center">
@@ -82,7 +89,7 @@
 					<li class="mr-3">
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
-							class="inline-block text-black no-underline py-2 px-4 {$page.url.pathname ===
+							class="inline-block text-black no-underline py-2 px-2 {$page.url.pathname ===
 								link.href || $page.url.pathname === '/' + link.href
 								? 'font-bold'
 								: 'hover:text-gray-800 hover:text-underline'}"
@@ -91,7 +98,9 @@
 					</li>
 				{/each}
 			</ul>
-			<Button url="https://google.com" secondary={navFloat} center={false}>contact us</Button>
+			<Button cusomClass="!my-1" url="https://google.com" secondary={navFloat} center={false}
+				>contact us</Button
+			>
 		</div>
 	</div>
 	<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />

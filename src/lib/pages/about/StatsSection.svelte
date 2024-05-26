@@ -1,7 +1,7 @@
 <!-- src/routes/components/StatsSection.svelte -->
 <section class="py-20 bg-white">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<h2 class="font-manrope text-4xl text-center text-gray-900 font-bold mb-14">
+		<h2 class="font-manrope text-3xl md:text-4xl text-center text-gray-900 font-bold mb-6 md:mb-14">
 			Our results in numbers
 		</h2>
 		<div class="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">

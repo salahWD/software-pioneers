@@ -1,13 +1,61 @@
-<footer class="w-full">
+<script>
+	const socialLinks = [
+		{ href: 'https://twitter.com', icon: '/twitter.svg', alt: 'Twitter' },
+		{ href: 'https://linkedin.com', icon: '/linkedin.svg', alt: 'LinkedIn' },
+		{ href: 'https://facebook.com', icon: '/facebook.svg', alt: 'Facebook' },
+		{ href: 'https://instagram.com', icon: '/instagram.svg', alt: 'Instagram' }
+	];
+
+	const navLinks = [
+		{ href: '/', text: 'Home' },
+		{ href: '/services', text: 'Services' },
+		{ href: '/our-work', text: 'Our Work' },
+		{ href: '/contact', text: 'Contact' }
+	];
+</script>
+
+<footer class="bg-blue-100 py-12">
+	<div class="container mx-auto text-center">
+		<div class="mb-4">
+			<div class="flex justify-center space-x-4 mb-10">
+				{#each socialLinks as link}
+					<a
+						href={link.href}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-500 hover:bg-slate-600 transition"
+					>
+						<img src={link.icon} alt={link.alt} class="w-4 h-4" />
+					</a>
+				{/each}
+			</div>
+			<nav class="flex justify-center font-bold text-sm space-x-8 mb-4 text-gray-700">
+				{#each navLinks as link}
+					<a href={link.href} class="hover:text-gray-900">{link.text}</a>
+				{/each}
+			</nav>
+		</div>
+		<p class="text-gray-500">
+			© software pioneers. All rights reserved.
+			<!-- <a
+				href="https://github.com/salahWD"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="hover:text-gray-900">Thx, salah</a> -->
+		</p>
+	</div>
+</footer>
+
+<!-- <footer class="w-full">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div
 			class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 py-10 max-md:max-w-sm max-md:mx-auto"
 		>
 			<div class="col-span-full mb-10 lg:col-span-2 lg:mb-0">
 				<a href="/" class="cursor-pointer flex justify-center lg:justify-start">
-					<img class="w-4/5 pe-8 mb-3" src="logo-2.png" alt="logo" />
+					<img class="w-2/5 lg:w-4/5 pe-8 lg:mb-3" src="logo-2.png" alt="logo" />
 				</a>
-				<p class="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
+				<p class="py-8 text-sm text-gray-600 lg:max-w-xs text-center lg:text-left">
 					Trusted in more than 8 countries & 500 customers. Have any query ?
 				</p>
 				<a
@@ -92,7 +140,7 @@
 		</div>
 		<div class="py-7 border-t border-gray-200">
 			<div class="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
-				<span class="text-sm text-gray-500">©software pioneers 2024, All rights reserved.</span>
+				<span class="text-sm text-gray-600">©software pioneers 2024, All rights reserved.</span>
 				<div class="flex mt-4 space-x-4 sm:justify-center sm:mt-0">
 					<a
 						href="/"
@@ -198,7 +246,7 @@
 			</div>
 		</div>
 	</div>
-</footer>
+</footer> -->
 
 <style>
 	/* Add your component styles here */

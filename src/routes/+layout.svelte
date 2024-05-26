@@ -6,10 +6,11 @@
 
 	const links = [
 		{ title: 'Home', href: '/' },
-		{ title: 'services', href: 'services' },
-		{ title: 'our work', href: 'our-work' },
-		{ title: 'projects', href: 'projects' },
-		{ title: 'about us', href: 'about-us' }
+		{ title: 'Services', href: 'services' },
+		{ title: 'Our Work', href: 'our-work' },
+		{ title: 'Companies Projects', href: 'https://Elkateb.shawerr.com' },
+		// { title: 'projects', href: 'projects' },
+		{ title: 'About Us', href: 'about-us' }
 	];
 </script>
 
@@ -17,11 +18,11 @@
 	class="leading-normal tracking-normal text-white {$page.url.pathname === '/' ? 'gradient' : ''}"
 	style="font-family: 'Source Sans Pro', sans-serif;"
 >
-	<Nav {links} noAd={$page.url.pathname === '/'} />
+	<Nav {links} />
 
-	<div class={$page.url.pathname === '/' ? 'pt-32' : ''}>
-		<slot />
+	<slot />
+
+	<div class="bg-white">
+		<Footer />
 	</div>
-
-	<Footer />
 </div>

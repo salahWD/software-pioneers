@@ -1,12 +1,17 @@
-<section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
+<section class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px] bg-blue-100">
 	<div class="container mx-auto">
 		<div class="flex flex-wrap lg-mx-4">
 			<div class="w-full px-4">
 				<div class="text-center mx-auto mb-12 lg:mb-20 max-w-[510px]">
 					<span class="font-semibold text-lg text-pink-800 mb-2 block"> Our Services </span>
-					<h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-black mb-4">
+					<h1
+						class="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
+					>
 						What We Offer
-					</h2>
+					</h1>
+					<div class="w-full mb-4">
+						<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
+					</div>
 					<p class="text-base text-gray-500">
 						There are many variations of passages of Lorem Ipsum available but the majority have
 						suffered alteration in some form.

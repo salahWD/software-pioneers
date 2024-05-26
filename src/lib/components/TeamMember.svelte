@@ -10,7 +10,7 @@
 </script>
 
 <div
-	class="group w-full flex-wrap flex items-center gap-8 transition-all duration-500 p-8 lg:flex-nowrap"
+	class="group w-full flex-wrap flex items-center md:gap-8 gap-2 transition-all duration-500 p-8 lg:flex-nowrap"
 >
 	<div class="w-full lg:w-48 h-64">
 		<img
@@ -20,11 +20,11 @@
 		/>
 	</div>
 	<div class="text-center lg:text-left lg:max-w-xs flex-1">
-		<div class="mb-5 pb-5 border-b border-solid border-gray-300">
-			<h6 class="text-lg text-gray-900 font-semibold mb-1">{name}</h6>
+		<div class="md:mb-5 md:pb-5 mb-2 pb-2 border-b border-solid border-gray-300">
+			<h6 class="text-lg text-gray-900 font-semibold md:mb-1">{name}</h6>
 			<span class="text-sm text-gray-500 group-hover:text-indigo-600">{job}</span>
 		</div>
-		<p class="text-gray-500 leading-6 mb-7">
+		<p class="text-gray-500 leading-6 md:mb-7 mb-3">
 			{desc}
 		</p>
 		<div class="flex items-center gap-4 justify-center lg:justify-start">

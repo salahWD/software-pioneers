@@ -1,4 +1,9 @@
 <script>
+	let innerWidth = 0;
+	let innerHeight = 0;
+
+	$: largeScreen = innerWidth > 768;
+
 	// import function to register Swiper custom elements
 	import { register } from 'swiper/element/bundle';
 	// register Swiper custom elements
@@ -17,15 +22,22 @@
 	});
 </script>
 
-<section class="py-14 lg:py-24">
+<svelte:window bind:innerWidth bind:innerHeight />
+
+<section class="py-14 lg:py-24 bg-white">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<div class="mb-24">
-			<h2 class="font-manrope text-4xl text-center font-bold text-gray-900 mb-6">
-				Meet our soldier of finance
-			</h2>
+		<div class="mb-4 md:mb-24">
+			<h1
+				class="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
+			>
+				Meet Our Team Members
+			</h1>
+			<div class="w-full mb-4">
+				<div class="h-1 mx-auto gradient w-80 opacity-25 my-0 py-0 rounded-t" />
+			</div>
 			<p class="text-lg text-gray-500 text-center">
-				We provide all the advantage that can simplify all your financial and banking support
-				without any further issues
+				We have one of the best teams and all of our members are professionals at their fields, know
+				more about us
 			</p>
 		</div>
 
@@ -33,8 +45,8 @@
 			<swiper-container
 				class="teamswiper pb-10"
 				navigation="true"
-				pagination="true"
-				slides-per-view="2"
+				pagination="false"
+				slides-per-view={largeScreen ? 2 : 1}
 				loop="true"
 			>
 				{#each members as member}

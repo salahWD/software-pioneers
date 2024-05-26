@@ -22,11 +22,17 @@ export default {
 					800: '#016b92'
 				},
 				customSky: '#cddef2',
-				yellow: 'rgba(187, 255, 235, 0.76)'
+				yellow: 'rgb(16, 112, 255, 0.25)',
+				'teal-600': '#4c9f70',
+				'blue-100': '#ebf8ff'
 			},
 			animation: {
 				scaleBounce: 'scaleBounce 3s ease-in-out infinite',
-				wiggle: 'wiggle 3s ease-in-out infinite'
+				wiggle: 'wiggle 3s ease-in-out infinite',
+				fadeinup: 'fade-in-up 1s ease-in 0.25s 1',
+				fadeoutup: 'fade-out-up 1s ease-in-out 0.25s 1',
+				dropin: 'drop-in 0.5s ease-in-out 0.25s 1',
+				dropout: 'drop-out 0.5s ease-in-out 0.25s 1'
 			},
 			keyframes: {
 				scaleBounce: {
@@ -36,6 +42,48 @@ export default {
 				wiggle: {
 					'0%, 100%': { transform: 'rotate(-3deg)' },
 					'50%': { transform: 'rotate(3deg)' }
+				},
+				'fade-in-up': {
+					'0%': {
+						opacity: 0,
+						transform: 'translate3d(0, 100%, 0)'
+					},
+					'100%': {
+						opacity: 1,
+						transform: 'translate3d(0, 0, 0)'
+					}
+				},
+				'fade-in-up': {
+					'0%': {
+						opacity: 0,
+						transform: 'translate3d(0, 100%, 0)'
+					},
+					'100%': {
+						opacity: 1,
+						transform: 'translate3d(0, 0, 0)'
+					}
+				},
+				'drop-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'scale(0)',
+						animationTimingFunction: 'cubic-bezier(0.34, 1.61, 0.7, 1)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'scale(1)'
+					}
+				},
+				'drop-out': {
+					'0%': {
+						opacity: '1',
+						transform: 'scale(1)',
+						animationTimingFunction: 'cubic-bezier(0.34, 1.61, 0.7, 1)'
+					},
+					'100%': {
+						opacity: '0',
+						transform: 'scale(0)'
+					}
 				}
 			}
 		}

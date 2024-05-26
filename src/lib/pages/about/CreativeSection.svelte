@@ -10,12 +10,12 @@
 						class="block lg:hidden mb-9 mx-auto"
 					/>
 					<h2
-						class="font-manrope font-bold text-4xl lg:text-5xl text-black mb-9 max-lg:text-center"
+						class="font-manrope font-bold text-3xl md:text-4xl lg:text-5xl text-black mb-4 md:mb-9 max-lg:text-center relative"
 					>
 						We are Creative Since 2005
 					</h2>
 					<p
-						class="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto"
+						class="font-normal md:text-xl leading-6 md:leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto"
 					>
 						Pagedone isn’t just a collection of components and guidelines; it's a philosophy. We go
 						beyond aesthetics, prioritizing accessibility, scalability, and usability. Every

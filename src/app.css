@@ -8,5 +8,5 @@
 
 .gradient {
 	@apply bg-gradient-to-r from-pink to-yellow;
-	--tw-gradient-to: #0095411c var(--tw-gradient-to-position);
+	--tw-gradient-to: rgb(16, 112, 255, 0.25) var(--tw-gradient-to-position);
 }
