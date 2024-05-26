@@ -1,6 +1,8 @@
 <script>
 	import { page } from '$app/stores';
-	import { afterNavigate, beforeNavigate } from '$app/navigation';
+	import { afterNavigate } from '$app/navigation';
+
+	import { t } from '$lib/../i18n';
 
 	// you can just turn this flag of (dynamicly or staticly) to remove the ad bar
 	export let noAd = true;
@@ -10,6 +12,7 @@
 
 	import { clickOutside, clickOutsideAction } from '$lib/actions/clickOutside.d.ts';
 	import Button from './common/Button.svelte';
+	import LanguageSwitcher from './LanguageSwitcher.svelte';
 
 	let y;
 	let navFloat = false;
@@ -60,9 +63,10 @@
 				href="#"
 			>
 				<img class="max-w-[80px] inline-block" src="logo-2.png" alt="logo" />
-				software pioneers
+				{$t('software pioneers')}
 			</a>
 		</div>
+
 		<div bind:this={hambugerEl} class="block lg:hidden pr-4">
 			<button
 				on:click={toggleMenu}
@@ -93,15 +97,16 @@
 								link.href || $page.url.pathname === '/' + link.href
 								? 'font-bold'
 								: 'hover:text-gray-800 hover:text-underline'}"
-							href={link.href}>{link.title}</a
+							href={link.href}>{$t(link.title)}</a
 						>
 					</li>
 				{/each}
 			</ul>
 			<Button cusomClass="!my-1" url="/contact" secondary={navFloat} center={false}
-				>contact us</Button
+				>{$t('Contact Us')}</Button
 			>
 		</div>
+		<LanguageSwitcher />
 	</div>
 	<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
 </nav>

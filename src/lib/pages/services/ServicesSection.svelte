@@ -1,8 +1,11 @@
 <script>
+	import { t } from '$lib/../i18n';
 	let services = [
 		{
-			title: 'Mobile App Development',
-			description: 'Creating high-performance mobile applications for iOS and Android platforms.',
+			title: $t('Mobile App Development'),
+			description: $t(
+				'Creating high-performance mobile applications for iOS and Android platforms.'
+			),
 			icon: `<svg
 							width="32"
 							height="32"
@@ -17,8 +20,8 @@
 						</svg>`
 		},
 		{
-			title: 'Web Development',
-			description: 'Building responsive and scalable websites tailored to your business goals.',
+			title: $t('Web Development'),
+			description: $t('Building responsive and scalable websites tailored to your business goals.'),
 			icon: `<svg
 							width="39"
 							height="22"
@@ -41,9 +44,10 @@
 						</svg>`
 		},
 		{
-			title: 'Cloud Solutions',
-			description:
-				'Leveraging cloud technology to enhance your business operations and scalability.',
+			title: $t('Cloud Solutions'),
+			description: $t(
+				'Leveraging cloud technology to enhance your business operations and scalability.'
+			),
 			icon: `<svg
 							width="35"
 							height="35"
@@ -70,9 +74,10 @@
 						</svg>`
 		},
 		{
-			title: 'E-commerce Solutions',
-			description:
-				'Developing robust e-commerce platforms that drive sales and customer engagement.',
+			title: $t('E-commerce Solutions'),
+			description: $t(
+				'Developing robust e-commerce platforms that drive sales and customer engagement.'
+			),
 			icon: `<svg
 							width="35"
 							height="35"
@@ -99,8 +104,10 @@
 						</svg>`
 		},
 		{
-			title: 'AI & Machine Learning',
-			description: 'Implementing AI and machine learning to revolutionize your business processes.',
+			title: $t('AI & Machine Learning'),
+			description: $t(
+				'Implementing AI and machine learning to revolutionize your business processes.'
+			),
 			icon: `<svg
 							width="35"
 							height="35"
@@ -115,8 +122,10 @@
 						</svg>`
 		},
 		{
-			title: 'Digital Marketing',
-			description: 'Boosting your online presence with data-driven digital marketing strategies.',
+			title: $t('Digital Marketing'),
+			description: $t(
+				'Boosting your online presence with data-driven digital marketing strategies.'
+			),
 			icon: `<svg
 							width="35"
 							height="35"
@@ -142,19 +151,21 @@
 		<div class="flex flex-wrap lg-mx-4">
 			<div class="w-full px-4">
 				<div class="text-center mx-auto mb-12 lg:mb-20 max-w-[510px]">
-					<span class="font-semibold text-lg text-pink-800 mb-2 block"> Our Services </span>
+					<span class="font-semibold text-lg text-pink-800 mb-2 block capitalize">
+						{$t('our services')}
+					</span>
 					<h1
-						class="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
+						class="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800 capitalize"
 					>
-						What We Offer
+						{$t('what we offer')}
 					</h1>
 					<div class="w-full mb-4">
 						<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
 					</div>
 					<p class="text-base text-gray-500">
-						Explore the wide range of services we offer to help your business thrive in the digital
-						age. Our expertise spans across various domains, ensuring that we can cater to all your
-						technology needs.
+						{$t(
+							'Explore the wide range of services we offer to help your business thrive in the digital age. Our expertise spans across various domains, ensuring that we can cater to all your technology needs'
+						)}.
 					</p>
 				</div>
 			</div>

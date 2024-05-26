@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/../i18n';
 	const services = [
 		{
 			text: 'Build a software product in our own development center'
@@ -17,19 +18,20 @@
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row">
 		<!--Left Col-->
 		<div
-			class="flex flex-col w-full md:w-2/5 justify-center text-center md:text-left pb-4 md:pb-0 order-2 md:order-1"
+			class="flex flex-col w-full md:w-2/5 justify-center text-center md:text-start pb-4 md:pb-0 order-2 md:order-1"
 		>
 			<h1 class="my-2 md:my-4 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-				Transform Your Vision into Reality with Our Innovative Solutions
+				{$t('Transform Your Vision into Reality with Our Innovative Solutions')}
 			</h1>
 			<p class="leading-normal text-1xl md:text-2xl mb-2 md:mb-8 w-full">
-				At Software Pioneers, we specialize in turning your ideas into cutting-edge software
-				products.
+				{$t(
+					'At Software Pioneers, we specialize in turning your ideas into cutting-edge software products.'
+				)}
 			</p>
 			<button
 				class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-2 md:my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
 			>
-				Get Started
+				{$t('Get Started')}
 			</button>
 		</div>
 		<!--Image Col-->
@@ -43,8 +45,8 @@
 		<div class="order-3 pt-6 md:pt-12 pb-20">
 			<div class="flex flex-col md:flex-row justify-between gap-y-3 flex-wrap">
 				{#each services as service}
-					<div class="px-4 md:m-auto md:basis-1/2 xl:basis-1/3">
-						<div class="flex items-center gap-4 p-4 bg-white shadow rounded">
+					<div class="px-4 md:m-auto md:basis-1/2 xl:basis-1/3 md:h-auto md:block md:m-0">
+						<div class="flex items-center gap-4 p-4 bg-white shadow rounded h-full">
 							<svg
 								class="w-6 max-h-6 text-blue-600 rounded-full border border-black border-1 flex-shrink-0"
 								fill="none"
@@ -59,7 +61,7 @@
 									d="M5 13l4 4L19 7"
 								></path>
 							</svg>
-							<p class="text-gray-800">{service.text}</p>
+							<p class="text-gray-800">{$t(service.text)}</p>
 						</div>
 					</div>
 				{/each}

@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/../i18n';
 	export let projects = [
 		{
 			title: 'Successful Migration and System Enhancement for Quantium',
@@ -19,17 +20,17 @@
 
 <div class="container mx-auto px-4 py-8">
 	<h1
-		class="w-full my-4 md:my-12 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
+		class="w-full my-4 md:my-12 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800 capitalize"
 	>
-		Our Projects
+		{$t('our projects')}
 	</h1>
 	<div class="w-full mb-4">
 		<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
 	</div>
 	<p class="md:text-lg text-gray-500 text-center max-w-3xl m-auto mb-8">
-		For more than 7 years we've been helping companies build successful software products, 5-stars
-		mobile applications, big data solutions that allow allocating hundreds of dollars, and AI
-		products that drive innovations.
+		{$t(
+			"For more than 7 years we've been helping companies build successful software products, 5-stars mobile applications, big data solutions that allow allocating hundreds of dollars, and AI products that drive innovations"
+		)}.
 	</p>
 	<div class="flex flex-wrap justify-center">
 		{#each projects as project}

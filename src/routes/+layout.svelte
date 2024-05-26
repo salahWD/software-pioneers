@@ -1,5 +1,6 @@
 <script>
 	import '../app.css';
+	import { locale } from '$lib/../i18n';
 	import { page } from '$app/stores';
 	import Nav from '$lib/components/Nav.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -16,6 +17,7 @@
 
 <div
 	class="leading-normal tracking-normal text-white {$page.url.pathname === '/' ? 'gradient' : ''}"
+	dir={$locale == 'ar' ? 'rtl' : 'ltr'}
 	style="font-family: 'Source Sans Pro', sans-serif;"
 >
 	<Nav {links} />

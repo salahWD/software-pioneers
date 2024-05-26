@@ -19,7 +19,7 @@
 			class="rounded-2xl h-full object-cover mx-auto lg:mx-0 lg:w-full"
 		/>
 	</div>
-	<div class="text-center lg:text-left lg:max-w-xs flex-1">
+	<div class="text-center lg:text-start lg:max-w-xs flex-1">
 		<div class="md:mb-5 md:pb-5 mb-2 pb-2 border-b border-solid border-gray-300">
 			<h6 class="text-lg text-gray-900 font-semibold md:mb-1">{name}</h6>
 			<span class="text-sm text-gray-500 group-hover:text-indigo-600">{job}</span>

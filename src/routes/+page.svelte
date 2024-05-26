@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t } from '$lib/../i18n';
 	import HomeHero from '$lib/components/HomeHero.svelte';
 	import Project from '$lib/components/Project.svelte';
 	import SoldierOfFinance from '$lib/pages/about/SoldierOfFinance.svelte';
@@ -115,8 +116,10 @@
 
 <div class="bg-white py-10">
 	<div class="container m-auto">
-		<h1 class="w-full my-12 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800">
-			Our Projects
+		<h1
+			class="w-full my-12 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800 capitalize"
+		>
+			{$t('our projects')}
 		</h1>
 		<div class="w-full mb-4">
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />

@@ -1,4 +1,6 @@
 <script>
+	import { t } from '$lib/../i18n';
+
 	let innerWidth = 0;
 	let innerHeight = 0;
 
@@ -30,14 +32,15 @@
 			<h1
 				class="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
 			>
-				Meet Our Team Members
+				{$t('Meet Our Team Members')}
 			</h1>
 			<div class="w-full mb-4">
 				<div class="h-1 mx-auto gradient w-80 opacity-25 my-0 py-0 rounded-t" />
 			</div>
 			<p class="text-lg text-gray-500 text-center">
-				We have one of the best teams and all of our members are professionals at their fields, know
-				more about us
+				{$t(
+					'We have one of the best teams and all of our members are professionals at their fields, know more about us'
+				)}
 			</p>
 		</div>
 
@@ -57,8 +60,8 @@
 			</swiper-container>
 		{:else}
 			<div class="bg-orange-100 border-l-4 border-orange-500 text-orange-700 p-4" role="alert">
-				<p class="font-bold">Be Warned</p>
-				<p>There is no members to show.</p>
+				<p class="font-bold">{$t('Be Warned')}</p>
+				<p>{$t('There is no members to show')}.</p>
 			</div>
 		{/if}
 	</div>
