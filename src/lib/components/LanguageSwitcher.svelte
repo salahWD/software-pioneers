@@ -15,7 +15,6 @@
 	const selectLanguage = (lang) => {
 		selectedLanguage = lang;
 		$locale = lang;
-		console.log($locale);
 		menuState = false;
 		// Add your language switching logic here
 	};
