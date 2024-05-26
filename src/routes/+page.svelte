@@ -4,6 +4,7 @@
 	import SoldierOfFinance from '$lib/pages/about/SoldierOfFinance.svelte';
 	import ServicesSection from '$lib/pages/services/ServicesSection.svelte';
 	import Cards from '$lib/components/Cards.svelte';
+	import Partner from '$lib/components/Partner.svelte';
 	import Map from '$lib/components/Map.svelte';
 	import CallToAction from '$lib/components/CallToAction.svelte';
 
@@ -95,13 +96,13 @@
 		}
 	];
 
-	const companies = [
-		{ name: 'Airbnb', logo: '/partner-1.png', alt: 'Airbnb Logo' },
-		{ name: 'Fiverr', logo: '/partner-2.png', alt: 'Fiverr Logo' },
-		{ name: 'Pickwatch', logo: '/partner-3.png', alt: 'Pickwatch Logo' },
-		{ name: 'Citrix', logo: '/partner-4.png', alt: 'Citrix Logo' },
-		{ name: 'Online Rewards', logo: '/partner-5.png', alt: 'Online Rewards Logo' }
-	];
+	// const companies = [
+	// 	{ name: 'Airbnb', logo: '/partner-1.png', alt: 'Airbnb Logo' },
+	// 	{ name: 'Fiverr', logo: '/partner-2.png', alt: 'Fiverr Logo' },
+	// 	{ name: 'Pickwatch', logo: '/partner-3.png', alt: 'Pickwatch Logo' },
+	// 	{ name: 'Citrix', logo: '/partner-4.png', alt: 'Citrix Logo' },
+	// 	{ name: 'Online Rewards', logo: '/partner-5.png', alt: 'Online Rewards Logo' }
+	// ];
 </script>
 
 <HomeHero />
@@ -126,7 +127,9 @@
 			{/each}
 		</div>
 	</div>
-
+	<div class="container m-auto py-32">
+		<Partner />
+	</div>
 	<div class="container mx-auto pt-32">
 		<h1
 			class="w-full mt-12 mb-4 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"

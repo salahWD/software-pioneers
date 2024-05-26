@@ -98,7 +98,7 @@
 					</li>
 				{/each}
 			</ul>
-			<Button cusomClass="!my-1" url="https://google.com" secondary={navFloat} center={false}
+			<Button cusomClass="!my-1" url="/contact" secondary={navFloat} center={false}
 				>contact us</Button
 			>
 		</div>

@@ -48,5 +48,5 @@
 	<h3 class="my-4 text-1xl md:text-3xl leading-tight">
 		Join the many successful companies that trust our expertise
 	</h3>
-	<Button>Contact Us Now</Button>
+	<Button url="/contact">Contact Us Now</Button>
 </section>
