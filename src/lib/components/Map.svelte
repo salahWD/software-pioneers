@@ -7,18 +7,6 @@
 			style: 'top: 15%;left: 35%;'
 		},
 		{
-			name: 'Guadalajara',
-			time: '14:13',
-			point: 'top: 50%; left: -20px',
-			style: 'top: 35%;left: 24%;'
-		},
-		{
-			name: 'Curitiba',
-			time: '16:13',
-			point: 'top: 50%; left: -20px',
-			style: 'top: 49%; left: 37%;'
-		},
-		{
 			name: 'Warsaw',
 			time: '20:13',
 			point: 'top: 50%; left: -20px',

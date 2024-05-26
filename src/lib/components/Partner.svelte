@@ -8,14 +8,16 @@
 	];
 </script>
 
-<div class="text-center mb-8">
-	<h2 class="text-sm font-semibold text-gray-500">
-		THESE COMPANIES BENEFITED FROM OUR SOFTWARE SOLUTIONS
-	</h2>
-</div>
+<div class="container m-auto px-4">
+	<div class="text-center mb-8">
+		<h2 class="text-sm font-semibold text-gray-500">
+			THESE COMPANIES BENEFITED FROM OUR SOFTWARE SOLUTIONS
+		</h2>
+	</div>
 
-<div class="flex justify-center items-center space-x-8">
-	{#each companies as company}
-		<img src={company.logo} alt={company.alt} class="h-16 object-contain" />
-	{/each}
+	<div class="flex justify-center items-center space-x-8 flex-wrap">
+		{#each companies as company}
+			<img src={company.logo} alt={company.alt} class="h-16 object-contain" />
+		{/each}
+	</div>
 </div>

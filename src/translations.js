@@ -13,6 +13,9 @@ export default {
 			'Get Started': 'إبدأ الأن',
 
 			// nav bar component
+			'check our new Ai plugin, Elkateb': 'جرب إضافتنا الجديدة المدعومة بالذكاء الصناعي, الكاتب',
+			'show now': 'أرني الأن',
+			// nav bar component
 			'Contact Us': 'تواصل معنا',
 			'About Us': 'حولنا',
 			'Companies Projects': 'مشاريع الشركة',

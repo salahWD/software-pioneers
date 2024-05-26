@@ -20,7 +20,7 @@
 	};
 </script>
 
-<div class="relative inline-block text-start ms-4">
+<div class="relative inline-block text-start ms-4 me-4 md:me-0">
 	<div>
 		<button
 			on:click={toggleMenu}
