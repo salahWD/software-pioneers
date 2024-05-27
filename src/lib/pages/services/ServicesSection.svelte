@@ -2,10 +2,8 @@
 	import { t } from '$lib/../i18n';
 	let services = [
 		{
-			title: $t('Mobile App Development'),
-			description: $t(
-				'Creating high-performance mobile applications for iOS and Android platforms.'
-			),
+			title: 'Mobile App Development',
+			description: 'Creating high-performance mobile applications for iOS and Android platforms.',
 			icon: `<svg
 							width="32"
 							height="32"
@@ -20,8 +18,8 @@
 						</svg>`
 		},
 		{
-			title: $t('Web Development'),
-			description: $t('Building responsive and scalable websites tailored to your business goals.'),
+			title: 'Web Development',
+			description: 'Building responsive and scalable websites tailored to your business goals.',
 			icon: `<svg
 							width="39"
 							height="22"
@@ -44,10 +42,9 @@
 						</svg>`
 		},
 		{
-			title: $t('Cloud Solutions'),
-			description: $t(
-				'Leveraging cloud technology to enhance your business operations and scalability.'
-			),
+			title: 'Cloud Solutions',
+			description:
+				'Leveraging cloud technology to enhance your business operations and scalability.',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -74,10 +71,9 @@
 						</svg>`
 		},
 		{
-			title: $t('E-commerce Solutions'),
-			description: $t(
-				'Developing robust e-commerce platforms that drive sales and customer engagement.'
-			),
+			title: 'E-commerce Solutions',
+			description:
+				'Developing robust e-commerce platforms that drive sales and customer engagement.',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -104,10 +100,8 @@
 						</svg>`
 		},
 		{
-			title: $t('AI & Machine Learning'),
-			description: $t(
-				'Implementing AI and machine learning to revolutionize your business processes.'
-			),
+			title: 'AI & Machine Learning',
+			description: 'Implementing AI and machine learning to revolutionize your business processes.',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -122,10 +116,8 @@
 						</svg>`
 		},
 		{
-			title: $t('Digital Marketing'),
-			description: $t(
-				'Boosting your online presence with data-driven digital marketing strategies.'
-			),
+			title: 'Digital Marketing',
+			description: 'Boosting your online presence with data-driven digital marketing strategies.',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -181,9 +173,9 @@
 						>
 							{@html service.icon}
 						</div>
-						<h4 class="font-semibold text-xl text-black mb-3">{service.title}</h4>
+						<h4 class="font-semibold text-xl text-black mb-3">{$t(service.title)}</h4>
 						<p class="text-gray-500">
-							{service.description}
+							{$t(service.description)}
 						</p>
 					</div>
 				</div>

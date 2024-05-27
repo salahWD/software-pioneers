@@ -3,28 +3,25 @@
 	import Card from './common/Card.svelte';
 	const cards = [
 		{
-			title: $t('Custom Software Development'),
-			description: $t(
-				'Tailored software solutions designed to meet your unique business needs. From concept to deployment, we ensure your vision is realized.'
-			),
+			title: 'Custom Software Development',
+			description:
+				'Tailored software solutions designed to meet your unique business needs. From concept to deployment, we ensure your vision is realized.',
 			url: '/services',
-			cta: $t('Learn More')
+			cta: 'Learn More'
 		},
 		{
-			title: $t('UI/UX Design'),
-			description: $t(
-				'Creating intuitive and engaging user experiences. Our design team crafts interfaces that are both beautiful and functional.'
-			),
+			title: 'UI/UX Design',
+			description:
+				'Creating intuitive and engaging user experiences. Our design team crafts interfaces that are both beautiful and functional.',
 			url: '/our-work',
-			cta: $t('See Our Work')
+			cta: 'See Our Work'
 		},
 		{
-			title: $t('Technical Support & Maintenance'),
-			description: $t(
-				'Ensuring your software runs smoothly and efficiently with our comprehensive support and maintenance services.'
-			),
+			title: 'Technical Support & Maintenance',
+			description:
+				'Ensuring your software runs smoothly and efficiently with our comprehensive support and maintenance services.',
 			url: '/contact',
-			cta: $t('Get Support')
+			cta: 'Get Support'
 		}
 	];
 </script>
@@ -42,7 +39,14 @@
 
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 			{#each cards as card}
-				<Card customClass="" {...card} />
+				<Card
+					customClass=""
+					{...card}
+					subTitle={$t('service')}
+					title={$t(card.title)}
+					description={$t(card.description)}
+					cta={$t(card.cta)}
+				/>
 			{/each}
 		</div>
 	</div>

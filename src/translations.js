@@ -34,6 +34,7 @@ export default {
 
 			// Cards component
 			'what we do': 'ماذا نفعل',
+			service: 'خدمة',
 			'Custom Software Development': 'تطوير البرمجيات المخصصة',
 			'UI/UX Design': 'تصميم واجهة المستخدم وتجربة المستخدم',
 			'Technical Support & Maintenance': 'الدعم الفني والصيانة',
@@ -59,18 +60,42 @@ export default {
 			'what we offer': 'ما الذي نقدمه',
 			'Explore the wide range of services we offer to help your business thrive in the digital age. Our expertise spans across various domains, ensuring that we can cater to all your technology needs':
 				'استكشف مجموعة واسعة من الخدمات التي نقدمها لمساعدة عملك على الازدهار في العصر الرقمي. خبرتنا تمتد عبر مجالات متنوعة، مما يضمن تلبية جميع احتياجاتك التكنولوجية',
+			'Mobile App Development': 'تطوير تطبيقات الهاتف المحمول',
+			'Creating high-performance mobile applications for iOS and Android platforms.':
+				'إنشاء تطبيقات جوال عالية الأداء لمنصات iOS وAndroid.',
+			'Web Development': 'تطوير الشبكة',
+			'Building responsive and scalable websites tailored to your business goals.':
+				'بناء مواقع ويب سريعة الاستجابة وقابلة للتطوير ومصممة خصيصًا لأهداف عملك.',
+			'Cloud Solutions': 'الحلول السحابية',
+			'Leveraging cloud technology to enhance your business operations and scalability.':
+				'الاستفادة من التكنولوجيا السحابية لتعزيز العمليات التجارية وقابلية التوسع.',
+			'E-commerce Solutions': 'حلول التجارة الإلكترونية',
+			'Developing robust e-commerce platforms that drive sales and customer engagement.':
+				'تطوير منصات تجارة إلكترونية قوية تعمل على زيادة المبيعات وإشراك العملاء.',
+			'AI & Machine Learning': 'الذكاء الاصطناعي والتعلم الآلي',
+			'Implementing AI and machine learning to revolutionize your business processes.':
+				'تنفيذ الذكاء الاصطناعي والتعلم الآلي لإحداث ثورة في عمليات عملك.',
+			'Digital Marketing': 'التسويق الرقمي',
+			'Boosting your online presence with data-driven digital marketing strategies.':
+				'تعزيز تواجدك عبر الإنترنت من خلال استراتيجيات التسويق الرقمي المبنية على البيانات.',
 
 			// about us section (workSection.svelte)
 			'our projects': 'مشاريعنا',
 			"For more than 7 years we've been helping companies build successful software products, 5-stars mobile applications, big data solutions that allow allocating hundreds of dollars, and AI products that drive innovations":
 				'لأكثر من 7 سنوات كنا نساعد الشركات على بناء منتجات برمجية ناجحة، وتطبيقات جوال من فئة الخمس نجوم، وحلول البيانات الكبيرة التي تسمح بتخصيص مئات الدولارات، ومنتجات الذكاء الاصطناعي التي تدفع الابتكار.',
 
-			//
-			'': '',
-			'': '',
-			'': '',
-			'': '',
-			'': '',
+			// call to action component (callToAction.svelte)
+			'Ready to Elevate Your Business?': 'هل أنت مستعد لتطوير مشروعك؟',
+			'Join the many successful companies that trust our expertise':
+				'إنضم الى قائمتنا الطويلة من الشركات اللتي تثق بخبراتنا',
+			'contact us now': 'تواصل معنا الان',
+
+			// Partner (partner.svelte)
+			'THESE COMPANIES BENEFITED FROM OUR SOFTWARE SOLUTIONS':
+				'هذه الشركات تعاملت معنا واستفادت من حلولنا البرمجية',
+
+			// Map Component (map.svelte)
+			'where are we at': 'اين تقع فروعنا',
 			'': '',
 			'': '',
 			'': ''

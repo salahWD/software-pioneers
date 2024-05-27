@@ -50,7 +50,7 @@
 	<div
 		use:clickOutside
 		on:clickOutside={onClickOutside}
-		class="transform transition-all origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
+		class="transform transition-all origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none z-30"
 		class:opacity-100={menuState}
 		class:scale-100={menuState}
 		class:opacity-0={!menuState}

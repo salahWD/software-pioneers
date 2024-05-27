@@ -17,7 +17,7 @@
 <footer class="bg-blue-100 py-12">
 	<div class="container mx-auto text-center">
 		<div class="mb-4">
-			<div class="flex justify-center space-x-4 mb-10">
+			<div class="flex justify-center gap-4 mb-10">
 				{#each socialLinks as link}
 					<a
 						href={link.href}

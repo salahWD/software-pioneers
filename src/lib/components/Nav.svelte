@@ -54,7 +54,7 @@
 	{/if}
 
 	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
-		<div class="pl-4 flex items-center">
+		<div class="ps-4 flex items-center">
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
 				class:text-gray-800={navFloat}
@@ -63,21 +63,22 @@
 				href="#"
 			>
 				<img class="max-w-[80px] inline-block" src="logo-2.png" alt="logo" />
-				{$t('software pioneers')}
+				<span class="hidden sm:inline">{$t('software pioneers')}</span>
 			</a>
 		</div>
 
-		<div bind:this={hambugerEl} class="block lg:hidden pr-4">
+		<div bind:this={hambugerEl} class="flex xl:hidden pe-4 items-center">
 			<button
 				on:click={toggleMenu}
 				id="nav-toggle"
-				class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+				class="flex-inline items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
 			>
 				<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 					<title>Menu</title>
 					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
 				</svg>
 			</button>
+			<LanguageSwitcher />
 		</div>
 		<!-- use:clickOutsideAction={onClickOutsideAction} -->
 		<!-- use:clickOutside on:clickOutside={onClickOutside} -->
@@ -85,10 +86,10 @@
 			use:clickOutside
 			on:clickOutside={onClickOutside}
 			class:hidden={!showMenu}
-			class="hidden rounded-lg w-full flex-grow lg:flex lg:items-center lg:w-auto mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+			class="hidden rounded-lg w-full flex-grow xl:flex xl:items-center xl:w-auto mt-2 xl:mt-0 bg-white xl:bg-transparent text-black p-4 xl:p-0 z-20"
 			id="nav-content"
 		>
-			<ul class="list-reset lg:flex justify-end flex-1 items-center">
+			<ul class="list-reset xl:flex justify-end flex-1 items-center">
 				{#each links as link}
 					<li class="mr-3">
 						<!-- svelte-ignore a11y-invalid-attribute -->
@@ -106,7 +107,9 @@
 				>{$t('Contact Us')}</Button
 			>
 		</div>
-		<LanguageSwitcher />
+		<div class="hidden xl:block pr-4">
+			<LanguageSwitcher />
+		</div>
 	</div>
 	<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
 </nav>

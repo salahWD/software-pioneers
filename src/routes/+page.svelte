@@ -130,14 +130,14 @@
 			{/each}
 		</div>
 	</div>
-	<div class="container m-auto py-32">
+	<div class="container m-auto pt-32">
 		<Partner />
 	</div>
-	<div class="container mx-auto pt-32">
+	<div class="container mx-auto pt-8">
 		<h1
-			class="w-full mt-12 mb-4 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
+			class="w-full mt-12 mb-4 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800 capitalize"
 		>
-			Where Are We At
+			{$t('where are we at')}
 		</h1>
 		<div class="w-full mb-12">
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
