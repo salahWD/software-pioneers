@@ -1,21 +1,14 @@
 <script>
 	import { t } from '$lib/../i18n';
-	export let projects = [
-		{
-			title: 'Successful Migration and System Enhancement for Quantium',
-			client: 'Quantium',
-			imageUrl: 'project-4.png',
-			techs: ['python', 'react'],
-			alt: 'Quantium project image'
-		},
-		{
-			title: 'CRM System Development and Data Migration for Health Tech Company',
-			client: 'Under NDA',
-			imageUrl: 'project-5.png',
-			techs: ['python', 'react'],
-			alt: 'Health Tech project image'
-		}
-	];
+	import ProjectComponent from '$lib/components/ProjectComponent.svelte';
+	import { onMount } from 'svelte';
+
+	let projects = [];
+
+	onMount(async () => {
+		const projectsResponse = await fetch('/projects.json');
+		projects = await projectsResponse.json();
+	});
 </script>
 
 <div class="container mx-auto px-4 py-8">
@@ -34,23 +27,8 @@
 	</p>
 	<div class="flex flex-wrap justify-center">
 		{#each projects as project}
-			<div class="w-full md:w-1/2 p-4">
-				<div class="bg-slate-50 rounded-lg shadow-lg overflow-hidden group">
-					<img
-						src={project.imageUrl}
-						alt={project.alt}
-						class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-					/>
-					<div class="p-8 pb-20">
-						<h3 class="text-xl text-center text-black font-semibold mb-2">{project.title}</h3>
-						<p class="mt-2 text-sm font-bold text-center text-slate-500">{project.client}</p>
-						<div class="flex gap-2 m-auto w-fit mt-8">
-							{#each project.techs as tech}
-								<img class="w-8 h-8" src={`${tech}.png`} alt={tech} />
-							{/each}
-						</div>
-					</div>
-				</div>
+			<div class="w-full md:w-1/2 px-2 mb-4">
+				<ProjectComponent {...project} />
 			</div>
 		{/each}
 	</div>

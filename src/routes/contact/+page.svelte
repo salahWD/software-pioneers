@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/../i18n';
 	import Partner from '$lib/components/Partner.svelte';
 	import Map from '$lib/components/Map.svelte';
 
@@ -38,10 +39,12 @@
 		class="relative w-full max-w-lg p-4 py-8 sm:p-8 bg-white shadow-lg rounded-lg fade-in z-10"
 		on:submit|preventDefault={submitForm}
 	>
-		<h2 class="text-2xl font-semibold text-center text-customBlu-700 mb-6">Contact Us</h2>
+		<h2 class="text-2xl font-semibold text-center text-customBlu-700 mb-6">{$t('Contact Us')}</h2>
 
 		<div class="mb-4">
-			<label class="block text-customBlu-700 text-sm font-bold mb-0 sm:mb-2" for="name">Name</label>
+			<label class="block text-customBlu-700 text-sm font-bold mb-0 sm:mb-2" for="name"
+				>{$t('Full Name')}</label
+			>
 			<input
 				class="shadow appearance-none border rounded w-full py-2 px-3 text-customBlu-700 leading-tight focus:outline-none focus:shadow-outline"
 				id="name"
@@ -53,7 +56,7 @@
 
 		<div class="mb-4">
 			<label class="block text-customBlu-700 text-sm font-bold mb-0 sm:mb-2" for="email"
-				>Email</label
+				>{$t('Email')}</label
 			>
 			<input
 				class="shadow appearance-none border rounded w-full py-2 px-3 text-customBlu-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -66,7 +69,7 @@
 
 		<div class="mb-6">
 			<label class="block text-customBlu-700 text-sm font-bold mb-0 sm:mb-2" for="message"
-				>Message</label
+				>{$t('Message')}</label
 			>
 			<textarea
 				class="shadow appearance-none border rounded w-full py-2 px-3 text-customBlu-700 leading-tight focus:outline-none focus:shadow-outline h-32"
@@ -81,7 +84,7 @@
 				class="bg-customBlu-500 hover:bg-customBlu-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline bounce"
 				type="submit"
 			>
-				Send Message
+				{$t('Send Message')}
 			</button>
 		</div>
 	</form>
@@ -94,9 +97,9 @@
 <div class="bg-white py-10">
 	<div class="container mx-auto">
 		<h1
-			class="w-full mt-12 mb-4 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
+			class="w-full mt-12 mb-4 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800 capitalize"
 		>
-			Where Are We At
+			{$t('where are we at')}
 		</h1>
 		<div class="w-full mb-12">
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
@@ -106,9 +109,9 @@
 </div>
 
 <style>
-	.bg-customSky {
+	/* .bg-customSky {
 		background-color: #cddef2;
-	}
+	} */
 	.text-customBlu-700 {
 		color: #006c93;
 	}

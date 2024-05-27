@@ -91,7 +91,7 @@
 		>
 			<ul class="list-reset xl:flex justify-end flex-1 items-center">
 				{#each links as link}
-					<li class="mr-3">
+					<li class="me-3">
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
 							class="inline-block text-black no-underline py-2 px-2 {$page.url.pathname ===
@@ -107,7 +107,7 @@
 				>{$t('Contact Us')}</Button
 			>
 		</div>
-		<div class="hidden xl:block pr-4">
+		<div class="hidden xl:block max-md:pr-4">
 			<LanguageSwitcher />
 		</div>
 	</div>

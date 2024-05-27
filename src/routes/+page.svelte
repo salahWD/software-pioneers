@@ -1,101 +1,25 @@
 <script lang="ts">
 	import { t } from '$lib/../i18n';
 	import HomeHero from '$lib/components/HomeHero.svelte';
-	import Project from '$lib/components/Project.svelte';
+	// import Project from '$lib/components/Project.svelte';
+	import ProjectComponent from '$lib/components/ProjectComponent.svelte';
 	import SoldierOfFinance from '$lib/pages/about/SoldierOfFinance.svelte';
 	import ServicesSection from '$lib/pages/services/ServicesSection.svelte';
 	import Cards from '$lib/components/Cards.svelte';
 	import Partner from '$lib/components/Partner.svelte';
 	import Map from '$lib/components/Map.svelte';
 	import CallToAction from '$lib/components/CallToAction.svelte';
+	import { onMount } from 'svelte';
 
-	let members = [
-		{
-			name: 'Ahmed',
-			job: 'CTO',
-			desc: 'Leading the tech vision',
-			image: '/member-1.webp',
-			x: 'https://x.com/ahmed_tech',
-			instagram: 'https://www.instagram.com/ahmed_tech/',
-			linkedin: 'https://www.linkedin.com/in/ahmed-tech/'
-		},
-		{
-			name: 'Ihsan',
-			job: 'COO',
-			desc: 'Ensuring operational excellence',
-			image: '/member-2.webp',
-			x: 'https://x.com/fatima_ops',
-			instagram: 'https://www.instagram.com/fatima_ops/',
-			linkedin: 'https://www.linkedin.com/in/fatima-ops/'
-		},
-		{
-			name: 'Hassan',
-			job: 'Lead Developer',
-			desc: 'Building cutting-edge solutions',
-			image: '/member-3.webp',
-			x: 'https://x.com/hassan_dev',
-			instagram: 'https://www.instagram.com/hassan_dev/',
-			linkedin: 'https://www.linkedin.com/in/hassan-dev/'
-		},
-		{
-			name: 'Jamal',
-			job: 'UX Designer',
-			desc: 'Crafting user-centered designs',
-			image: '/member-4.webp',
-			x: 'https://x.com/layla_design',
-			instagram: 'https://www.instagram.com/layla_design/',
-			linkedin: 'https://www.linkedin.com/in/layla-design/'
-		},
-		{
-			name: 'Omar',
-			job: 'Project Manager',
-			desc: 'Driving project success',
-			image: '/member-5.webp',
-			x: 'https://x.com/omar_pm',
-			instagram: 'https://www.instagram.com/omar_pm/',
-			linkedin: 'https://www.linkedin.com/in/omar-pm/'
-		},
-		{
-			name: 'Khalid',
-			job: 'Marketing Specialist',
-			desc: 'Elevating our brand presence',
-			image: '/member-6.webp',
-			x: 'https://x.com/noura_marketing',
-			instagram: 'https://www.instagram.com/noura_marketing/',
-			linkedin: 'https://www.linkedin.com/in/noura-marketing/'
-		},
-		{
-			name: 'Abdalrhman',
-			job: 'Marketing Specialist',
-			desc: 'Elevating our brand presence',
-			image: '/member-7.webp',
-			x: 'https://x.com/noura_marketing',
-			instagram: 'https://www.instagram.com/noura_marketing/',
-			linkedin: 'https://www.linkedin.com/in/noura-marketing/'
-		}
-	];
+	let members = [];
+	let projects = [];
 
-	const projects = [
-		{
-			title: 'Is the Future Here? How Spatial Computing is Revolutionizing Business Operations',
-			date: '5 months ago',
-			image: '/project-1.png',
-			link: '/projects/1'
-		},
-		{
-			title: 'AWS vs GCP 2024: Comparative Guide: CDN, Pricing, Biggest Drawbacks',
-			date: '3 months ago',
-			image: '/project-2.jpg',
-			link: '/projects/2'
-		},
-		{
-			title:
-				'Client-Server Architecture: Advantages and Disadvantages of the Network Computing Model',
-			date: '1 year ago',
-			image: '/project-3.jpg',
-			link: '/projects/3'
-		}
-	];
+	onMount(async () => {
+		const membersResponse = await fetch('/members.json');
+		members = await membersResponse.json();
+		const projectsResponse = await fetch('/projects.json');
+		projects = await projectsResponse.json();
+	});
 
 	// const companies = [
 	// 	{ name: 'Airbnb', logo: '/partner-1.png', alt: 'Airbnb Logo' },
@@ -124,9 +48,9 @@
 		<div class="w-full mb-4">
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
 		</div>
-		<div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
+		<div class="grid grid-cols-1 auto-rows-[1fr] md:grid-cols-3 gap-6 px-6">
 			{#each projects as project}
-				<Project {...project} />
+				<ProjectComponent {...project} />
 			{/each}
 		</div>
 	</div>

@@ -1,8 +1,12 @@
+<script>
+	import { t } from '$lib/../i18n';
+</script>
+
 <!-- src/routes/components/StatsSection.svelte -->
 <section class="py-20 bg-white">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<h2 class="font-manrope text-3xl md:text-4xl text-center text-gray-900 font-bold mb-6 md:mb-14">
-			Our results in numbers
+			{$t('Our results in numbers')}
 		</h2>
 		<div class="flex flex-col gap-5 xl:gap-8 lg:flex-row lg:justify-between">
 			<div
@@ -11,10 +15,11 @@
 				<div class="flex gap-5 h-full">
 					<div class="m-auto font-manrope text-2xl font-bold text-pink-600">210%</div>
 					<div class="flex-1">
-						<h4 class="text-xl text-gray-900 font-semibold mb-2">Company growth</h4>
+						<h4 class="text-xl text-gray-900 font-semibold mb-2">{$t('Company growth')}</h4>
 						<p class="text-xs text-gray-500 leading-5">
-							Our growth rate highlights our dedication to innovation and excellence, achieving new
-							milestones globally.
+							{$t(
+								'Our growth rate highlights our dedication to innovation and excellence, achieving new milestones globally.'
+							)}
 						</p>
 					</div>
 				</div>
@@ -25,10 +30,11 @@
 				<div class="flex gap-5 h-full">
 					<div class="m-auto font-manrope text-2xl font-bold text-pink-600">92+</div>
 					<div class="flex-1">
-						<h4 class="text-xl text-gray-900 font-semibold mb-2">Happy Client</h4>
+						<h4 class="text-xl text-gray-900 font-semibold mb-2">{$t('Happy Client')}</h4>
 						<p class="text-xs text-gray-500 leading-5">
-							Over 92 happy clients reflect our commitment to exceptional service and high-quality
-							solutions.
+							{$t(
+								'Over 92 happy clients reflect our commitment to exceptional service and high-quality solutions.'
+							)}
 						</p>
 					</div>
 				</div>
@@ -39,10 +45,11 @@
 				<div class="flex gap-5 h-full">
 					<div class="m-auto font-manrope text-2xl font-bold text-pink-600">107+</div>
 					<div class="flex-1">
-						<h4 class="text-xl text-gray-900 font-semibold mb-2">Projects Completed</h4>
+						<h4 class="text-xl text-gray-900 font-semibold mb-2">{$t('Projects Completed')}</h4>
 						<p class="text-xs text-gray-500 leading-5">
-							Successfully completing over 700 projects, we consistently deliver excellence and
-							client satisfaction worldwide.
+							{$t(
+								'Successfully completing over 700 projects, we consistently deliver excellence and client satisfaction worldwide.'
+							)}
 						</p>
 					</div>
 				</div>

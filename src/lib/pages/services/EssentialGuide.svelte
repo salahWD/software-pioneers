@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/../i18n';
 	import { onMount } from 'svelte';
 
 	let imageSize = 0.5; // Initial scale
@@ -44,13 +45,15 @@
 			style="scale: {imageSize}"
 		/>
 		<div class="md:w-1/2 text-center md:text-start">
-			<h2 class="text-2xl text-black font-bold mb-4">Custom Software Development</h2>
+			<h2 class="text-2xl text-black font-bold mb-4 capitalize">
+				{$t('custom software development')}
+			</h2>
 			<p class="mb-6 text-gray-600">
-				Our Custom Software Development service tailors solutions to your unique business needs. We
-				use the latest technologies and agile methodologies to create scalable, secure, and
-				high-performance software, ensuring it meets and exceeds your expectations.
+				{$t(
+					'Our Custom Software Development service tailors solutions to your unique business needs. We use the latest technologies and agile methodologies to create scalable, secure, and high-performance software, ensuring it meets and exceeds your expectations.'
+				)}
 			</p>
-			<button class="bg-blue-600 text-white py-2 px-4 rounded">Explore</button>
+			<button class="bg-blue-600 text-white py-2 px-4 rounded">{$t('Explore')}</button>
 		</div>
 	</section>
 </div>

@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/../i18n';
 	import { onMount } from 'svelte';
 
 	let imageSize = 0.5; // Initial scale
@@ -43,12 +44,12 @@
 		class="md:w-1/2 px-28 animate-wiggle"
 	/>
 	<div class="md:w-1/2 text-center md:text-start">
-		<h2 class="text-2xl font-bold mb-4 text-black">Quality Assurance & Testing</h2>
+		<h2 class="text-2xl font-bold mb-4 text-black">{$t('Quality Assurance & Testing')}</h2>
 		<p class="mb-6 text-gray-600">
-			Guarantee the highest quality of your software with our QA & Testing services. We use manual
-			and automated testing to find and fix issues early, ensuring robust, secure, and user-friendly
-			software that meets industry standards.
+			{$t(
+				'Guarantee the highest quality of your software with our QA & Testing services. We use manual and automated testing to find and fix issues early, ensuring robust, secure, and user-friendly software that meets industry standards.'
+			)}
 		</p>
-		<button class="bg-blue-600 text-white py-2 px-4 rounded">Discover more</button>
+		<button class="bg-blue-600 text-white py-2 px-4 rounded">{$t('Discover more')}</button>
 	</div>
 </section>

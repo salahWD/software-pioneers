@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/../i18n.js';
 	const socialLinks = [
 		{ href: 'https://twitter.com', icon: '/twitter.svg', alt: 'Twitter' },
 		{ href: 'https://linkedin.com', icon: '/linkedin.svg', alt: 'LinkedIn' },
@@ -29,14 +30,14 @@
 					</a>
 				{/each}
 			</div>
-			<nav class="flex justify-center font-bold text-sm space-x-8 mb-4 text-gray-700">
+			<nav class="flex justify-center font-bold text-sm gap-8 mb-4 text-gray-700">
 				{#each navLinks as link}
-					<a href={link.href} class="hover:text-gray-900">{link.text}</a>
+					<a href={link.href} class="hover:text-gray-900">{$t(link.text)}</a>
 				{/each}
 			</nav>
 		</div>
 		<p class="text-gray-500">
-			© software pioneers. All rights reserved.
+			{$t('All rights reserved For © software pioneers')}.
 			<!-- <a
 				href="https://github.com/salahWD"
 				target="_blank"

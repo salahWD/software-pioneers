@@ -9,7 +9,7 @@ export default {
 			'Transform Your Vision into Reality with Our Innovative Solutions':
 				'حوّل رؤيتك إلى واقع من خلال حلولنا المبتكرة',
 			'At Software Pioneers, we specialize in turning your ideas into cutting-edge software products.':
-				'نحن في شركة Software Pioneers, متخصصون في تحويل أفكارك إلى منتجات برمجية متطورة',
+				'نحن في شركة رواد البرمجيات, متخصصون في تحويل أفكارك إلى منتجات برمجية متطورة',
 			'Get Started': 'إبدأ الأن',
 
 			// nav bar component
@@ -17,12 +17,14 @@ export default {
 			'show now': 'أرني الأن',
 			// nav bar component
 			'Contact Us': 'تواصل معنا',
+			Contact: 'تواصل معنا',
+			'about us': 'حولنا',
 			'About Us': 'حولنا',
 			'Companies Projects': 'مشاريع الشركة',
 			'Our Work': 'أعمالنا',
 			Services: 'خدماتنا',
 			Home: 'الرئيسية',
-			'software pioneers': 'سوفت وير بايونيرز',
+			'software pioneers': 'رواد البرمجيات',
 
 			// 3 notes in home hero
 			'Build a software product in our own development center':
@@ -96,6 +98,73 @@ export default {
 
 			// Map Component (map.svelte)
 			'where are we at': 'اين تقع فروعنا',
+			'': '',
+
+			// services page hero
+			'We offer a wide array of <span class="text-white">services</span>':
+				'نحن نقدم مجموعة واسعة من <span class="text-white">الخدمات</span>',
+			'Discover the range of expert services we offer to help your business thrive online.':
+				'اكتشف مجموعة الخدمات المتخصصة التي نقدمها لمساعدة عملك على الازدهار عبر الإنترنت.',
+			'custom software development': 'تطوير البرمجيات المخصصة',
+			'Our Custom Software Development service tailors solutions to your unique business needs. We use the latest technologies and agile methodologies to create scalable, secure, and high-performance software, ensuring it meets and exceeds your expectations.':
+				'خدمة تطوير البرمجيات المخصصة لدينا تصمم حلولاً لتلبية احتياجات عملك الفريدة. نستخدم أحدث التقنيات والمنهجيات الرشيقة لإنشاء برامج قابلة للتطوير وآمنة وعالية الأداء، مما يضمن تلبية وتجاوز توقعاتك.',
+			Explore: 'استكشاف',
+			'Agile Project Management': 'إدارة المشاريع الرشيقة',
+			'Leverage Agile Project Management for efficient, on-time, and on-budget software delivery. Our iterative approach and collaborative planning ensure flexibility and alignment with your business goals, fostering transparency and productivity.':
+				'استفد من إدارة المشاريع الرشيقة لتسليم البرمجيات بكفاءة وفي الوقت المحدد وضمن الميزانية. تضمن نهجنا التكراري والتخطيط التعاوني المرونة والتوافق مع أهداف عملك، مما يعزز الشفافية والإنتاجية.',
+			'Start now': 'ابدأ الآن',
+			'Quality Assurance & Testing': 'ضمان الجودة والاختبار',
+			'Guarantee the highest quality of your software with our QA & Testing services. We use manual and automated testing to find and fix issues early, ensuring robust, secure, and user-friendly software that meets industry standards.':
+				'ضمن أعلى مستويات الجودة لبرمجياتك مع خدمات ضمان الجودة والاختبار لدينا. نستخدم الاختبارات اليدوية والآلية لاكتشاف المشكلات وإصلاحها مبكرًا، مما يضمن برامج قوية وآمنة وسهلة الاستخدام تتوافق مع المعايير الصناعية.',
+			'Discover more': 'اكتشف المزيد',
+			'Join <span class="text-black">Software Pioneers</span> Now':
+				'انضم إلى <span class="text-black">رواد البرمجيات</span> الآن',
+			"Join our community of subscribers and receive regular updates delivered straight to your inbox. It's quick, easy, and free":
+				'انضم إلى مجتمع المشتركين لدينا وتلقَ التحديثات المنتظمة مباشرة إلى بريدك الوارد. إنه سريع وسهل ومجاني',
+
+			// subscription form
+			'Enter your full name': 'أدخل إسمك الكامل',
+			'Enter your phone number': 'أدخل رقم هاتفك',
+			'Enter your email': 'أدخل بريدك الإلكتروني',
+			Apply: 'تقديم',
+
+			// contact us page
+			'Full Name': 'الإسم الكامل',
+			Email: 'البريد الإلكتروني',
+			Message: 'الرسالة',
+			'Send Message': 'إرسال الرسالة',
+
+			// our work page
+			'our work and <span class="text-white">experience</span>':
+				'أعمالنا و<span class="text-white">خبراتنا</span>',
+			'We have completed numerous projects and have many satisfied clients.':
+				'لقد أكملنا العديد من المشاريع ولدينا العديد من العملاء السعداء بعملنا',
+
+			// about us page
+			'about our <span class="text-white">company</span>':
+				'حول <span class="text-white">شركتنا</span>',
+			'Our results in numbers': 'نتائجنا بالأرقام',
+			'we are one of the best web development startups in the middle-easet reagion.':
+				'نحن نعتبر أحد أفضل شركات تطوير البرمجيات في منطقة الشرق الأوسط',
+			'Driven by a passion for seamless user experiences, we\'ve meticulously curated <span class="capitalize text-sky-600">software pioneers</span> to empower creators, designers, and developers alike. Our mission is to provide a comprehensive toolkit, enabling you to build intuitive, beautiful interfaces that resonate with users on every interaction.':
+				'مدفوعين بشغف نحو تجارب مستخدم سلسة، قمنا بتنسيق <span class="capitalize text-sky-600">رواد البرمجيات</span> بعناية لتمكين المبدعين والمصممين والمطورين على حد سواء. مهمتنا هي توفير مجموعة أدوات شاملة تمكنك من بناء واجهات جميلة وبديهية تتفاعل مع المستخدمين في كل تفاعل.',
+			'we are creative since 2014': 'نحن مبدعون منذ عام 2014',
+			'<span class="capitalize text-sky-600">software pioneers</span> isn’t just a regular startup; it\'s a story of success. We go beyond aesthetics, prioritizing perfect design, scalability, and usability. Every element, from the tiniest detail to the grandest layout, is meticulously crafted to enhance functionality and elevate user satisfaction.':
+				'<span class="capitalize text-sky-600">رواد البرمجيات</span> ليست مجرد شركة ناشئة عادية؛ إنها قصة نجاح. نحن نتجاوز الجماليات، مع التركيز على التصميم المثالي والقابلية للتوسع وسهولة الاستخدام. كل عنصر، من أصغر التفاصيل إلى أكبر التخطيطات، مصنوع بدقة لتعزيز الوظائف ورفع مستوى رضا المستخدم.',
+			'Projects Completed': 'المشاريع المكتملة',
+			'Successfully completing over 700 projects, we consistently deliver excellence and client satisfaction worldwide.':
+				'بإكمال أكثر من 700 مشروع بنجاح، نقدم باستمرار التميز ورضا العملاء في جميع أنحاء العالم.',
+			'Company growth': 'نمو الشركة',
+			'Our growth rate highlights our dedication to innovation and excellence, achieving new milestones globally.':
+				'معدل نمو شركتنا يبرز التزامنا بالابتكار والتميز، وتحقيق معالم جديدة على مستوى العالم.',
+			'Happy Client': 'عميل سعيد',
+			'Over 92 happy clients reflect our commitment to exceptional service and high-quality solutions.':
+				'أكثر من 92 عميلاً سعيدًا يعكسون التزامنا بالخدمة الاستثنائية والحلول عالية الجودة.',
+
+			// footer
+			'All rights reserved For © software pioneers': 'كل الحقوق محفوظة لرواد البرمجيات ©',
+			'': '',
+			'': '',
 			'': '',
 			'': '',
 			'': ''

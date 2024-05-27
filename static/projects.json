@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Successful Migration and System Enhancement for Quantium",
+		"client": "Quantium",
+		"imageUrl": "project-4.png",
+		"link": "/projects/4",
+		"techs": ["python", "react"],
+		"alt": "Quantium project image"
+	},
+	{
+		"title": "Successful Migration and System Enhancement for Quantium",
+		"client": "Quantium",
+		"imageUrl": "project-4.png",
+		"link": "/projects/4",
+		"techs": ["python", "react"],
+		"alt": "Quantium project image"
+	},
+	{
+		"title": "CRM System Development and Data Migration for Health Tech Company",
+		"client": "Under NDA",
+		"imageUrl": "project-5.png",
+		"link": "/projects/5",
+		"techs": ["python", "react"],
+		"alt": "Health Tech project image"
+	}
+]
