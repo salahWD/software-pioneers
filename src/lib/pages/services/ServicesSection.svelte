@@ -1,9 +1,12 @@
 <script>
 	import { t } from '$lib/../i18n';
+
 	let services = [
 		{
-			title: 'Mobile App Development',
-			description: 'Creating high-performance mobile applications for iOS and Android platforms.',
+			// title: 'Mobile App Development',
+			title: 'High-Performance Mobile Apps',
+			description: 'Cross-platform apps that work flawlessly on Android and iOS.',
+			// description: 'Creating high-performance mobile applications for iOS and Android platforms.',
 			icon: `<svg
 							width="32"
 							height="32"
@@ -18,8 +21,10 @@
 						</svg>`
 		},
 		{
-			title: 'Web Development',
-			description: 'Building responsive and scalable websites tailored to your business goals.',
+			title: 'Cutting-Edge Website Development',
+			// title: 'Web Development',
+			description: 'Modern websites using the latest frameworks for a seamless user experience.',
+			// description: 'Building responsive and scalable websites tailored to your business goals.',
 			icon: `<svg
 							width="39"
 							height="22"
@@ -42,38 +47,20 @@
 						</svg>`
 		},
 		{
-			title: 'Cloud Solutions',
-			description:
-				'Leveraging cloud technology to enhance your business operations and scalability.',
-			icon: `<svg
-							width="35"
-							height="35"
-							viewBox="0 0 35 35"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
-						>
-							<path
-								d="M10.7734 14.3281H3.82813C2.07813 14.3281 0.65625 12.9062 0.65625 11.1562V4.21094C0.65625 2.46094 2.07813 1.03906 3.82813 1.03906H10.7734C12.5234 1.03906 13.9453 2.46094 13.9453 4.21094V11.1562C13.9453 12.9062 12.5234 14.3281 10.7734 14.3281ZM3.82813 2.95312C3.17188 2.95312 2.57031 3.5 2.57031 4.21094V11.1562C2.57031 11.8125 3.11719 12.4141 3.82813 12.4141H10.7734C11.4297 12.4141 12.0313 11.8672 12.0313 11.1562V4.21094C12.0313 3.55469 11.4844 2.95312 10.7734 2.95312H3.82813Z"
-								fill="white"
-							></path>
-							<path
-								d="M31.1719 14.3281H24.2266C22.4766 14.3281 21.0547 12.9062 21.0547 11.1562V4.21094C21.0547 2.46094 22.4766 1.03906 24.2266 1.03906H31.1719C32.9219 1.03906 34.3438 2.46094 34.3438 4.21094V11.1562C34.3438 12.9062 32.9219 14.3281 31.1719 14.3281ZM24.2266 2.95312C23.5703 2.95312 22.9688 3.5 22.9688 4.21094V11.1562C22.9688 11.8125 23.5156 12.4141 24.2266 12.4141H31.1719C31.8281 12.4141 32.4297 11.8672 32.4297 11.1562V4.21094C32.4297 3.55469 31.8828 2.95312 31.1719 2.95312H24.2266Z"
-								fill="white"
-							></path>
-							<path
-								d="M10.7734 33.9609H3.82813C2.07813 33.9609 0.65625 32.5391 0.65625 30.7891V23.8438C0.65625 22.0938 2.07813 20.6719 3.82813 20.6719H10.7734C12.5234 20.6719 13.9453 22.0938 13.9453 23.8438V30.7891C13.9453 32.5391 12.5234 33.9609 10.7734 33.9609ZM3.82813 22.5859C3.17188 22.5859 2.57031 23.1328 2.57031 23.8438V30.7891C2.57031 31.4453 3.11719 32.0469 3.82813 32.0469H10.7734C11.4297 32.0469 12.0313 31.5 12.0313 30.7891V23.8438C12.0313 23.1875 11.4844 22.5859 10.7734 22.5859H3.82813Z"
-								fill="white"
-							></path>
-							<path
-								d="M31.1719 33.9609H24.2266C22.4766 33.9609 21.0547 32.5391 21.0547 30.7891V23.8438C21.0547 22.0938 22.4766 20.6719 24.2266 20.6719H31.1719C32.9219 20.6719 34.3438 22.0938 34.3438 23.8438V30.7891C34.3438 32.5391 32.9219 33.9609 31.1719 33.9609ZM24.2266 22.5859C23.5703 22.5859 22.9688 23.1328 22.9688 23.8438V30.7891C22.9688 31.4453 23.5156 32.0469 24.2266 32.0469H31.1719C31.8281 32.0469 32.4297 31.5 32.4297 30.7891V23.8438C32.4297 23.1875 31.8828 22.5859 31.1719 22.5859H24.2266Z"
-								fill="white"
-							></path>
-						</svg>`
+			// title: 'Cloud Solutions',
+			title: 'Reliable Cloud Storage',
+			description: 'Secure AWS and Azure cloud storage solutions for your data.',
+			// description: 'Leveraging cloud technology to enhance your business operations and scalability.',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cloud-check-fill" viewBox="0 0 16 16">
+					<path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2m2.354 4.854-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
+				</svg>`
 		},
 		{
-			title: 'E-commerce Solutions',
-			description:
-				'Developing robust e-commerce platforms that drive sales and customer engagement.',
+			title: 'Effective Digital Marketing',
+			description: 'Boost your online presence with SEO and ranking optimization.',
+			// title: 'E-commerce Solutions',
+			// description:
+			// 	'Developing robust e-commerce platforms that drive sales and customer engagement.',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -100,8 +87,10 @@
 						</svg>`
 		},
 		{
-			title: 'AI & Machine Learning',
-			description: 'Implementing AI and machine learning to revolutionize your business processes.',
+			title: 'Advanced AI Solutions',
+			description: 'Machine learning, deep learning, and generative AI for business growth.',
+			// title: 'AI & Machine Learning',
+			// description: 'Implementing AI and machine learning to revolutionize your business processes.',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -134,6 +123,48 @@
 								fill="white"
 							></path>
 						</svg>`
+		},
+		{
+			title: 'Distinctive Interface Design',
+			description: 'Unique and user-friendly system interfaces tailored to your needs.',
+			icon: `<svg
+							width="35"
+							height="35"
+							viewBox="0 0 35 35"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M10.7734 14.3281H3.82813C2.07813 14.3281 0.65625 12.9062 0.65625 11.1562V4.21094C0.65625 2.46094 2.07813 1.03906 3.82813 1.03906H10.7734C12.5234 1.03906 13.9453 2.46094 13.9453 4.21094V11.1562C13.9453 12.9062 12.5234 14.3281 10.7734 14.3281ZM3.82813 2.95312C3.17188 2.95312 2.57031 3.5 2.57031 4.21094V11.1562C2.57031 11.8125 3.11719 12.4141 3.82813 12.4141H10.7734C11.4297 12.4141 12.0313 11.8672 12.0313 11.1562V4.21094C12.0313 3.55469 11.4844 2.95312 10.7734 2.95312H3.82813Z"
+								fill="white"
+							></path>
+							<path
+								d="M31.1719 14.3281H24.2266C22.4766 14.3281 21.0547 12.9062 21.0547 11.1562V4.21094C21.0547 2.46094 22.4766 1.03906 24.2266 1.03906H31.1719C32.9219 1.03906 34.3438 2.46094 34.3438 4.21094V11.1562C34.3438 12.9062 32.9219 14.3281 31.1719 14.3281ZM24.2266 2.95312C23.5703 2.95312 22.9688 3.5 22.9688 4.21094V11.1562C22.9688 11.8125 23.5156 12.4141 24.2266 12.4141H31.1719C31.8281 12.4141 32.4297 11.8672 32.4297 11.1562V4.21094C32.4297 3.55469 31.8828 2.95312 31.1719 2.95312H24.2266Z"
+								fill="white"
+							></path>
+							<path
+								d="M10.7734 33.9609H3.82813C2.07813 33.9609 0.65625 32.5391 0.65625 30.7891V23.8438C0.65625 22.0938 2.07813 20.6719 3.82813 20.6719H10.7734C12.5234 20.6719 13.9453 22.0938 13.9453 23.8438V30.7891C13.9453 32.5391 12.5234 33.9609 10.7734 33.9609ZM3.82813 22.5859C3.17188 22.5859 2.57031 23.1328 2.57031 23.8438V30.7891C2.57031 31.4453 3.11719 32.0469 3.82813 32.0469H10.7734C11.4297 32.0469 12.0313 31.5 12.0313 30.7891V23.8438C12.0313 23.1875 11.4844 22.5859 10.7734 22.5859H3.82813Z"
+								fill="white"
+							></path>
+							<path
+								d="M31.1719 33.9609H24.2266C22.4766 33.9609 21.0547 32.5391 21.0547 30.7891V23.8438C21.0547 22.0938 22.4766 20.6719 24.2266 20.6719H31.1719C32.9219 20.6719 34.3438 22.0938 34.3438 23.8438V30.7891C34.3438 32.5391 32.9219 33.9609 31.1719 33.9609ZM24.2266 22.5859C23.5703 22.5859 22.9688 23.1328 22.9688 23.8438V30.7891C22.9688 31.4453 23.5156 32.0469 24.2266 32.0469H31.1719C31.8281 32.0469 32.4297 31.5 32.4297 30.7891V23.8438C32.4297 23.1875 31.8828 22.5859 31.1719 22.5859H24.2266Z"
+								fill="white"
+							></path>
+						</svg>`
+		},
+		{
+			title: 'Creative Graphic Design',
+			description: 'Publications, logos, and visual identities that enhance your brand.',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-palette-fill" viewBox="0 0 16 16">
+					<path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+				</svg>`
+		},
+		{
+			title: 'Comprehensive Systems Analysis',
+			description: 'Competitor, stakeholder analysis, and BRD for strategic planning.',
+			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+					<path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+				</svg>`
 		}
 	];
 </script>
@@ -155,18 +186,16 @@
 						<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
 					</div>
 					<p class="text-base text-gray-500">
-						{$t(
-							'Explore the wide range of services we offer to help your business thrive in the digital age. Our expertise spans across various domains, ensuring that we can cater to all your technology needs'
-						)}.
+						{$t('Explore the wide range of services we offer to help your business thrive')}.
 					</p>
 				</div>
 			</div>
 		</div>
 		<div class="flex flex-wrap lg-mx-4">
 			{#each services as service}
-				<div class="w-full md:w-1/2 lg:w-1/3 px-4">
+				<div class="w-full md:w-1/2 lg:w-1/3 px-4 pb-8">
 					<div
-						class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg transition-shadow duration-300 mb-8 group"
+						class="p-10 md:px-7 xl:px-10 rounded-[20px] bg-white shadow-md hover:shadow-lg transition-shadow duration-300 group h-full"
 					>
 						<div
 							class="w-[70px] h-[70px] flex items-center justify-center bg-pink-500 rounded-2xl mb-8 transition duration-500 group-hover:bg-pink-300"

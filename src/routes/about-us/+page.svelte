@@ -20,10 +20,12 @@
 	<h1
 		class="capitalize max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl md:leading-normal"
 	>
-		{@html $t('about our <span class="text-white">company</span>')}
+		{@html $t('about <span class="text-white">Software Pioneers</span>')}
 	</h1>
-	<p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-600 mb-9">
-		{$t('we are one of the best web development startups in the middle-easet reagion.')}
+	<p
+		class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-600 text-xl mb-9"
+	>
+		{$t('Leading technology company in software development and integrated systems.')}
 	</p>
 </HeroSection>
 

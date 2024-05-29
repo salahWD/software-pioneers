@@ -19,8 +19,8 @@
 					<p
 						class="font-normal md:text-xl leading-6 md:leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto"
 					>
-						{$t(
-							`Driven by a passion for seamless user experiences, we've meticulously curated <span class="capitalize text-sky-600">software pioneers</span> to empower creators, designers, and developers alike. Our mission is to provide a comprehensive toolkit, enabling you to build intuitive, beautiful interfaces that resonate with users on every interaction.`
+						{@html $t(
+							`Driven by a passion for seamless user experiences, we've meticulously curated <span class="capitalize text-sky-600">software pioneers</span> to help business owners to develop and compete strongly in the local and international market through high-performance systems that manage all their businesses in an innovative and smooth manner.`
 						)}
 					</p>
 				</div>

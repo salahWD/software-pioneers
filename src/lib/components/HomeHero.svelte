@@ -1,14 +1,14 @@
 <script>
 	import { t } from '$lib/../i18n';
-	const services = [
+	const questions = [
 		{
-			text: 'Build a software product in our own development center'
+			text: 'Highly efficient integrated systems'
 		},
 		{
-			text: 'Find some extra hands to wrap around your existing workflow'
+			text: 'A team of professional software engineers'
 		},
 		{
-			text: 'Build a team of coding ninjas and architecture gurus on a turnkey basis'
+			text: 'Distinctive technical solutions that serve the growth and development of your business'
 		}
 	];
 </script>
@@ -21,17 +21,19 @@
 			class="flex flex-col w-full md:w-2/5 justify-center text-center md:text-start pb-4 md:pb-0 order-2 md:order-1"
 		>
 			<h1 class="my-2 md:my-4 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-				{$t('Transform Your Vision into Reality with Our Innovative Solutions')}
+				<!-- {$t('Transform Your Vision into Reality with Our Innovative Solutions')} -->
+				{$t('Software pioneers')}
 			</h1>
 			<p class="leading-normal text-1xl md:text-2xl mb-2 md:mb-8 w-full">
 				{$t(
-					'At Software Pioneers, we specialize in turning your ideas into cutting-edge software products.'
+					// 'At Software Pioneers, we specialize in turning your ideas into cutting-edge software products.'
+					' where excellence and creativity create integrated systems that support the development and spread of your business. What are you waiting for ?'
 				)}
 			</p>
 			<button
 				class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-2 md:my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
 			>
-				{$t('Get Started')}
+				{$t('Order your system now')} !!
 			</button>
 		</div>
 		<!--Image Col-->
@@ -43,9 +45,15 @@
 			/>
 		</div>
 		<div class="order-3 pt-6 md:pt-12 pb-20">
+			<h3 class="text-white text-2xl text-center mb-6 overflow-hidden mx-4">
+				<span
+					class="before:h-0.5 before:w-1/2 max-[400px]:before:w-0 before:absolute before:right-full before:bg-white before:top-1/2 after:h-0.5 after:w-1/2 max-[400px]:after:w-0 after:absolute after:left-full after:bg-white after:top-1/2 relative px-4"
+					>{$t('Why Software Pioneers ?')}</span
+				>
+			</h3>
 			<div class="flex flex-col md:flex-row justify-between gap-y-3 flex-wrap">
-				{#each services as service}
-					<div class="px-4 md:m-auto md:basis-1/2 xl:basis-1/3 md:h-auto md:block md:m-0">
+				{#each questions as question}
+					<div class="px-4 md:basis-1/2 xl:basis-1/3 md:h-auto md:block md:m-0">
 						<div class="flex items-center gap-4 p-4 bg-white shadow rounded h-full">
 							<svg
 								class="w-6 max-h-6 text-blue-600 rounded-full border border-black border-1 flex-shrink-0"
@@ -61,7 +69,7 @@
 									d="M5 13l4 4L19 7"
 								></path>
 							</svg>
-							<p class="text-gray-800">{$t(service.text)}</p>
+							<p class="text-gray-800">{$t(question.text)}</p>
 						</div>
 					</div>
 				{/each}

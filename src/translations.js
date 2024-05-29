@@ -47,6 +47,7 @@ export default {
 			'Ensuring your software runs smoothly and efficiently with our comprehensive support and maintenance services.':
 				'ضمان تشغيل البرمجيات بسلاسة وكفاءة من خلال خدمات الدعم والصيانة الشاملة لدينا.',
 			'Learn More': 'تعرف على المزيد',
+			'learn more': 'تعرف على المزيد',
 			'See Our Work': 'شاهد أعمالنا',
 			'Get Support': 'احصل على الدعم',
 
@@ -141,12 +142,12 @@ export default {
 				'لقد أكملنا العديد من المشاريع ولدينا العديد من العملاء السعداء بعملنا',
 
 			// about us page
-			'about our <span class="text-white">company</span>':
-				'حول <span class="text-white">شركتنا</span>',
+			'about <span class="text-white">Software Pioneers</span>':
+				'حول <span class="text-white">رواد البرمجيات</span>',
 			'Our results in numbers': 'نتائجنا بالأرقام',
-			'we are one of the best web development startups in the middle-easet reagion.':
+			'Leading technology company in software development and integrated systems.':
 				'نحن نعتبر أحد أفضل شركات تطوير البرمجيات في منطقة الشرق الأوسط',
-			'Driven by a passion for seamless user experiences, we\'ve meticulously curated <span class="capitalize text-sky-600">software pioneers</span> to empower creators, designers, and developers alike. Our mission is to provide a comprehensive toolkit, enabling you to build intuitive, beautiful interfaces that resonate with users on every interaction.':
+			'Driven by a passion for seamless user experiences, we\'ve meticulously curated <span class="capitalize text-sky-600">software pioneers</span> to help business owners to develop and compete strongly in the local and international market through high-performance systems that manage all their businesses in an innovative and smooth manner.':
 				'مدفوعين بشغف نحو تجارب مستخدم سلسة، قمنا بتنسيق <span class="capitalize text-sky-600">رواد البرمجيات</span> بعناية لتمكين المبدعين والمصممين والمطورين على حد سواء. مهمتنا هي توفير مجموعة أدوات شاملة تمكنك من بناء واجهات جميلة وبديهية تتفاعل مع المستخدمين في كل تفاعل.',
 			'we are creative since 2014': 'نحن مبدعون منذ عام 2014',
 			'<span class="capitalize text-sky-600">software pioneers</span> isn’t just a regular startup; it\'s a story of success. We go beyond aesthetics, prioritizing perfect design, scalability, and usability. Every element, from the tiniest detail to the grandest layout, is meticulously crafted to enhance functionality and elevate user satisfaction.':

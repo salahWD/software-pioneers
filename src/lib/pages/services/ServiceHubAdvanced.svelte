@@ -37,16 +37,16 @@
 	<div class="container mx-auto">
 		<div class="flex flex-col items-center p-8 md:flex-row md:space-x-6">
 			<div class="order-2 md:order-1 md:w-1/2 text-center md:text-start">
-				<h2 class="text-2xl font-bold text-black mb-4">{$t('Agile Project Management')}</h2>
+				<h2 class="text-2xl font-bold text-black mb-4 capitalize">{$t('website development')}</h2>
 				<p class="mb-6 text-gray-600">
 					{$t(
-						'Leverage Agile Project Management for efficient, on-time, and on-budget software delivery. Our iterative approach and collaborative planning ensure flexibility and alignment with your business goals, fostering transparency and productivity.'
+						'Develop professional websites with a smooth nature for users to manage your business efficiently.'
 					)}
 				</p>
 				<button class="bg-blue-600 text-white py-2 px-4 rounded">{$t('Start now')}</button>
 			</div>
 			<img
-				src="image-1.png"
+				src="image-3.png"
 				alt="Service_Chains_Image"
 				style="scale: {imageSize}"
 				class="order-1 md:order-2 md:w-1/2 px-20 animate-wiggle"

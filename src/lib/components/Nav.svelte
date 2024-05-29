@@ -62,7 +62,7 @@
 				class="no-underline hover:no-underline font-bold text-1xl sm:text-2xl lg:text-3xl capitalize"
 				href="#"
 			>
-				<img class="max-w-[80px] inline-block" src="logo-2.png" alt="logo" />
+				<img class="max-w-[80px] inline-block" src="/logo-2.png" alt="logo" />
 				<span class="hidden sm:inline">{$t('software pioneers')}</span>
 			</a>
 		</div>

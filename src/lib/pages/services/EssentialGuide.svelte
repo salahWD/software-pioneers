@@ -46,14 +46,14 @@
 		/>
 		<div class="md:w-1/2 text-center md:text-start">
 			<h2 class="text-2xl text-black font-bold mb-4 capitalize">
-				{$t('custom software development')}
+				{$t('apps development')}
 			</h2>
 			<p class="mb-6 text-gray-600">
 				{$t(
-					'Our Custom Software Development service tailors solutions to your unique business needs. We use the latest technologies and agile methodologies to create scalable, secure, and high-performance software, ensuring it meets and exceeds your expectations.'
+					'Develop highly efficient applications that suit your business needs, It works on Android and iOS systems.'
 				)}
 			</p>
-			<button class="bg-blue-600 text-white py-2 px-4 rounded">{$t('Explore')}</button>
+			<a href="/contact" class="bg-blue-600 text-white py-2 px-4 rounded">{$t('Explore')}</a>
 		</div>
 	</section>
 </div>
