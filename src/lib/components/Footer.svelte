@@ -1,10 +1,22 @@
 <script>
 	import { t } from '$lib/../i18n.js';
 	const socialLinks = [
-		{ href: 'https://twitter.com', icon: '/twitter.svg', alt: 'Twitter' },
-		{ href: 'https://linkedin.com', icon: '/linkedin.svg', alt: 'LinkedIn' },
-		{ href: 'https://facebook.com', icon: '/facebook.svg', alt: 'Facebook' },
-		{ href: 'https://instagram.com', icon: '/instagram.svg', alt: 'Instagram' }
+		{ href: 'https://x.com/softwarepioner?s=21', icon: '/twitter.svg', alt: 'Twitter' },
+		{
+			href: 'https://www.linkedin.com/in/software-pioneers-8b2190268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+			icon: '/linkedin.svg',
+			alt: 'LinkedIn'
+		},
+		{
+			href: 'https://www.facebook.com/SoftwarePioneers?mibextid=LQQJ4d',
+			icon: '/facebook.svg',
+			alt: 'Facebook'
+		},
+		{
+			href: 'https://www.instagram.com/software.pioneers?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr',
+			icon: '/instagram.svg',
+			alt: 'Instagram'
+		}
 	];
 
 	const navLinks = [

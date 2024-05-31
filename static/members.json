@@ -3,18 +3,20 @@
 		"name": "Adham Khaled Saed",
 		"job": "CEO",
 		"desc": "Leading the tech vision",
-		"image": "/member-1.webp",
-		"x": "https://x.com/ahmed_tech",
-		"instagram": "https://www.instagram.com/ahmed_tech/",
-		"linkedin": "https://www.linkedin.com/in/ahmed-tech/"
+		"image": "/member-1.png",
+		"x": "",
+		"instagram": "https://www.instagram.com/eng.adhamsaed?igsh=MWw5bTE2aWVwMnJlYQ==",
+		"facebook": "https://www.facebook.com/profile.php?id=61559702252075&mibextid=JRoKGi",
+		"linkedin": "https://www.linkedin.com/in/eng-adham-saed-839425236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 	},
 	{
 		"name": "Mohammed al Tawel",
 		"job": "COO",
 		"desc": "Ensuring operational excellence",
-		"image": "/member-2.webp",
-		"x": "https://x.com/fatima_ops",
-		"instagram": "https://www.instagram.com/fatima_ops/",
-		"linkedin": "https://www.linkedin.com/in/fatima-ops/"
+		"image": "/member-2.png",
+		"x": "https://twitter.com/mhmdaltaweil",
+		"instagram": "https://www.instagram.com/mohammed_eltawil?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
+		"facebook": "https://www.facebook.com/profile.php?id=100093701212205&mibextid=LQQJ4d",
+		"linkedin": "https://www.linkedin.com/in/mohameltawil?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
 	}
 ]
