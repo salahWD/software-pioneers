@@ -14,7 +14,7 @@
 </script>
 
 <!--Hero-->
-<div class="pt-28 md:pt-32">
+<div class="pt-20 md:pt-20">
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row">
 		<!--Left Col-->
 		<div
@@ -30,11 +30,12 @@
 					' where excellence and creativity create integrated systems that support the development and spread of your business. What are you waiting for ?'
 				)}
 			</p>
-			<button
-				class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-2 md:my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+			<a
+				href="/contact"
+				class="text-center mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-2 md:my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
 			>
-				{$t('Order your system now')} !!
-			</button>
+				{$t('Start now')} !
+			</a>
 		</div>
 		<!--Image Col-->
 		<div class="w-full md:w-3/5 py-0 mb-4 md:mb-0 md:py-6 lg:py-12 text-center order-1 md:order-2">

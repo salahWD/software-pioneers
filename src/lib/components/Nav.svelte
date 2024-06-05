@@ -5,10 +5,7 @@
 	import { t } from '$lib/../i18n';
 
 	// you can just turn this flag of (dynamicly or staticly) to remove the ad bar
-	export let noAd = true;
 	export let links = [];
-
-	import AdBar from './AdBar.svelte';
 
 	import { clickOutside, clickOutsideAction } from '$lib/actions/clickOutside.d.ts';
 	import Button from './common/Button.svelte';
@@ -49,10 +46,6 @@
   ${navFloat && 'bg-white'}
   `}
 >
-	{#if noAd}
-		<AdBar />
-	{/if}
-
 	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 		<div class="ps-4 flex items-center">
 			<!-- svelte-ignore a11y-invalid-attribute -->

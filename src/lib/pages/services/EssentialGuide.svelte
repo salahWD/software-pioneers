@@ -42,7 +42,7 @@
 			src="image-2.png"
 			alt="Guide_Image"
 			class="md:w-1/2 px-20 animate-wiggle dynamic-image"
-			style="scale: {imageSize}"
+			style="scale: {imageSize};filter: drop-shadow(0px 0px 6px #04aeff8c);"
 		/>
 		<div class="md:w-1/2 text-center md:text-start">
 			<h2 class="text-2xl text-black font-bold mb-4 capitalize">

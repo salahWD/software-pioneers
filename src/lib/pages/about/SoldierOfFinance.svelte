@@ -32,15 +32,15 @@
 			<h1
 				class="w-full my-2 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800"
 			>
-				{$t('Meet Our Team Members')}
+				{$t('Meet The Company Representatives')}
 			</h1>
 			<div class="w-full mb-4">
 				<div class="h-1 mx-auto gradient w-80 opacity-25 my-0 py-0 rounded-t" />
 			</div>
 			<p class="text-lg text-gray-500 text-center">
 				{$t(
-					'We have one of the best teams and all of our members are professionals at their fields, know more about us'
-				)}
+					'We have one of the best teams and all of our members are professionals at their fields'
+				)}.
 			</p>
 		</div>
 

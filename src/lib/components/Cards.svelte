@@ -10,9 +10,9 @@
 			cta: 'Learn More'
 		},
 		{
-			title: 'UI/UX Design',
+			title: 'Creative designs and high-performance systems.',
 			description:
-				'Creating intuitive and engaging user experiences. Our design team crafts interfaces that are both beautiful and functional.',
+				'Designing integrated interfaces for systems with a distinctive and innovative nature, in addition to programming systems of various types to serve your business and its growth.',
 			url: '/our-work',
 			cta: 'See Our Work'
 		},

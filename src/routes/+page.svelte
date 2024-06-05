@@ -1,14 +1,16 @@
 <script lang="ts">
 	import { t } from '$lib/../i18n';
 	import HomeHero from '$lib/components/HomeHero.svelte';
-	// import Project from '$lib/components/Project.svelte';
 	import ProjectComponent from '$lib/components/ProjectComponent.svelte';
 	import SoldierOfFinance from '$lib/pages/about/SoldierOfFinance.svelte';
 	import ServicesSection from '$lib/pages/services/ServicesSection.svelte';
+	import TheWriterAd from '$lib/components/TheWriterAd.svelte';
 	import Cards from '$lib/components/Cards.svelte';
 	import Partner from '$lib/components/Partner.svelte';
 	import Map from '$lib/components/Map.svelte';
 	import CallToAction from '$lib/components/CallToAction.svelte';
+	import JoinUsForm from '$lib/components/JoinUsForm.svelte';
+	import SubscribeForm from '$lib/pages/about/SubscribeForm.svelte';
 	import { onMount } from 'svelte';
 
 	let members = [];
@@ -32,11 +34,17 @@
 
 <HomeHero />
 
+<!-- <JoinUsForm /> -->
+
 <Cards />
 
 <SoldierOfFinance {members} />
 
 <ServicesSection />
+
+<div class="bg-white py-2">
+	<TheWriterAd />
+</div>
 
 <div class="bg-white py-10">
 	<div class="container m-auto">
@@ -50,14 +58,21 @@
 		</div>
 		<div class="grid grid-cols-1 auto-rows-[1fr] md:grid-cols-3 gap-6 px-6">
 			{#each projects as project}
-				<ProjectComponent {...project} />
+				<ProjectComponent
+					title={project.title}
+					imageUrl={project.imageUrl}
+					alt={project.alt}
+					link={project.link}
+					client={project.client}
+					techs={project.techs}
+				/>
 			{/each}
 		</div>
 	</div>
 	<div class="container m-auto pt-32">
 		<Partner />
 	</div>
-	<div class="container mx-auto pt-8">
+	<div class="container mx-auto pt-20">
 		<h1
 			class="w-full mt-12 mb-4 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800 capitalize"
 		>
@@ -71,3 +86,7 @@
 </div>
 
 <CallToAction />
+
+<div class="bg-white py-10 pb-5">
+	<SubscribeForm />
+</div>

@@ -53,8 +53,8 @@ export default {
 
 			// team members section (soldierOfFinance.svelte)
 			'Meet Our Team Members': 'تعرف على أعضاء فريقنا',
-			'We have one of the best teams and all of our members are professionals at their fields, know more about us':
-				'لدينا أحد أفضل الفرق وجميع أعضائنا محترفون في مجالاتهم، تعرف على المزيد عنا',
+			'We have one of the best teams and all of our members are professionals at their fields':
+				'لدينا أحد أفضل الفرق وجميع أعضائنا محترفون في مجالاتهم',
 			'Be Warned': 'تحذير',
 			'There is no members to show': 'لا يوجد أعضاء لعرضهم',
 

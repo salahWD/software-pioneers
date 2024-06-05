@@ -9,6 +9,28 @@
 		const projectsResponse = await fetch('/projects.json');
 		projects = await projectsResponse.json();
 	});
+
+	// Function to get the current date
+	function now() {
+		return new Date();
+	}
+
+	// Function to get the date exactly 5 years before the current date
+	function fiveYearsBeforeNow() {
+		const date = new Date();
+		date.setFullYear(date.getFullYear() - 5);
+		return date;
+	}
+
+	// Function to calculate the difference in years between two dates
+	function getYearsDifference(date1, date2) {
+		const diffTime = Math.abs(date2 - date1);
+		const diffYears = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365.25));
+		return diffYears;
+	}
+
+	// Calculate the years of experience
+	const yearsOfExperience = getYearsDifference(fiveYearsBeforeNow(), now());
 </script>
 
 <div class="container mx-auto px-4 py-8">
@@ -22,7 +44,8 @@
 	</div>
 	<p class="md:text-lg text-gray-500 text-center max-w-3xl m-auto mb-8">
 		{$t(
-			"For more than 7 years we've been helping companies build successful software products, 5-stars mobile applications, big data solutions that allow allocating hundreds of dollars, and AI products that drive innovations"
+			"For more than ::years:: we've been helping companies build successful software products, 5-stars mobile applications, big data solutions that allow allocating hundreds of dollars, and AI products that drive innovations",
+			[yearsOfExperience]
 		)}.
 	</p>
 	<div class="flex flex-wrap justify-center">

@@ -9,7 +9,7 @@
 		{ title: 'Home', href: '/' },
 		{ title: 'Services', href: 'services' },
 		{ title: 'Our Work', href: 'our-work' },
-		{ title: 'Companies Projects', href: 'https://Elkateb.shawerr.com' },
+		{ title: 'Shop', href: 'shop' },
 		// { title: 'projects', href: 'projects' },
 		{ title: 'About Us', href: 'about-us' }
 	];
