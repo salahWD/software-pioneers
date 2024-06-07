@@ -14,7 +14,7 @@
 	>
 		{@html $t('We offer a wide array of <span class="text-white">services</span>')}
 	</h1>
-	<p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-600 mb-9">
+	<p class="max-w-md mx-auto text-center font-normal leading-7 text-gray-100 text-xl mb-9">
 		{$t('Discover the range of expert services we offer to help your business thrive online.')}
 	</p>
 </HeroSection>

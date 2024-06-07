@@ -11,7 +11,7 @@
 	>
 		{@html $t('our work and <span class="text-white">experience</span>')}
 	</h1>
-	<p class="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-600 mb-9">
+	<p class="max-w-md mx-auto text-center font-normal leading-7 text-gray-100 text-xl mb-9">
 		{$t('We have completed numerous projects and have many satisfied clients.')}
 	</p>
 </HeroSection>

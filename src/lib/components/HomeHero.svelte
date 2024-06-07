@@ -40,6 +40,7 @@
 		<!--Image Col-->
 		<div class="w-full md:w-3/5 py-0 mb-4 md:mb-0 md:py-6 lg:py-12 text-center order-1 md:order-2">
 			<img
+				style="filter:hue-rotate(-45deg)"
 				class="mx-auto md:mx-0 py-0 w-1/2 md:w-4/5 md:ms-auto z-50 px-6 md:p-0"
 				src="hero.png"
 				alt="hero"

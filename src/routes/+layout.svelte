@@ -7,10 +7,9 @@
 
 	const links = [
 		{ title: 'Home', href: '/' },
-		{ title: 'Services', href: 'services' },
-		{ title: 'Our Work', href: 'our-work' },
-		{ title: 'Shop', href: 'shop' },
-		// { title: 'projects', href: 'projects' },
+		{ title: 'Services', href: '/services' },
+		{ title: 'Our Work', href: '/our-work' },
+		{ title: 'Shop', href: '/shop' },
 		{ title: 'About Us', href: 'about-us' }
 	];
 </script>

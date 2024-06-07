@@ -22,7 +22,7 @@
 	>
 		{@html $t('about <span class="text-white">Software Pioneers</span>')}
 	</h1>
-	<p class="max-w-sm mx-auto text-center font-normal leading-7 text-gray-600 text-xl mb-9">
+	<p class="max-w-md mx-auto text-center font-normal leading-7 text-gray-100 text-xl mb-9">
 		{$t('Leading technology company in software development and integrated systems.')}
 	</p>
 </HeroSection>
