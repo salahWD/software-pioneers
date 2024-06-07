@@ -81,7 +81,9 @@
 		<div class="w-full mb-12">
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
 		</div>
-		<Map />
+		<div class="md:-mb-10">
+			<Map />
+		</div>
 	</div>
 </div>
 

@@ -5,44 +5,41 @@ export default {
 		'homepage.welcome': 'Hola, <strong>{{name}}</strong>, ¿cómo estás?',
 		'homepage.time': 'La hora actual es',
 		directTranslation: {
+			'Software pioneers': 'رواد البرمجيات',
 			// home hero component
 			'Transform Your Vision into Reality with Our Innovative Solutions':
 				'حوّل رؤيتك إلى واقع من خلال حلولنا المبتكرة',
-			'At Software Pioneers, we specialize in turning your ideas into cutting-edge software products.':
-				'نحن في شركة رواد البرمجيات, متخصصون في تحويل أفكارك إلى منتجات برمجية متطورة',
+			'where excellence and creativity create integrated systems that support the development and spread of your business. What are you waiting for ?':
+				'حيث ينشئ التميز والإبداع أنظمة متكاملة لتطوير ونشر مشروعك, ماذا تنتظر ؟',
 			'Get Started': 'إبدأ الأن',
 
-			// nav bar component
-			'check our new Ai plugin, Elkateb': 'جرب إضافتنا الجديدة المدعومة بالذكاء الصناعي, الكاتب',
-			'show now': 'أرني الأن',
 			// nav bar component
 			'Contact Us': 'تواصل معنا',
 			Contact: 'تواصل معنا',
 			'about us': 'حولنا',
 			'About Us': 'حولنا',
-			'Companies Projects': 'مشاريع الشركة',
+			Shop: 'المتجر',
 			'Our Work': 'أعمالنا',
 			Services: 'خدماتنا',
 			Home: 'الرئيسية',
 			'software pioneers': 'رواد البرمجيات',
 
 			// 3 notes in home hero
-			'Build a software product in our own development center':
-				'قم ببناء منتج برمجي في مركز التطوير الخاص بنا',
-			'Find some extra hands to wrap around your existing workflow':
-				'ابحث عن بعض الأيدي الإضافية لتلتف حول سير عملك الحالي',
-			'Build a team of coding ninjas and architecture gurus on a turnkey basis':
-				'قم ببناء فريق من خبراء البرمجة ومعلمي الهندسة المعمارية على أساس جاهز',
+			'Why Software Pioneers ?': 'لماذا رواد البرمجيات ؟',
+			'Distinctive technical solutions that serve the growth and development of your business':
+				'الحلول الفنية المميزة التي تخدم نمو عملك وتطويره',
+			'A team of professional software engineers': 'فريق من مهندسي البرمجيات المحترفين',
+			'Highly efficient integrated systems': 'أنظمة متكاملة عالية الكفاءة',
 
 			// Cards component
 			'what we do': 'ماذا نفعل',
 			service: 'خدمة',
 			'Custom Software Development': 'تطوير البرمجيات المخصصة',
-			'UI/UX Design': 'تصميم واجهة المستخدم وتجربة المستخدم',
+			'Creative designs and high-performance systems.': 'التصميمات الإبداعية وأنظمة ذات أداء عالي.',
 			'Technical Support & Maintenance': 'الدعم الفني والصيانة',
 			'Tailored software solutions designed to meet your unique business needs. From concept to deployment, we ensure your vision is realized.':
 				'حلول برمجية مخصصة مصممة لتلبية احتياجات عملك الفريدة. من الفكرة إلى النشر، نضمن تحقيق رؤيتك.',
-			'Creating intuitive and engaging user experiences. Our design team crafts interfaces that are both beautiful and functional.':
+			'Designing integrated interfaces for systems with a distinctive and innovative nature, in addition to programming systems of various types to serve your business and its growth.':
 				'إنشاء تجارب مستخدم بديهية وجذابة. فريق التصميم لدينا يصمم واجهات جميلة وعملية.',
 			'Ensuring your software runs smoothly and efficiently with our comprehensive support and maintenance services.':
 				'ضمان تشغيل البرمجيات بسلاسة وكفاءة من خلال خدمات الدعم والصيانة الشاملة لدينا.',
@@ -52,7 +49,7 @@ export default {
 			'Get Support': 'احصل على الدعم',
 
 			// team members section (soldierOfFinance.svelte)
-			'Meet Our Team Members': 'تعرف على أعضاء فريقنا',
+			'Meet The Company Representatives': 'تعرف على ممثلين الشركة',
 			'We have one of the best teams and all of our members are professionals at their fields':
 				'لدينا أحد أفضل الفرق وجميع أعضائنا محترفون في مجالاتهم',
 			'Be Warned': 'تحذير',
@@ -61,31 +58,40 @@ export default {
 			// our services (servicesSection.svelte)
 			'our services': 'خدماتنا',
 			'what we offer': 'ما الذي نقدمه',
-			'Explore the wide range of services we offer to help your business thrive in the digital age. Our expertise spans across various domains, ensuring that we can cater to all your technology needs':
-				'استكشف مجموعة واسعة من الخدمات التي نقدمها لمساعدة عملك على الازدهار في العصر الرقمي. خبرتنا تمتد عبر مجالات متنوعة، مما يضمن تلبية جميع احتياجاتك التكنولوجية',
-			'Mobile App Development': 'تطوير تطبيقات الهاتف المحمول',
-			'Creating high-performance mobile applications for iOS and Android platforms.':
-				'إنشاء تطبيقات جوال عالية الأداء لمنصات iOS وAndroid.',
-			'Web Development': 'تطوير الشبكة',
-			'Building responsive and scalable websites tailored to your business goals.':
-				'بناء مواقع ويب سريعة الاستجابة وقابلة للتطوير ومصممة خصيصًا لأهداف عملك.',
-			'Cloud Solutions': 'الحلول السحابية',
-			'Leveraging cloud technology to enhance your business operations and scalability.':
-				'الاستفادة من التكنولوجيا السحابية لتعزيز العمليات التجارية وقابلية التوسع.',
-			'E-commerce Solutions': 'حلول التجارة الإلكترونية',
-			'Developing robust e-commerce platforms that drive sales and customer engagement.':
-				'تطوير منصات تجارة إلكترونية قوية تعمل على زيادة المبيعات وإشراك العملاء.',
-			'AI & Machine Learning': 'الذكاء الاصطناعي والتعلم الآلي',
-			'Implementing AI and machine learning to revolutionize your business processes.':
-				'تنفيذ الذكاء الاصطناعي والتعلم الآلي لإحداث ثورة في عمليات عملك.',
+			'Explore the wide range of services we offer to help your business thrive':
+				'استكشف مجموعة واسعة من الخدمات التي نقدمها لمساعدة عملك على الازدهار',
+			'High-Performance Mobile Apps': 'تطوير تطبيقات الهاتف المحمول',
+			'Cross-platform apps that work flawlessly on Android and iOS':
+				'تطبيقات متعددة المنصات تعمل بكل سلاسة على Android و iOS',
+			'Cutting-Edge Website Development': 'تطوير موقع الويب المتطور',
+			'Modern websites using the latest frameworks for a seamless user experience':
+				'مواقع الويب الحديثة التي تستخدم أحدث الأطر لتجربة مستخدم سلسة',
+			'Reliable Cloud Storage': 'تخزين سحابة موثوق',
+			'Secure AWS and Azure cloud storage solutions for your data':
+				'تأمين حلول التخزين السحابية AWS و Azure لبياناتك',
+			'Effective Digital Marketing': 'التسويق الرقمي الفعال',
+			'Boost your online presence with SEO and ranking optimization':
+				'عزز وجودك عبر الإنترنت مع تحسين محركات البحث والتصنيف التحسين',
+			'Advanced AI Solutions': 'حلول الذكاء الاصطناعي المتقدمة',
+			'Machine learning, deep learning, and generative AI for business growth':
+				'التعلم الآلي ، والتعلم العميق ، و AI التوليدي لنمو الأعمال',
+			'Distinctive Interface Design': 'تصميم واجهة مميزة',
+			'Unique and user-friendly system interfaces tailored to your needs':
+				'واجهات نظام فريدة وسهلة الاستخدام مصممة حسب احتياجاتك',
+			'Creative Graphic Design': 'تصميم الرسوم الإبداعية',
+			'Publications, logos, and visual identities that enhance your brand':
+				'المنشورات والشعارات والهويات المرئية التي تعزز علامتك التجارية',
+			'Comprehensive Systems Analysis': 'تحليل النظم الشامل',
+			'Competitor, stakeholder analysis, and BRD for strategic planning':
+				'منافس ، تحليل أصحاب المصلحة ، و BRD للتخطيط الاستراتيجي',
 			'Digital Marketing': 'التسويق الرقمي',
-			'Boosting your online presence with data-driven digital marketing strategies.':
-				'تعزيز تواجدك عبر الإنترنت من خلال استراتيجيات التسويق الرقمي المبنية على البيانات.',
+			'Boosting your online presence with data-driven digital marketing strategies':
+				'تعزيز تواجدك عبر الإنترنت من خلال استراتيجيات التسويق الرقمي المبنية على البيانات',
 
 			// about us section (workSection.svelte)
 			'our projects': 'مشاريعنا',
-			"For more than 7 years we've been helping companies build successful software products, 5-stars mobile applications, big data solutions that allow allocating hundreds of dollars, and AI products that drive innovations":
-				'لأكثر من 7 سنوات كنا نساعد الشركات على بناء منتجات برمجية ناجحة، وتطبيقات جوال من فئة الخمس نجوم، وحلول البيانات الكبيرة التي تسمح بتخصيص مئات الدولارات، ومنتجات الذكاء الاصطناعي التي تدفع الابتكار.',
+			"For more than ::years:: we've been helping companies build successful software products, 5-stars mobile applications, big data solutions that allow allocating hundreds of dollars, and AI products that drive innovations":
+				'لأكثر من ::years:: سنوات كنا نساعد الشركات على بناء منتجات برمجية ناجحة، وتطبيقات جوال من فئة الخمس نجوم، وحلول البيانات الكبيرة التي تسمح بتخصيص مئات الدولارات، ومنتجات الذكاء الاصطناعي التي تدفع الابتكار',
 
 			// call to action component (callToAction.svelte)
 			'Ready to Elevate Your Business?': 'هل أنت مستعد لتطوير مشروعك؟',
@@ -99,24 +105,25 @@ export default {
 
 			// Map Component (map.svelte)
 			'where are we at': 'اين تقع فروعنا',
-			'': '',
+			Palestine: 'فلسطين',
+			UAE: 'الإمارات',
 
 			// services page hero
 			'We offer a wide array of <span class="text-white">services</span>':
 				'نحن نقدم مجموعة واسعة من <span class="text-white">الخدمات</span>',
 			'Discover the range of expert services we offer to help your business thrive online.':
 				'اكتشف مجموعة الخدمات المتخصصة التي نقدمها لمساعدة عملك على الازدهار عبر الإنترنت.',
-			'custom software development': 'تطوير البرمجيات المخصصة',
-			'Our Custom Software Development service tailors solutions to your unique business needs. We use the latest technologies and agile methodologies to create scalable, secure, and high-performance software, ensuring it meets and exceeds your expectations.':
-				'خدمة تطوير البرمجيات المخصصة لدينا تصمم حلولاً لتلبية احتياجات عملك الفريدة. نستخدم أحدث التقنيات والمنهجيات الرشيقة لإنشاء برامج قابلة للتطوير وآمنة وعالية الأداء، مما يضمن تلبية وتجاوز توقعاتك.',
+			'apps development': 'تطوير التطبيقات',
+			'Develop highly efficient applications that suit your business needs, It works on Android and iOS systems.':
+				'تطوير تطبيقات عالية الكفاءة تناسب احتياجات عملك ، وهي تعمل على أنظمة Android و iOS.',
 			Explore: 'استكشاف',
-			'Agile Project Management': 'إدارة المشاريع الرشيقة',
-			'Leverage Agile Project Management for efficient, on-time, and on-budget software delivery. Our iterative approach and collaborative planning ensure flexibility and alignment with your business goals, fostering transparency and productivity.':
-				'استفد من إدارة المشاريع الرشيقة لتسليم البرمجيات بكفاءة وفي الوقت المحدد وضمن الميزانية. تضمن نهجنا التكراري والتخطيط التعاوني المرونة والتوافق مع أهداف عملك، مما يعزز الشفافية والإنتاجية.',
+			'website development': 'إدارة المشاريع الرشيقة',
+			'Develop professional websites with a smooth nature for users to manage your business efficiently.':
+				'تطوير مواقع الويب المهنية ذات الطبيعة السلسة للمستخدمين لإدارة عملك بكفاءة.',
 			'Start now': 'ابدأ الآن',
-			'Quality Assurance & Testing': 'ضمان الجودة والاختبار',
-			'Guarantee the highest quality of your software with our QA & Testing services. We use manual and automated testing to find and fix issues early, ensuring robust, secure, and user-friendly software that meets industry standards.':
-				'ضمن أعلى مستويات الجودة لبرمجياتك مع خدمات ضمان الجودة والاختبار لدينا. نستخدم الاختبارات اليدوية والآلية لاكتشاف المشكلات وإصلاحها مبكرًا، مما يضمن برامج قوية وآمنة وسهلة الاستخدام تتوافق مع المعايير الصناعية.',
+			'graphic design': 'تصميم الجرافيك',
+			'Get a distinctive design for your brand Including design Posts, logos, visual identities and prints':
+				'احصل على تصميم مميز لعلامتك التجارية بما في ذلك منشورات التصميم والشعارات والهويات المرئية والمطبوعات',
 			'Discover more': 'اكتشف المزيد',
 			'Join <span class="text-black">Software Pioneers</span> Now':
 				'انضم إلى <span class="text-black">رواد البرمجيات</span> الآن',
@@ -149,9 +156,9 @@ export default {
 				'نحن نعتبر أحد أفضل شركات تطوير البرمجيات في منطقة الشرق الأوسط',
 			'Driven by a passion for seamless user experiences, we\'ve meticulously curated <span class="capitalize text-sky-600">software pioneers</span> to help business owners to develop and compete strongly in the local and international market through high-performance systems that manage all their businesses in an innovative and smooth manner.':
 				'مدفوعين بشغف نحو تجارب مستخدم سلسة، قمنا بتنسيق <span class="capitalize text-sky-600">رواد البرمجيات</span> بعناية لتمكين المبدعين والمصممين والمطورين على حد سواء. مهمتنا هي توفير مجموعة أدوات شاملة تمكنك من بناء واجهات جميلة وبديهية تتفاعل مع المستخدمين في كل تفاعل.',
-			'we are creative since 2014': 'نحن مبدعون منذ عام 2014',
+			'We Are A True Story Of Success': 'نحن قصة نجاح حقيقية',
 			'<span class="capitalize text-sky-600">software pioneers</span> isn’t just a regular startup; it\'s a story of success. We go beyond aesthetics, prioritizing perfect design, scalability, and usability. Every element, from the tiniest detail to the grandest layout, is meticulously crafted to enhance functionality and elevate user satisfaction.':
-				'<span class="capitalize text-sky-600">رواد البرمجيات</span> ليست مجرد شركة ناشئة عادية؛ إنها قصة نجاح. نحن نتجاوز الجماليات، مع التركيز على التصميم المثالي والقابلية للتوسع وسهولة الاستخدام. كل عنصر، من أصغر التفاصيل إلى أكبر التخطيطات، مصنوع بدقة لتعزيز الوظائف ورفع مستوى رضا المستخدم.',
+				'<span class="capitalize text-sky-600">رواد البرمجيات</span> ليست مجرد شركة ناشئة عادية, إنها قصة نجاح. نحن نتجاوز الجماليات، مع التركيز على التصميم المثالي والقابلية للتوسع وسهولة الاستخدام. كل عنصر، من أصغر التفاصيل إلى أكبر التخطيطات، مصنوع بدقة لتعزيز الوظائف ورفع مستوى رضا المستخدم.',
 			'Projects Completed': 'المشاريع المكتملة',
 			'Successfully completing over 700 projects, we consistently deliver excellence and client satisfaction worldwide.':
 				'بإكمال أكثر من 700 مشروع بنجاح، نقدم باستمرار التميز ورضا العملاء في جميع أنحاء العالم.',
@@ -164,9 +171,9 @@ export default {
 
 			// footer
 			'All rights reserved For © software pioneers': 'كل الحقوق محفوظة لرواد البرمجيات ©',
-			'': '',
-			'': '',
-			'': '',
+			'Work With Us': 'إعمل معنا',
+			'you can apply to join us and work with us': 'تستطيع الإنضمام لنا والعمل معنا',
+			'Join the Software Pioneers': 'إنضم الى رواد البرمجيات',
 			'': '',
 			'': ''
 		}

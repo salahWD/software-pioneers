@@ -1,14 +1,13 @@
 <script>
+	import { t } from '$lib/../i18n';
 	export let cities = [
 		{
 			name: 'Palestine',
-			time: '15:13',
 			point: 'top: 50%; right: -20px',
 			style: 'top: 32.5%;left: 52.8%;'
 		},
 		{
 			name: 'UAE',
-			time: '20:13',
 			point: 'top: 50%; left: -20px',
 			style: 'top: 37.7%;left: 65.5%;'
 		}
@@ -16,7 +15,7 @@
 </script>
 
 <div
-	class="relative w-full max-sm:h-fit md:h-[31rem] bg-white py-8 box-content mt-2 md:-mb-10 overflow-hidden"
+	class="relative w-full max-sm:h-fit md:h-[31rem] bg-white py-8 box-content mt-2 overflow-hidden"
 >
 	<div class="relative map-container" style="aspect-ratio: 1 / 0.4843;">
 		<img src="/map.png" alt="World Map" class="w-full h-full object-contain map-image" />
@@ -28,8 +27,7 @@
 			>
 				<div class="p-2 rounded-md relative">
 					<div class="absolute bg-sky-700 rounded-full h-2 w-2" style={city.point}></div>
-					<div class="font-semibold text-black">{city.name}</div>
-					<div class="text-gray-400">{city.time}</div>
+					<div class="font-semibold text-black">{$t(city.name)}</div>
 				</div>
 			</div>
 		{/each}

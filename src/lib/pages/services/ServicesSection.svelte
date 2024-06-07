@@ -3,10 +3,8 @@
 
 	let services = [
 		{
-			// title: 'Mobile App Development',
 			title: 'High-Performance Mobile Apps',
-			description: 'Cross-platform apps that work flawlessly on Android and iOS.',
-			// description: 'Creating high-performance mobile applications for iOS and Android platforms.',
+			description: 'Cross-platform apps that work flawlessly on Android and iOS',
 			icon: `<svg
 							width="32"
 							height="32"
@@ -23,8 +21,8 @@
 		{
 			title: 'Cutting-Edge Website Development',
 			// title: 'Web Development',
-			description: 'Modern websites using the latest frameworks for a seamless user experience.',
-			// description: 'Building responsive and scalable websites tailored to your business goals.',
+			description: 'Modern websites using the latest frameworks for a seamless user experience',
+			// description: 'Building responsive and scalable websites tailored to your business goals',
 			icon: `<svg
 							width="39"
 							height="22"
@@ -47,18 +45,18 @@
 		{
 			// title: 'Cloud Solutions',
 			title: 'Reliable Cloud Storage',
-			description: 'Secure AWS and Azure cloud storage solutions for your data.',
-			// description: 'Leveraging cloud technology to enhance your business operations and scalability.',
+			description: 'Secure AWS and Azure cloud storage solutions for your data',
+			// description: 'Leveraging cloud technology to enhance your business operations and scalability',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cloud-check-fill" viewBox="0 0 16 16">
 					<path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2m2.354 4.854-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
 				</svg>`
 		},
 		{
 			title: 'Effective Digital Marketing',
-			description: 'Boost your online presence with SEO and ranking optimization.',
+			description: 'Boost your online presence with SEO and ranking optimization',
 			// title: 'E-commerce Solutions',
 			// description:
-			// 	'Developing robust e-commerce platforms that drive sales and customer engagement.',
+			// 	'Developing robust e-commerce platforms that drive sales and customer engagement',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -86,9 +84,9 @@
 		},
 		{
 			title: 'Advanced AI Solutions',
-			description: 'Machine learning, deep learning, and generative AI for business growth.',
+			description: 'Machine learning, deep learning, and generative AI for business growth',
 			// title: 'AI & Machine Learning',
-			// description: 'Implementing AI and machine learning to revolutionize your business processes.',
+			// description: 'Implementing AI and machine learning to revolutionize your business processes',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -104,7 +102,7 @@
 		},
 		{
 			title: 'Digital Marketing',
-			description: 'Boosting your online presence with data-driven digital marketing strategies.',
+			description: 'Boosting your online presence with data-driven digital marketing strategies',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -124,7 +122,7 @@
 		},
 		{
 			title: 'Distinctive Interface Design',
-			description: 'Unique and user-friendly system interfaces tailored to your needs.',
+			description: 'Unique and user-friendly system interfaces tailored to your needs',
 			icon: `<svg
 							width="35"
 							height="35"
@@ -152,14 +150,14 @@
 		},
 		{
 			title: 'Creative Graphic Design',
-			description: 'Publications, logos, and visual identities that enhance your brand.',
+			description: 'Publications, logos, and visual identities that enhance your brand',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-palette-fill" viewBox="0 0 16 16">
 					<path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
 				</svg>`
 		},
 		{
 			title: 'Comprehensive Systems Analysis',
-			description: 'Competitor, stakeholder analysis, and BRD for strategic planning.',
+			description: 'Competitor, stakeholder analysis, and BRD for strategic planning',
 			icon: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
 					<path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
 				</svg>`

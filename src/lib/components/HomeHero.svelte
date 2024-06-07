@@ -21,13 +21,11 @@
 			class="flex flex-col w-full md:w-2/5 justify-center text-center md:text-start pb-4 md:pb-0 order-2 md:order-1"
 		>
 			<h1 class="my-2 md:my-4 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-				<!-- {$t('Transform Your Vision into Reality with Our Innovative Solutions')} -->
 				{$t('Software pioneers')}
 			</h1>
 			<p class="leading-normal text-1xl md:text-2xl mb-2 md:mb-8 w-full">
 				{$t(
-					// 'At Software Pioneers, we specialize in turning your ideas into cutting-edge software products.'
-					' where excellence and creativity create integrated systems that support the development and spread of your business. What are you waiting for ?'
+					'where excellence and creativity create integrated systems that support the development and spread of your business. What are you waiting for ?'
 				)}
 			</p>
 			<a
@@ -46,7 +44,7 @@
 				alt="hero"
 			/>
 		</div>
-		<div class="order-3 pt-6 md:pt-12 pb-20">
+		<div class="order-3 pt-6 md:pt-12 pb-20 w-full">
 			<h3 class="text-white text-2xl text-center mb-6 overflow-hidden mx-4">
 				<span
 					class="before:h-0.5 before:w-1/2 max-[400px]:before:w-0 before:absolute before:right-full before:bg-white before:top-1/2 after:h-0.5 after:w-1/2 max-[400px]:after:w-0 after:absolute after:left-full after:bg-white after:top-1/2 relative px-4"
