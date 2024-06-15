@@ -24,7 +24,7 @@
 		<form on:submit={handleSubmit}>
 			<div class="bg-pink-500 rounded-2xl p-8 xl:p-11">
 				<h2 class="font-manrope text-4xl text-white text-center font-bold mb-4">
-					{@html $t('Join <span class="text-black">Software Pioneers</span> Now')}
+					{$t('Work With Us')}
 				</h2>
 				<p class="text-pink-100 text-center mb-4 md:mb-11 max-lg:max-w-2xl mx-auto">
 					{$t(

@@ -33,7 +33,7 @@
 	const yearsOfExperience = getYearsDifference(fiveYearsBeforeNow(), now());
 </script>
 
-<div class="container mx-auto px-4 py-8">
+<div class="container mx-auto px-4 py-8" id="projects-section">
 	<h1
 		class="w-full my-4 md:my-12 text-3xl md:text-5xl font-bold leading-tight text-center text-gray-800 capitalize"
 	>

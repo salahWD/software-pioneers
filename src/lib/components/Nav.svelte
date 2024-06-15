@@ -12,8 +12,6 @@
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 
 	let y;
-	let navFloat = false;
-	$: navFloat = y > 10;
 
 	let showMenu = false;
 	const toggleMenu = () => (showMenu = !showMenu);
@@ -31,7 +29,6 @@
 	};
 
 	afterNavigate(() => {
-		navFloat = false;
 		showMenu = false;
 	});
 </script>
@@ -39,23 +36,15 @@
 <svelte:window bind:scrollY={y} />
 
 <!--Nav-->
-<nav
-	id="header"
-	class={`
-  fixed w-full z-30 top-0 text-white
-  ${navFloat && 'bg-white'}
-  `}
->
+<nav id="header" class="fixed w-full z-30 top-0 text-white bg-white shadow-md">
 	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 		<div class="ps-4 flex items-center">
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				class:text-gray-800={navFloat}
-				class:text-white={!navFloat}
-				class="no-underline hover:no-underline font-bold text-1xl sm:text-2xl lg:text-3xl capitalize"
+				class="no-underline hover:no-underline font-bold text-1xl sm:text-2xl lg:text-3xl capitalize text-gray-800"
 				href="#"
 			>
-				<img class="max-w-[80px] inline-block" src="/logo-2.png" alt="logo" />
+				<img class="max-w-[80px] inline-block" src="/logo.png" alt="logo" />
 				<span class="hidden sm:inline">{$t('software pioneers')}</span>
 			</a>
 		</div>
@@ -96,7 +85,7 @@
 					</li>
 				{/each}
 			</ul>
-			<Button cusomClass="!my-1" url="/contact" secondary={navFloat} center={false}
+			<Button cusomClass="!my-1" url="/contact" secondary={true} center={false}
 				>{$t('Contact Us')}</Button
 			>
 		</div>

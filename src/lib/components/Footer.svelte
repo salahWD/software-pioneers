@@ -1,7 +1,7 @@
 <script>
 	import { t } from '$lib/../i18n.js';
 	const socialLinks = [
-		{ href: 'https://x.com/softwarepioner?s=21', icon: '/twitter.svg', alt: 'Twitter' },
+		{ href: 'https://x.com/softwarepioner?s=21', icon: '/twitter.svg', alt: 'Twitter', size: 25 },
 		{
 			href: 'https://www.linkedin.com/in/software-pioneers-8b2190268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
 			icon: '/linkedin.svg',
@@ -38,7 +38,12 @@
 						rel="noopener noreferrer"
 						class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-500 hover:bg-slate-600 transition"
 					>
-						<img src={link.icon} alt={link.alt} class="w-4 h-4" />
+						<img
+							src={link.icon}
+							alt={link.alt}
+							class={link.size == null && 'w-4 h-4'}
+							style={link.size != null && 'width:' + link.size + 'px'}
+						/>
 					</a>
 				{/each}
 			</div>

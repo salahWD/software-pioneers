@@ -50,6 +50,8 @@
 				'Get a distinctive design for your brand Including design Posts, logos, visual identities and prints'
 			)}
 		</p>
-		<a href="/contact" class="bg-blue-600 text-white py-2 px-4 rounded">{$t('Explore')}</a>
+		<a href="/our-work#projects-section" class="bg-blue-600 text-white py-2 px-4 rounded"
+			>{$t('Explore')}</a
+		>
 	</div>
 </section>

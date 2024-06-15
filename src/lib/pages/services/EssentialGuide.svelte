@@ -53,7 +53,9 @@
 					'Develop highly efficient applications that suit your business needs, It works on Android and iOS systems.'
 				)}
 			</p>
-			<a href="/contact" class="bg-blue-600 text-white py-2 px-4 rounded">{$t('Explore')}</a>
+			<a href="/our-work#projects-section" class="bg-blue-600 text-white py-2 px-4 rounded"
+				>{$t('Explore')}</a
+			>
 		</div>
 	</section>
 </div>

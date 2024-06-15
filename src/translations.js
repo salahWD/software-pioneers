@@ -125,8 +125,7 @@ export default {
 			'Get a distinctive design for your brand Including design Posts, logos, visual identities and prints':
 				'احصل على تصميم مميز لعلامتك التجارية بما في ذلك منشورات التصميم والشعارات والهويات المرئية والمطبوعات',
 			'Discover more': 'اكتشف المزيد',
-			'Join <span class="text-black">Software Pioneers</span> Now':
-				'انضم إلى <span class="text-black">رواد البرمجيات</span> الآن',
+			'Work With Us': 'إعمل معنا',
 			"Join our community of subscribers and receive regular updates delivered straight to your inbox. It's quick, easy, and free":
 				'انضم إلى مجتمع المشتركين لدينا وتلقَ التحديثات المنتظمة مباشرة إلى بريدك الوارد. إنه سريع وسهل ومجاني',
 
@@ -169,12 +168,22 @@ export default {
 			'Over 92 happy clients reflect our commitment to exceptional service and high-quality solutions.':
 				'أكثر من 92 عميلاً سعيدًا يعكسون التزامنا بالخدمة الاستثنائية والحلول عالية الجودة.',
 
+			// shop page
+			'Our <span class="text-white">solutions</span> in digital innovation':
+				'<span class="text-white">حلولنا</span> في الابتكار الرقمي',
+			'Distinguish yourself by choosing one of our innovative digital solutions to help you grow and develop your business':
+				'تمييز نفسك عن طريق اختيار أحد حلولنا الرقمية المبتكرة لمساعدتك على النمو وتطوير عملك',
+
 			// footer
 			'All rights reserved For © software pioneers': 'كل الحقوق محفوظة لرواد البرمجيات ©',
 			'Work With Us': 'إعمل معنا',
 			'you can apply to join us and work with us': 'تستطيع الإنضمام لنا والعمل معنا',
 			'Join the Software Pioneers': 'إنضم الى رواد البرمجيات',
-			'': '',
+
+			// elkateb
+			'ELKATEB Platform': 'منصة الكاتب',
+			'use The Writer plugin and service for free, it helps you write articles and speed up the process by using Ai technology, more about that on the plugins page':
+				'استخدم إضافة وخدمة "الكاتب" مجانا, يساعد "الكاتب" على كتابة المقالات وتسريع العملية بإستخدام الذكاء الصناعي, المزيد حول الكاتب في صفحة الإضافة',
 			'': ''
 		}
 	}

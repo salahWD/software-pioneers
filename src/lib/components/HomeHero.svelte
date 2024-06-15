@@ -37,12 +37,24 @@
 		</div>
 		<!--Image Col-->
 		<div class="w-full md:w-3/5 py-0 mb-4 md:mb-0 md:py-6 lg:py-12 text-center order-1 md:order-2">
-			<img
-				style="filter:hue-rotate(-45deg)"
+			<!-- <img
 				class="mx-auto md:mx-0 py-0 w-1/2 md:w-4/5 md:ms-auto z-50 px-6 md:p-0"
-				src="hero.png"
+				src="home-animation.gif"
 				alt="hero"
-			/>
+			/> -->
+			<script
+				src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+				type="module"
+			></script>
+
+			<dotlottie-player
+				src="https://lottie.host/092174b2-5476-4f93-b1ab-12f8f261643e/cI9LnEHOwc.json"
+				background="transparent"
+				speed=".5"
+				class="mx-auto md:mx-0 py-0 w-1/2 md:w-4/5 md:ms-auto z-50 px-6 md:p-0"
+				loop
+				autoplay
+			></dotlottie-player>
 		</div>
 		<div class="order-3 pt-6 md:pt-12 pb-20 w-full">
 			<h3 class="text-white text-2xl text-center mb-6 overflow-hidden mx-4">

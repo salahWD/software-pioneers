@@ -8,20 +8,20 @@
 	};
 	const toggleMenu = () => {
 		if (!isShown) {
-			popupHolder.classList.remove('invisible');
+			popupHolderJoinUs.classList.remove('invisible');
 		}
 		return (isShown = !isShown);
 	};
 	const handleTransitionEnd = (e) => {
 		if (!isShown) {
-			popupHolder.classList.add('invisible');
+			popupHolderJoinUs.classList.add('invisible');
 		}
 	};
 </script>
 
 <div
 	class="relative z-30 invisible"
-	id="popupHolder"
+	id="popupHolderJoinUs"
 	aria-labelledby="modal-title"
 	role="dialog"
 	aria-modal="true"

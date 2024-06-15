@@ -43,7 +43,9 @@
 						'Develop professional websites with a smooth nature for users to manage your business efficiently.'
 					)}
 				</p>
-				<a href="/contact" class="bg-blue-600 text-white py-2 px-4 rounded">{$t('Explore')}</a>
+				<a href="/our-work#projects-section" class="bg-blue-600 text-white py-2 px-4 rounded"
+					>{$t('Explore')}</a
+				>
 			</div>
 			<img
 				src="image-3.png"
