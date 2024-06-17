@@ -1,5 +1,5 @@
 <script>
-	import { t } from '$lib/../i18n';
+	import { t, locale } from '$lib/../i18n';
 	const questions = [
 		{
 			text: 'Highly efficient integrated systems'
@@ -51,7 +51,7 @@
 				src="https://lottie.host/092174b2-5476-4f93-b1ab-12f8f261643e/cI9LnEHOwc.json"
 				background="transparent"
 				speed=".5"
-				class="mx-auto md:mx-0 py-0 w-1/2 md:w-4/5 md:ms-auto z-50 px-6 md:p-0"
+				class="mx-auto md:mx-0 py-0 w-3/4 md:w-4/5 md:ms-auto z-50 px-6 md:p-0 rtl:transform rtl:-scale-x-100"
 				loop
 				autoplay
 			></dotlottie-player>

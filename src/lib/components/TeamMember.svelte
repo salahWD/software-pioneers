@@ -1,4 +1,5 @@
 <script>
+	import { t } from '$lib/../i18n';
 	export let name = 'khalid';
 	export let job = 'Co-Founder & CEO';
 	export let image = 'https://pagedone.io/asset/uploads/1696238786.png';
@@ -23,11 +24,11 @@
 	</div>
 	<div class="text-center lg:text-start lg:max-w-xs flex-1">
 		<div class="md:mb-5 md:pb-5 mb-2 pb-2 border-b border-solid border-gray-300">
-			<h6 class="text-lg text-gray-900 font-semibold md:mb-1">{name}</h6>
-			<span class="text-sm text-gray-500 group-hover:text-indigo-600">{job}</span>
+			<h6 class="text-lg text-gray-900 font-semibold md:mb-1">{$t(name)}</h6>
+			<span class="text-sm text-gray-500 group-hover:text-indigo-600">{$t(job)}</span>
 		</div>
 		<p class="text-gray-500 leading-6 md:mb-7 mb-3">
-			{desc}
+			{$t(desc)}
 		</p>
 		<div class="flex items-center gap-4 justify-center lg:justify-start">
 			{#if x != ''}

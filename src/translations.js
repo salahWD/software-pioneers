@@ -54,6 +54,12 @@ export default {
 				'لدينا أحد أفضل الفرق وجميع أعضائنا محترفون في مجالاتهم',
 			'Be Warned': 'تحذير',
 			'There is no members to show': 'لا يوجد أعضاء لعرضهم',
+			'Leading the tech vision': 'قيادة الرؤية التقنية',
+			'Ensuring operational excellence': 'ضمان الجودة التشغيلية',
+			'Founder and CEO': 'مؤسس ورئيس المجلس التنفيذي',
+			'Founder and COO': 'مؤسس والمدير التنفيذي للعمليات',
+			'Adham Saed': 'أدهم سيد',
+			'Mohammed Eltawil': 'محمد الطويل',
 
 			// our services (servicesSection.svelte)
 			'our services': 'خدماتنا',
@@ -155,9 +161,10 @@ export default {
 				'نحن نعتبر أحد أفضل شركات تطوير البرمجيات في منطقة الشرق الأوسط',
 			'Driven by a passion for seamless user experiences, we\'ve meticulously curated <span class="capitalize text-sky-600">software pioneers</span> to help business owners to develop and compete strongly in the local and international market through high-performance systems that manage all their businesses in an innovative and smooth manner.':
 				'مدفوعين بشغف نحو تجارب مستخدم سلسة، قمنا بتنسيق <span class="capitalize text-sky-600">رواد البرمجيات</span> بعناية لتمكين المبدعين والمصممين والمطورين على حد سواء. مهمتنا هي توفير مجموعة أدوات شاملة تمكنك من بناء واجهات جميلة وبديهية تتفاعل مع المستخدمين في كل تفاعل.',
-			'We Are A True Story Of Success': 'نحن قصة نجاح حقيقية',
-			'<span class="capitalize text-sky-600">software pioneers</span> isn’t just a regular startup; it\'s a story of success. We go beyond aesthetics, prioritizing perfect design, scalability, and usability. Every element, from the tiniest detail to the grandest layout, is meticulously crafted to enhance functionality and elevate user satisfaction.':
-				'<span class="capitalize text-sky-600">رواد البرمجيات</span> ليست مجرد شركة ناشئة عادية, إنها قصة نجاح. نحن نتجاوز الجماليات، مع التركيز على التصميم المثالي والقابلية للتوسع وسهولة الاستخدام. كل عنصر، من أصغر التفاصيل إلى أكبر التخطيطات، مصنوع بدقة لتعزيز الوظائف ورفع مستوى رضا المستخدم.',
+			'we are a true story of success': 'نحن قصة نجاح حقيقية',
+			'<span class="capitalize text-sky-600">software pioneers</span> isn’t just a regular startup. We began with only three employees in a challenging local market in Gaza City and have grown to become one of the largest companies in the field locally. We provide over 110 jobs and opportunities for software engineers in Palestine and have a strong global client base as well':
+				'<span class="capitalize text-sky-600">رواد البرمجيات</span> ليست مجرد شركة ناشئة عادية. لقد بدأنا بثلاثة موظفين فقط في سوق محلي مليء بالتحديات وسط مدينة غزة وتطورنا لنصبح واحدة من أكبر الشركات في مجالنا محليًا. نحن نقدم أكثر من 110 فرصة عمل وفرص لمهندسي البرمجيات في فلسطين ولدينا قاعدة عملاء عالمية قوية جداً',
+			// '<span class="capitalize text-sky-600">رواد البرمجيات</span> ليست مجرد شركة ناشئة عادية, إنها قصة نجاح. نحن نتجاوز الجماليات، مع التركيز على التصميم المثالي والقابلية للتوسع وسهولة الاستخدام. كل عنصر، من أصغر التفاصيل إلى أكبر التخطيطات، مصنوع بدقة لتعزيز الوظائف ورفع مستوى رضا المستخدم.',
 			'Projects Completed': 'المشاريع المكتملة',
 			'Successfully completing over 700 projects, we consistently deliver excellence and client satisfaction worldwide.':
 				'بإكمال أكثر من 700 مشروع بنجاح، نقدم باستمرار التميز ورضا العملاء في جميع أنحاء العالم.',
@@ -183,7 +190,11 @@ export default {
 			// elkateb
 			'ELKATEB Platform': 'منصة الكاتب',
 			'use The Writer plugin and service for free, it helps you write articles and speed up the process by using Ai technology, more about that on the plugins page':
-				'استخدم إضافة وخدمة "الكاتب" مجانا, يساعد "الكاتب" على كتابة المقالات وتسريع العملية بإستخدام الذكاء الصناعي, المزيد حول الكاتب في صفحة الإضافة',
+				'استخدم إضافة "الكاتب" مجانا, يساعد "الكاتب" على كتابة المقالات وتسريع العملية بإستخدام الذكاء الصناعي, المزيد حول الكاتب في صفحة الإضافة',
+			'make it easy for yourself': 'سهل الإمور على نفسك',
+
+			'What did they say about us ?': 'ماذا قالوا عنا ؟',
+			'': '',
 			'': ''
 		}
 	}

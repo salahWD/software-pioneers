@@ -85,6 +85,9 @@ export default {
 						transform: 'scale(0)'
 					}
 				}
+			},
+			scale: {
+				'-100': '-1'
 			}
 		}
 	},

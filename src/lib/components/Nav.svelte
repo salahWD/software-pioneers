@@ -41,7 +41,7 @@
 		<div class="ps-4 flex items-center">
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				class="no-underline hover:no-underline font-bold text-1xl sm:text-2xl lg:text-3xl capitalize text-gray-800"
+				class="no-underline hover:no-underline font-bold text-1xl sm:text-2xl lg:text-3xl capitalize text-gray-800 flex items-center gap-1.5"
 				href="#"
 			>
 				<img class="max-w-[80px] inline-block" src="/logo.png" alt="logo" />
