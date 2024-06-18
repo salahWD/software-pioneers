@@ -18,7 +18,7 @@
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row">
 		<!--Left Col-->
 		<div
-			class="flex flex-col w-full md:w-2/5 justify-center text-center md:text-start pb-4 md:pb-0 order-2 md:order-1"
+			class="flex flex-col w-full md:w-2/5 justify-center text-center md:text-start pb-0 order-2 md:order-1 xl:pb-40"
 		>
 			<h1 class="my-2 md:my-4 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
 				{$t('Software pioneers')}

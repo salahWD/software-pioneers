@@ -194,8 +194,56 @@ export default {
 			'make it easy for yourself': 'سهل الإمور على نفسك',
 
 			'What did they say about us ?': 'ماذا قالوا عنا ؟',
-			'': '',
-			'': ''
+
+			// our projects (owr work page)
+			'KitchPlus Platform for restaurants solutions': 'منصة KitchPlus لحلول المطاعم',
+			'Web Development': 'تطوير الشبكة',
+			'About The Project': 'حول المشروع',
+			'a website to showcase the features and services that KitchPlus provides for their clients, KitchPlus confirmed that they had a larger conversion rate after they added the website to their ads.':
+				'موقع ويب لعرض الميزات والخدمات التي تقدمها KitchPlus لعملائها، أكدت KitchPlus أن لديهم معدل تحويل أكبر بعد إضافة الموقع إلى إعلاناتهم.',
+			'Graphic Design (Jar labels)': 'التصميم الجرافيكي (وطباعة الملصقات)',
+			'Graphic Design': 'التصميم الجرافيكي',
+			'About This Design': 'حول هذا التصميم',
+			'a sticker label for glass jars, we took into consideration all of the recommended setups for mass production and printing.':
+				'ملصق للأوعية الزجاجية، أخذنا في الاعتبار جميع الإعدادات الموصى بها للإنتاج والطباعة بكميات كبيرة.',
+			'Graphic Design Services': 'خدمات التصميم الجرافيكي',
+			'we offer a professional graphic design service where we offer a visual representation of what the design would look like in real life, on top of the excellent design itself.':
+				'نحن نقدم خدمة تصميم جرافيك احترافية حيث نقدم تمثيلًا مرئيًا لما سيبدو عليه التصميم في الحياة الواقعية، بالإضافة إلى التصميم الممتاز نفسه.',
+			'Mobile Apps Development': 'تطوير تطبيقات الموبايل',
+			'app development': 'تطوير التطبيق',
+			'Mobile Applications Development': 'تطوير تطبيقات الهاتف المحمول',
+			'we offer a cross-platform applications developed by a highly qualified team of all software development fields.':
+				'نحن نقدم تطبيقات متعددة المنصات تم تطويرها بواسطة فريق مؤهل تأهيلا عاليا في جميع مجالات تطوير البرمجيات.',
+			'Abstract & Logo Illustration': 'ملخص وتوضيح الشعار',
+			'Graphic Design': 'التصميم الجرافيكي',
+			'About The Client': 'حول العميل',
+			'this client had a platform to convert users (mostly article writers) from normal wysiwyg to his new article writing platform which he sels as a saas.':
+				'كان لدى هذا العميل منصة لتحويل المستخدمين (معظمهم من كتاب المقالات) من wysiwyg العادي إلى منصة كتابة المقالات الجديدة الخاصة به والتي يبيعها على أنها Saas.',
+			'3D MockUps': 'نماذج ثلاثية الأبعاد',
+			'We offer a variety of mockups for different prints, posters, woodcuts and logos.':
+				'نقدم مجموعة متنوعة من النماذج التمثيلية للشعارات والمطبوعات والملصقات والنقوش الخشبية المختلفة.',
+			'Leather prints': 'مطبوعات جلدية',
+			'our professional graphic design team has good experience when it comes to leather print setups and considerations, and we have done an excellent job with it.':
+				'يتمتع فريق التصميم الجرافيكي المحترف لدينا بخبرة جيدة عندما يتعلق الأمر بإعدادات واعتبارات الطباعة الجلدية، وقد قمنا بعمل ممتاز معه.',
+			'Woodcuts & Woodcuts MockUps': 'نماذج النقوش الخشبية والأختام',
+			'Printing & Graphic Design': 'الطباعة والتصميم الجرافيكي',
+			Woodcuts: 'النقوش الخشبية',
+			'we design and print different sizes and types of woodcuts and office seals as requested by our clients':
+				'نقوم بتصميم وطباعة مقاسات وأنواع مختلفة من النقوش الخشبية والأختام المكتبية حسب طلب عملائنا',
+			'T-shirt printing and canvas prints': 'طباعة التيشيرتات والطباعة على القماش',
+			'T-shirt printing': 'طباعة تيشيرت',
+			'we specialize in high-quality t-shirt and canvas printing and custom designs to bring your creative visions to life.':
+				'نحن متخصصون في طباعة القمصان والقماش عالية الجودة والتصميمات المخصصة لإضفاء الحيوية على رؤيتك الإبداعية.',
+			'Custom Office Seals': 'أختام المكاتب المخصصة',
+			'Office Seals': 'أختام المكاتب',
+			"we offer premium office seal services to meet all your official stamping needs. Our high-quality seals ensure clear and professional impressions for your documents, enhancing your business's credibility and efficiency.":
+				'نحن نقدم خدمات ختم مكتبية متميزة لتلبية جميع احتياجات الختم الرسمية الخاصة بك. ',
+			'Software Systems Development': 'تطوير أنظمة البرمجيات',
+			'we provide top-tier software systems development to empower your business with cutting-edge technology. Our expert developers design and implement customized software solutions tailored to your unique needs, ensuring efficiency, scalability, and innovation.':
+				'نحن نقدم تطوير أنظمة برمجيات من الدرجة الأولى لتمكين عملك باستخدام التكنولوجيا المتطورة. ',
+			'Responsive Web Development': 'تطوير المواقع المتجاوبة',
+			'we specialize in creating stunning, responsive websites that adapt seamlessly to any device. Our talented team designs and develops custom websites to enhance your online presence and provide an exceptional user experience. Let us help you engage your audience and achieve your digital goals with cutting-edge web solutions.':
+				'نحن متخصصون في إنشاء مواقع ويب مذهلة وسريعة الاستجابة تتكيف بسلاسة مع أي جهاز. '
 		}
 	}
 };

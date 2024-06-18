@@ -1,40 +1,40 @@
 <script>
 	import { t } from '$lib/../i18n';
 	import ProjectComponent from '$lib/components/ProjectComponent.svelte';
-	import ThankMessageComponent from '$lib/components/ThankMessageComponent.svelte';
+	// import ThankMessageComponent from '$lib/components/ThankMessageComponent.svelte';
 	import { onMount } from 'svelte';
 
-	let thanksMessages = [];
-
-	onMount(async () => {
-		const thanksMessagesResponse = await fetch('/thanks-messages.json');
-		thanksMessages = await thanksMessagesResponse.json();
-	});
-
-	let isShown = false;
-
-	const closeMenu = () => {
-		return (isShown = false);
-	};
-	const toggleMenu = (e) => {
-		if (!isShown) {
-			popupHolder.classList.remove('invisible');
-			popupHolder.querySelector('embed').src = e.detail;
-		}
-		return (isShown = !isShown);
-	};
-	const handleTransitionEnd = (e) => {
-		if (!isShown) {
-			popupHolder.classList.add('invisible');
-		}
-	};
-
-	// let projects = [];
+	// let thanksMessages = [];
 
 	// onMount(async () => {
-	// 	const projectsResponse = await fetch('/projects.json');
-	// 	projects = await projectsResponse.json();
+	// 	const thanksMessagesResponse = await fetch('/thanks-messages.json');
+	// 	thanksMessages = await thanksMessagesResponse.json();
 	// });
+
+	// let isShown = false;
+
+	// const closeMenu = () => {
+	// 	return (isShown = false);
+	// };
+	// const toggleMenu = (e) => {
+	// 	if (!isShown) {
+	// 		popupHolder.classList.remove('invisible');
+	// 		popupHolder.querySelector('embed').src = e.detail;
+	// 	}
+	// 	return (isShown = !isShown);
+	// };
+	// const handleTransitionEnd = (e) => {
+	// 	if (!isShown) {
+	// 		popupHolder.classList.add('invisible');
+	// 	}
+	// };
+
+	let projects = [];
+
+	onMount(async () => {
+		const projectsResponse = await fetch('/projects.json');
+		projects = await projectsResponse.json();
+	});
 
 	// Function to get the current date
 	function now() {
@@ -75,22 +75,22 @@
 		)}.
 	</p>
 
-	<div class="grid grid-cols-1 sm:grid-cols-2 auto-rows-[1fr] md:grid-cols-3 gap-6 px-6">
+	<!-- <div class="grid grid-cols-1 sm:grid-cols-2 auto-rows-[1fr] md:grid-cols-3 gap-6 px-6">
 		{#each thanksMessages as message, i}
 			<ThankMessageComponent id={i} {...message} on:clicked={toggleMenu} />
 		{/each}
-	</div>
-	<!-- <div class="flex flex-wrap justify-center">
+	</div> -->
+	<div class="flex flex-wrap justify-center">
 		{#each projects as project}
 			<div class="w-full md:w-1/2 px-2 mb-4">
-				<ProjectComponent {...project} />
+				<ProjectComponent {...project} title={$t(project.title)} client={$t(project.client)} />
 			</div>
 		{/each}
-	</div> -->
+	</div>
 </div>
 
 <!-- pop up modal -->
-<div
+<!-- <div
 	class="relative z-30 invisible"
 	id="popupHolder"
 	aria-labelledby="modal-title"
@@ -121,4 +121,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->

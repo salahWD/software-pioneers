@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
 
 async function getData(event) {
-	const projectsResponse = await event.fetch('http://localhost:5173/projects.json');
+	const projectsResponse = await event.fetch('http://localhost:5174/projects.json');
 	let data = await projectsResponse.json();
 	return data;
 }
@@ -13,6 +13,7 @@ export async function load({ params, fetch }) {
 		const projects = data.filter((el) => {
 			return el.id == params.project;
 		});
+		console.log(projects);
 		if (projects.length > 0) {
 			return projects[0];
 		}
