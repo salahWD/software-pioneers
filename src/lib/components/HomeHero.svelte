@@ -14,11 +14,11 @@
 </script>
 
 <!--Hero-->
-<div class="pt-20 md:pt-20">
+<div class="pt-20 md:pt-16">
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row">
 		<!--Left Col-->
 		<div
-			class="flex flex-col w-full md:w-2/5 justify-center text-center md:text-start pb-0 order-2 md:order-1 xl:pb-40"
+			class="flex flex-col w-full md:w-2/5 justify-start xl:justify-start 2xl:justify-center xl:pb-0 xl:mt-24 2xl:mt-0 2xl:pb-32 mt-16 text-center md:text-start order-2 md:order-1"
 		>
 			<h1 class="my-2 md:my-4 text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
 				{$t('Software pioneers')}
@@ -36,7 +36,9 @@
 			</a>
 		</div>
 		<!--Image Col-->
-		<div class="w-full md:w-3/5 py-0 mb-4 md:mb-0 md:py-6 lg:py-12 text-center order-1 md:order-2">
+		<div
+			class="w-full md:w-3/5 py-0 mb-4 md:mb-0 md:py-6 lg:py-12 lg:pt-0 text-center order-1 md:order-2"
+		>
 			<!-- <img
 				class="mx-auto md:mx-0 py-0 w-1/2 md:w-4/5 md:ms-auto z-50 px-6 md:p-0"
 				src="home-animation.gif"
@@ -51,7 +53,7 @@
 				src="https://lottie.host/092174b2-5476-4f93-b1ab-12f8f261643e/cI9LnEHOwc.json"
 				background="transparent"
 				speed=".5"
-				class="mx-auto md:mx-0 py-0 w-3/4 md:w-4/5 md:ms-auto z-50 px-6 md:p-0 rtl:transform rtl:-scale-x-100"
+				class="mx-auto md:mx-0 md:ms-auto py-0 w-3/4 md:w-4/5 lg:w-3/4 z-50 px-6 md:p-0 rtl:transform rtl:-scale-x-100"
 				loop
 				autoplay
 			></dotlottie-player>
@@ -89,7 +91,7 @@
 		</div>
 	</div>
 </div>
-<div class="relative -mt-12 lg:-mt-24">
+<div class="relative -mt-12 lg:-mt-24 -mb-px">
 	<svg
 		viewBox="0 0 1428 174"
 		version="1.1"

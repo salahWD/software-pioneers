@@ -113,7 +113,7 @@
 	{
 		"id": 10,
 		"title": "Software Systems Development",
-		"client": "Graphic Design",
+		"client": "Web Development",
 		"imageUrl": "work-11.jpeg",
 		"link": "/projects/10",
 		"techs": ["cpp", "cs", "php", "mysql"],
@@ -125,7 +125,7 @@
 	{
 		"id": 11,
 		"title": "Responsive Web Development",
-		"client": "Graphic Design",
+		"client": "Web Development",
 		"imageUrl": "work-12.jpeg",
 		"link": "/projects/11",
 		"techs": ["react", "angular", "firebase", "html", "css"],
