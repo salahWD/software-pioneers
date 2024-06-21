@@ -82,7 +82,7 @@
 	</div> -->
 	<div class="flex flex-wrap justify-center">
 		{#each projects as project}
-			<div class="w-full md:w-1/2 px-2 mb-4">
+			<div class="w-full md:w-1/2 lg:w-1/3 px-2 mb-4">
 				<ProjectComponent {...project} title={$t(project.title)} client={$t(project.client)} />
 			</div>
 		{/each}
