@@ -23,7 +23,6 @@ function translate(locale, key, vars) {
 	// Replace any passed in variables in the translation string.
 	Object.keys(vars).map((k) => {
 		const regex = new RegExp(`::(.*?)::`, 'g');
-		console.log(text.match(regex));
 		text = text.replace(regex, vars[k]);
 	});
 

@@ -7,12 +7,55 @@
 	let email = '';
 	let message = '';
 
-	const submitForm = () => {
-		// Handle form submission logic here
-		console.log(name);
-		console.log(email);
-		console.log(message);
-		console.log('Form submitted!');
+	const submitForm = async () => {
+		const token = '6670867026:AAE7OkxeCq7v4SHrtB442qBfsJfZ-uHLquM';
+		const chatId = '5343859364';
+
+		const msg = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+
+		try {
+			const response = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({
+					chat_id: chatId,
+					text: msg,
+					parse_mode: 'html'
+				})
+			});
+
+			const res = await response.json();
+			if (response.ok) {
+				name = '';
+				email = '';
+				message = '';
+				toggleMenu();
+			} else {
+				alert('Something went wrong!');
+			}
+		} catch (error) {
+			console.error(error);
+			alert('Something went wrong!');
+		}
+	};
+
+	let isShown = false;
+
+	const closeMenu = () => {
+		return (isShown = false);
+	};
+	const toggleMenu = (e) => {
+		if (!isShown) {
+			contactusOverlay.classList.remove('invisible');
+		}
+		return (isShown = !isShown);
+	};
+	const handleTransitionEnd = (e) => {
+		if (!isShown) {
+			contactusOverlay.classList.add('invisible');
+		}
 	};
 </script>
 
@@ -105,6 +148,52 @@
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t" />
 		</div>
 		<Map />
+	</div>
+</div>
+
+<!-- pop up modal -->
+<div
+	class="relative z-30 invisible"
+	id="contactusOverlay"
+	aria-labelledby="modal-title"
+	role="dialog"
+	aria-modal="true"
+>
+	<div
+		on:transitionend={handleTransitionEnd}
+		class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity ease-in duration-200
+		{isShown ? 'opacity-100' : 'opacity-0 '}"
+	></div>
+
+	<div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+		<div
+			class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
+			on:click={closeMenu}
+		>
+			<div
+				class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-xl
+				{isShown
+					? 'opacity-100 translate-y-0 sm:scale-100'
+					: 'opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95'}
+				"
+			>
+				<!-- Alert Success -->
+				<div
+					on:click|stopPropagation
+					class="bg-green-200 px-6 py-4 mx-2 my-4 rounded-md text-lg flex items-center mx-auto max-w-lg"
+				>
+					<svg viewBox="0 0 24 24" class="text-green-600 w-5 h-5 sm:w-5 sm:h-5 mr-3">
+						<path
+							fill="currentColor"
+							d="M12,0A12,12,0,1,0,24,12,12.014,12.014,0,0,0,12,0Zm6.927,8.2-6.845,9.289a1.011,1.011,0,0,1-1.43.188L5.764,13.769a1,1,0,1,1,1.25-1.562l4.076,3.261,6.227-8.451A1,1,0,1,1,18.927,8.2Z"
+						>
+						</path>
+					</svg>
+					<span class="text-green-800">{$t('Success! Your Message have been Sent')}.</span>
+				</div>
+				<!-- End Alert Success -->
+			</div>
+		</div>
 	</div>
 </div>
 

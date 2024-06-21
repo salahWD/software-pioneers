@@ -14,6 +14,8 @@ export default {
 			'Get Started': 'إبدأ الأن',
 
 			// nav bar component
+			'contact us': 'تواصل معنا',
+			'Success! Your Message have been Sent': 'تم إرسال الرسالة بنجاح !',
 			'Contact Us': 'تواصل معنا',
 			Contact: 'تواصل معنا',
 			'about us': 'حولنا',

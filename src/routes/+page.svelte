@@ -25,13 +25,6 @@
 		thanksMessages = await thanksMessagesResponse.json();
 	});
 
-	// const companies = [
-	// 	{ name: 'Airbnb', logo: '/partner-1.png', alt: 'Airbnb Logo' },
-	// 	{ name: 'Fiverr', logo: '/partner-2.png', alt: 'Fiverr Logo' },
-	// 	{ name: 'Pickwatch', logo: '/partner-3.png', alt: 'Pickwatch Logo' },
-	// 	{ name: 'Citrix', logo: '/partner-4.png', alt: 'Citrix Logo' },
-	// 	{ name: 'Online Rewards', logo: '/partner-5.png', alt: 'Online Rewards Logo' }
-	// ];
 	let isShown = false;
 
 	const closeMenu = () => {

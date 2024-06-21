@@ -14,12 +14,10 @@ export async function load({ url, params, fetch }) {
 		const projects = data.filter((el) => {
 			return el.id == params.project;
 		});
-		console.log(projects);
 		if (projects.length > 0) {
 			return projects[0];
 		}
 	}
 
-	// console.error('no error');
 	throw error(404, 'Not found');
 }
