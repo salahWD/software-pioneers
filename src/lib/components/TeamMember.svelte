@@ -3,8 +3,7 @@
 	export let name = 'khalid';
 	export let job = 'Co-Founder & CEO';
 	export let image = 'https://pagedone.io/asset/uploads/1696238786.png';
-	export let desc =
-		'I am the co founder of pagedone and we’ve pushed our limit so far to make it successful.';
+	// export let desc = '';
 	export let x = '';
 	export let facebook = '';
 	export let instagram = '';
@@ -27,9 +26,9 @@
 			<h6 class="text-lg text-gray-900 font-semibold md:mb-1">{$t(name)}</h6>
 			<span class="text-sm text-gray-500 group-hover:text-indigo-600">{$t(job)}</span>
 		</div>
-		<p class="text-gray-500 leading-6 md:mb-7 mb-3">
+		<!-- <p class="text-gray-500 leading-6 md:mb-7 mb-3">
 			{$t(desc)}
-		</p>
+		</p> -->
 		<div class="flex items-center gap-4 justify-center lg:justify-start">
 			{#if x != ''}
 				<a

@@ -46,11 +46,12 @@
 
 		{#if members && members.length > 0}
 			<swiper-container
-				class="teamswiper pb-10"
+				class="teamswiper pb-10 ltr"
 				navigation="true"
 				pagination="false"
 				slides-per-view={largeScreen ? 2 : 1}
 				loop="true"
+				dir="ltr"
 			>
 				{#each members as member}
 					<swiper-slide>

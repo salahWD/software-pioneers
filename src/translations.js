@@ -59,7 +59,7 @@ export default {
 			'Leading the tech vision': 'قيادة الرؤية التقنية',
 			'Ensuring operational excellence': 'ضمان الجودة التشغيلية',
 			'Founder and CEO': 'مؤسس ورئيس المجلس التنفيذي',
-			'Founder and COO': 'مؤسس والمدير التنفيذي للعمليات',
+			'Founder and Co-CEO': 'مؤسس والرئيس التنفيذي المشارك',
 			'Adham Saed': 'أدهم سيد',
 			'Mohammed Eltawil': 'محمد الطويل',
 
@@ -198,6 +198,7 @@ export default {
 			'What did they say about us ?': 'ماذا قالوا عنا ؟',
 
 			// our projects (owr work page)
+			all: 'الكل',
 			'KitchPlus Platform for restaurants solutions': 'منصة KitchPlus لحلول المطاعم',
 			'Web Development': 'تطوير الشبكة',
 			'About The Project': 'حول المشروع',
@@ -212,7 +213,7 @@ export default {
 			'we offer a professional graphic design service where we offer a visual representation of what the design would look like in real life, on top of the excellent design itself.':
 				'نحن نقدم خدمة تصميم جرافيك احترافية حيث نقدم تمثيلًا مرئيًا لما سيبدو عليه التصميم في الحياة الواقعية، بالإضافة إلى التصميم الممتاز نفسه.',
 			'Mobile Apps Development': 'تطوير تطبيقات الموبايل',
-			'app development': 'تطوير التطبيق',
+			'App Development': 'تطوير التطبيق',
 			'Mobile Applications Development': 'تطوير تطبيقات الهاتف المحمول',
 			'we offer a cross-platform applications developed by a highly qualified team of all software development fields.':
 				'نحن نقدم تطبيقات متعددة المنصات تم تطويرها بواسطة فريق مؤهل تأهيلا عاليا في جميع مجالات تطوير البرمجيات.',

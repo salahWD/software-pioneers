@@ -29,7 +29,7 @@
 	{
 		"id": 3,
 		"title": "Mobile Apps Development",
-		"client": "app development",
+		"client": "App Development",
 		"imageUrl": "work-4.jpeg",
 		"link": "/projects/3",
 		"techs": ["flutter", "android", "apple"],

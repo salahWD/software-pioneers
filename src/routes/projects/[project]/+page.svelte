@@ -64,7 +64,7 @@
 				</div>
 			</div>
 			<div class="mt-12 sm:mt-16 lg:mt-0">
-				<div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+				<div class="px-6 lg:relative lg:m-0 lg:h-full lg:px-0">
 					<img
 						loading="lazy"
 						alt=""
@@ -125,7 +125,7 @@
 					</div>
 				</div>
 				<div class="mt-12 sm:mt-16 lg:mt-0">
-					<div class="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+					<div class="px-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
 						<img
 							alt="Inbox user interface"
 							loading="lazy"
@@ -187,7 +187,7 @@
 					</div>
 				</div>
 				<div class="mt-12 sm:mt-16 lg:mt-0">
-					<div class="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+					<div class="px-6 lg:relative lg:m-0 lg:h-full lg:px-0">
 						<img
 							loading="lazy"
 							width="646"
