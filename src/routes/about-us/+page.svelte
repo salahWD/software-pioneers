@@ -17,14 +17,14 @@
 </script>
 
 <HeroSection>
-	<h1
-		class="capitalize max-w-2xl mx-auto text-center font-manrope font-bold text-4xl text-gray-900 mb-5 md:text-5xl md:leading-normal"
-	>
-		{@html $t('about <span class="text-white">Software Pioneers</span>')}
-	</h1>
-	<p class="max-w-md mx-auto text-center font-normal leading-7 text-gray-100 text-xl mb-9">
-		{$t('Leading technology company in software development and integrated systems.')}
+	<p class="mx-auto text-center font-normal text-gray-100 text-base mb-9">
+		<a href="/" class="opacity-70">Home</a><span class="mx-2">&gt;</span><a href="/about-us"
+			>About Us</a
+		>
 	</p>
+	<h1 class="capitalize mx-auto text-center font-medium text-4xl text-white mb-5 md:text-5xl">
+		{$t('about Software Pioneers')}
+	</h1>
 </HeroSection>
 
 <AboutUsSection />

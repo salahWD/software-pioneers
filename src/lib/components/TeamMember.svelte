@@ -5,6 +5,7 @@
 	export let image = 'https://pagedone.io/asset/uploads/1696238786.png';
 	// export let desc = '';
 	export let x = '';
+	export let subtitle = '';
 	export let facebook = '';
 	export let instagram = '';
 	export let linkedin = '';
@@ -22,13 +23,13 @@
 		/>
 	</div>
 	<div class="text-center lg:text-start lg:max-w-xs flex-1">
-		<div class="md:mb-5 md:pb-5 mb-2 pb-2 border-b border-solid border-gray-300">
+		<div class="md:mb-2 md:pb-5 mb-2 pb-2 border-b border-solid border-gray-300">
 			<h6 class="text-lg text-gray-900 font-semibold md:mb-1">{$t(name)}</h6>
 			<span class="text-sm text-gray-500 group-hover:text-indigo-600">{$t(job)}</span>
 		</div>
-		<!-- <p class="text-gray-500 leading-6 md:mb-7 mb-3">
-			{$t(desc)}
-		</p> -->
+		<p class="text-gray-500 leading-6 md:mb-7 mb-3">
+			{subtitle}
+		</p>
 		<div class="flex items-center gap-4 justify-center lg:justify-start">
 			{#if x != ''}
 				<a

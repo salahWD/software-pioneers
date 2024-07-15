@@ -1,0 +1,55 @@
+{
+	"topArticle": {
+		"category": "Technology",
+		"title": "The Impact Of Technology On The Work Space",
+		"date": "6 Jul 2024",
+		"author": {
+			"name": "Cameron Williamson",
+			"image": "https://placehold.co/60x60"
+		},
+		"readTime": "10 Min Read",
+		"excerpt": "In 2024, workplace technology continues to advance at a rapid pace. From AI-powered smart buildings to health and safety tech, this article explores the latest trends and what’s happening in the workplace right now as well as a glimpse into the near future of technology in the office.",
+		"image": "https://placehold.co/600x400"
+	},
+	"articles": [
+		{
+			"id": 1,
+			"category": "Technology",
+			"title": "The Impact Of Technology On The Work Space",
+			"date": "6 Jul",
+			"author": {
+				"name": "Cameron Williamson",
+				"image": "https://placehold.co/36x36"
+			},
+			"readTime": "10 Min Read",
+			"excerpt": "In 2024, workplace technology continues to advance at a rapid pace...",
+			"image": "https://placehold.co/600x400"
+		},
+		{
+			"id": 2,
+			"category": "Technology",
+			"title": "The Impact Of Technology On The Work Space",
+			"date": "6 Jul",
+			"author": {
+				"name": "Cameron Williamson",
+				"image": "https://placehold.co/36x36"
+			},
+			"readTime": "10 Min Read",
+			"excerpt": "In 2024, workplace technology continues to advance at a rapid pace...",
+			"image": "https://placehold.co/600x400"
+		},
+		{
+			"id": 3,
+			"category": "Technology",
+			"title": "The Impact Of Technology On The Work Space",
+			"date": "6 Jul",
+			"author": {
+				"name": "Cameron Williamson",
+				"image": "https://placehold.co/36x36"
+			},
+			"readTime": "10 Min Read",
+			"excerpt": "In 2024, workplace technology continues to advance at a rapid pace...",
+			"image": "https://placehold.co/600x400"
+		}
+	]
+}

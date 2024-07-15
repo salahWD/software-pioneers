@@ -7,15 +7,18 @@
 
 	const links = [
 		{ title: 'Home', href: '/' },
+		// { title: 'Our Work', href: '/our-work' },// route/services => was named our-work in older version
 		{ title: 'Services', href: '/services' },
-		{ title: 'Our Work', href: '/our-work' },
 		{ title: 'Shop', href: '/shop' },
-		{ title: 'About Us', href: 'about-us' }
+		{ title: 'Articles', href: '/articles' },
+		{ title: 'About Us', href: '/about-us' }
 	];
 </script>
 
 <div
-	class="leading-normal tracking-normal text-white {$page.url.pathname === '/' ? 'gradient' : ''}"
+	class="leading-normal tracking-normal text-white {$page.url.pathname === '/'
+		? 'bg-customSky-200'
+		: ''}"
 	dir={$locale == 'ar' ? 'rtl' : 'ltr'}
 	style="font-family: 'Source Sans Pro', sans-serif;"
 >
@@ -24,12 +27,12 @@
 	<slot />
 
 	<a
-		href="https://wa.me/+972567776318"
+		href="https://wa.me/+970597204753"
 		target="_blank"
 		class="float group fixed w-14 h-14 text-white text-center text-3xl shadow z-10 flex no-underline items-center transition-all duration-500 ease-[in_out] overflow-hidden rounded-full right-10 bottom-10 rtl:left-10 hover:w-52"
 	>
 		<svg
-			class="min-w-8 w-8 block ms-3.5 rtl:ms-3 me-6 group-hover:ml-5 group-hover:mr-4 transition-all duration-100"
+			class="min-w-8 w-8 block ms-3 rtl:ms-3 me-6 group-hover:ml-5 group-hover:mr-4 transition-all duration-100"
 			style=""
 			xmlns="http://www.w3.org/2000/svg"
 			viewBox="0 0 448 512"

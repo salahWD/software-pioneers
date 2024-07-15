@@ -15,6 +15,8 @@ function translate(locale, key, vars) {
 
 	if (locale != 'en' && !text && key in translations[locale].directTranslation) {
 		text = translations[locale].directTranslation[key];
+	} else if (!text && key in translations[locale].directTranslation) {
+		text = translations[locale].directTranslation[key];
 	}
 	if (!text) text = key;
 

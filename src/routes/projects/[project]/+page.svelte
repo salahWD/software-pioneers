@@ -17,7 +17,16 @@
 </script>
 
 <HeroSection>
-	<h1 class="text-4xl font-bold text-white">{$t(data.title)}</h1>
+	<p class="max-w-md mx-auto text-center font-normal text-gray-100 text-base mb-9">
+		<a href="/" class="opacity-70">Home</a>
+		<span class="mx-2 opacity-70">&gt;</span>
+		<a href="/services" class="opacity-70">services</a>
+		<span class="mx-2 opacity-70">&gt;</span>
+		<span>{$t(data.title)}</span>
+	</p>
+	<h1 class="capitalize mx-auto text-center font-medium text-4xl text-white mb-5 md:text-5xl">
+		{$t(data.title)}
+	</h1>
 </HeroSection>
 
 <div class="relative overflow-hidden bg-gray-900 pt-16 pb-32 space-y-24 body">

@@ -21,7 +21,18 @@ export default {
 					700: '#006c93',
 					800: '#016b92'
 				},
-				customSky: '#cddef2',
+				// customPlate: {
+
+				// },
+				customSky: {
+					200: '#3abef933',
+					300: '#3abef94d',
+					950: '#3abef9'
+				},
+				customBlue: {
+					950: '#38549e'
+				},
+				customDark: '#353535',
 				yellow: 'rgb(16, 112, 255, 0.25)',
 				'teal-600': '#4c9f70',
 				'blue-100': '#ebf8ff'
@@ -89,6 +100,9 @@ export default {
 			scale: {
 				'-100': '-1'
 			}
+		},
+		fontFamily: {
+			dm: ['DM Sans', 'sans-serif']
 		}
 	},
 	plugins: []

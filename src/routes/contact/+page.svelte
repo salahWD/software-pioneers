@@ -198,9 +198,6 @@
 </div>
 
 <style>
-	/* .bg-customSky {
-		background-color: #cddef2;
-	} */
 	.text-customBlu-700 {
 		color: #006c93;
 	}

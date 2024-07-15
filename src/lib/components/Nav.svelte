@@ -41,7 +41,7 @@
 		<div class="ps-4 flex items-center">
 			<!-- svelte-ignore a11y-invalid-attribute -->
 			<a
-				class="no-underline hover:no-underline font-bold text-1xl sm:text-2xl lg:text-3xl capitalize text-gray-800 flex items-center gap-1.5"
+				class="no-underline hover:no-underline font-semibold text-base font-dm capitalize text-gray-800 flex items-center gap-1.5"
 				href="#"
 			>
 				<img class="max-w-[80px] inline-block" src="/logo.png" alt="logo" />
@@ -71,21 +71,21 @@
 			class="hidden rounded-lg w-full flex-grow xl:flex xl:items-center xl:w-auto mt-2 xl:mt-0 bg-white xl:bg-transparent text-black p-4 xl:p-0 z-20"
 			id="nav-content"
 		>
-			<ul class="list-reset xl:flex justify-end flex-1 items-center">
+			<ul class="list-reset xl:flex justify-center flex-1 items-center font-medium font-dm">
 				{#each links as link}
 					<li class="me-3">
 						<!-- svelte-ignore a11y-invalid-attribute -->
 						<a
-							class="inline-block text-black no-underline py-2 px-2 {$page.url.pathname ===
-								link.href || $page.url.pathname === '/' + link.href
-								? 'font-bold'
-								: 'hover:text-gray-800 hover:text-underline'}"
+							class="inline-block text-black py-2 px-2 relative after:h-1 after:rounded-lg after:w-full after:absolute after:bottom-0 after:left-5 after:transition-all
+							{$page.url.pathname === link.href || $page.url.pathname === '/' + link.href
+								? 'after:bg-blue-600 after:!left-0'
+								: 'hover:after:bg-blue-600 hover:after:left-0'}"
 							href={link.href}>{$t(link.title)}</a
 						>
 					</li>
 				{/each}
 			</ul>
-			<Button cusomClass="!my-1" url="/contact" secondary={true} center={false}
+			<Button cusomClass="!my-1 !font-medium" url="/contact" secondary={true} center={false}
 				>{$t('Contact Us')}</Button
 			>
 		</div>

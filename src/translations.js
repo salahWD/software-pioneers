@@ -1,5 +1,10 @@
 export default {
-	en: {},
+	en: {
+		directTranslation: {
+			arabic: 'العربية',
+			Arabic: 'العربية'
+		}
+	},
 	ar: {
 		'homepage.title': 'مرحباً بالجميع',
 		'homepage.welcome': 'Hola, <strong>{{name}}</strong>, ¿cómo estás?',
@@ -21,6 +26,7 @@ export default {
 			'about us': 'حولنا',
 			'About Us': 'حولنا',
 			Shop: 'المتجر',
+			Articles: 'المقالات',
 			'Our Work': 'أعمالنا',
 			Services: 'خدماتنا',
 			Home: 'الرئيسية',
@@ -128,7 +134,7 @@ export default {
 			'website development': 'إدارة المشاريع الرشيقة',
 			'Develop professional websites with a smooth nature for users to manage your business efficiently.':
 				'تطوير مواقع الويب المهنية ذات الطبيعة السلسة للمستخدمين لإدارة عملك بكفاءة.',
-			'Start now': 'ابدأ الآن',
+			'Start Now': 'ابدأ الآن',
 			'graphic design': 'تصميم الجرافيك',
 			'Get a distinctive design for your brand Including design Posts, logos, visual identities and prints':
 				'احصل على تصميم مميز لعلامتك التجارية بما في ذلك منشورات التصميم والشعارات والهويات المرئية والمطبوعات',
@@ -168,6 +174,7 @@ export default {
 				'<span class="capitalize text-sky-600">رواد البرمجيات</span> ليست مجرد شركة ناشئة عادية. لقد بدأنا بثلاثة موظفين فقط في سوق محلي مليء بالتحديات وسط مدينة غزة وتطورنا لنصبح واحدة من أكبر الشركات في مجالنا محليًا. نحن نقدم أكثر من 110 فرصة عمل وفرص لمهندسي البرمجيات في فلسطين ولدينا قاعدة عملاء عالمية قوية جداً',
 			// '<span class="capitalize text-sky-600">رواد البرمجيات</span> ليست مجرد شركة ناشئة عادية, إنها قصة نجاح. نحن نتجاوز الجماليات، مع التركيز على التصميم المثالي والقابلية للتوسع وسهولة الاستخدام. كل عنصر، من أصغر التفاصيل إلى أكبر التخطيطات، مصنوع بدقة لتعزيز الوظائف ورفع مستوى رضا المستخدم.',
 			'Projects Completed': 'المشاريع المكتملة',
+			Customers: 'العملاء',
 			'Successfully completing over 700 projects, we consistently deliver excellence and client satisfaction worldwide.':
 				'بإكمال أكثر من 700 مشروع بنجاح، نقدم باستمرار التميز ورضا العملاء في جميع أنحاء العالم.',
 			'Company growth': 'نمو الشركة',
@@ -190,21 +197,12 @@ export default {
 			'Join the Software Pioneers': 'إنضم الى رواد البرمجيات',
 
 			// elkateb
-			'Enter title article': 'اكتب عنوان المقال',
-			'prompt AI the things you want it to apply or formulate in the article':
-				'قم بتلقين الذكاء الاصطناعي الأشياء التي تريد أن يطبقها أو يصيغها في المقالة',
-			'Create article': 'انشاء المقالة',
-			'Enter text or a link to quote the article from': 'ادخل نص او رابط الاقتباس المقال منه',
-			'Create your first article now. Try now': 'أنشئ مقالتك الأولى الآن. جرب الان',
-			'': 'منصة الكاتب',
+			'ELKATEB Platform': 'منصة الكاتب',
 			'use The Writer plugin and service for free, it helps you write articles and speed up the process by using Ai technology, more about that on the plugins page':
 				'استخدم إضافة "الكاتب" مجانا, يساعد "الكاتب" على كتابة المقالات وتسريع العملية بإستخدام الذكاء الصناعي, المزيد حول الكاتب في صفحة الإضافة',
 			'make it easy for yourself': 'سهل الإمور على نفسك',
 
-			'Article is being created...': 'جاري أنشاء المقال...',
-			'article created successfully': 'المقالة تم انشاءها بنجاح.',
 			'What did they say about us ?': 'ماذا قالوا عنا ؟',
-			'go to article...': 'إذهب للمقالة...',
 
 			// our projects (owr work page)
 			all: 'الكل',
