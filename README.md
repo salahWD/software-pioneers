@@ -1,6 +1,6 @@
 ## Overview
 
-[![software pioneers home page](./static/home.png)](https://software-pioneers-y7p3-ypox76hr1-salah-2d098c8c.vercel.app/)
+[![software pioneers home page](./static/software-poineers.png)](https://software-pioneers-y7p3-ypox76hr1-salah-2d098c8c.vercel.app/)
 
 This project marks my first venture into using the SvelteKit framework, combined with Tailwind CSS, to create a dynamic website for a creative agency. The site covers the company's diverse offerings, including graphic design, UI/UX design, technical translations, and mobile development.
 
