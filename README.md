@@ -1,38 +1,27 @@
-# create-svelte
+## Overview
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+[![software pioneers home page](./static/home.png)](https://software-pioneers-y7p3-ypox76hr1-salah-2d098c8c.vercel.app/)
 
-## Creating a project
+This project marks my first venture into using the SvelteKit framework, combined with Tailwind CSS, to create a dynamic website for a creative agency. The site covers the company's diverse offerings, including graphic design, UI/UX design, technical translations, and mobile development.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## production Version
+[Check It Out](https://software-pioneers-y7p3-ypox76hr1-salah-2d098c8c.vercel.app/)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Key Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- **Home Page**: A visually engaging design with animations that introduce the company, its services, and customer testimonials.
+- **Services Page**: Highlights the agency's work, featuring an extensive portfolio showcasing previous projects.
+- **Shop Page**: Promotes a partner company's AI article writer plugin with an interactive in-page modal for users to test.
+- **Articles Page**: Displays articles with category-based filtering and subtle animations for a smooth user experience.
+- **About Us Page**: Shares the company's success story, achievements, and introduces the management team, along with a "Join Our Team" form.
+- **Contact Us Page**: Features a contact form linked to a Telegram bot, ensuring instant notifications of new messages.
 
-## Developing
+## Technologies Used
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- **Framework**: SvelteKit
+- **Styling**: Tailwind CSS
+- **Contact**: I used Telegram bots to deliver messages
 
-```bash
-npm run dev
+---
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project highlights my ability to leverage SvelteKit and Tailwind CSS for building a visually appealing and functional website tailored to a creative agency's needs.
